@@ -1,0 +1,1679 @@
+Safe Name: plus	Short Name:  plus,	PUA: 10017C	Alt 1: add
+Safe Name: plusCircle	Short Name:  plus.circle,	PUA: 10004C	Alt 1: addCircle
+Safe Name: plusCircleFill	Short Name:  plus.circle.fill,	PUA: 10004D	Alt 1: addCircleFill
+Safe Name: plusSquare	Short Name:  plus.square,	PUA: 1000DC	Alt 1: addSquare
+Safe Name: plusSquareFill	Short Name:  plus.square.fill,	PUA: 1000DD	Alt 1: addSquareFill
+Safe Name: minus	Short Name:  minus,	PUA: 10017D	Alt 1: remove
+Safe Name: minusCircle	Short Name:  minus.circle,	PUA: 10004E	Alt 1: removeCircle
+Safe Name: minusCircleFill	Short Name:  minus.circle.fill,	PUA: 10004F	Alt 1: removeCircleFill
+Safe Name: minusSquare	Short Name:  minus.square,	PUA: 1000DE	Alt 1: removeSquare
+Safe Name: minusSquareFill	Short Name:  minus.square.fill,	PUA: 1000DF	Alt 1: removeSquareFill
+Safe Name: multiply	Short Name:  multiply,	PUA: 10017E
+Safe Name: multiplyCircle	Short Name:  multiply.circle,	PUA: 100050
+Safe Name: multiplyCircleFill	Short Name:  multiply.circle.fill,	PUA: 100051
+Safe Name: multiplySquare	Short Name:  multiply.square,	PUA: 1000.0
+Safe Name: multiplySquareFill	Short Name:  multiply.square.fill,	PUA: 10000.0
+Safe Name: divide	Short Name:  divide,	PUA: 10017F
+Safe Name: divideCircle	Short Name:  divide.circle,	PUA: 100052
+Safe Name: divideCircleFill	Short Name:  divide.circle.fill,	PUA: 100053
+Safe Name: divideSquare	Short Name:  divide.square,	PUA: 100000.0
+Safe Name: divideSquareFill	Short Name:  divide.square.fill,	PUA: 1000000.0
+Safe Name: equal	Short Name:  equal,	PUA: 100180
+Safe Name: equalCircle	Short Name:  equal.circle,	PUA: 100054
+Safe Name: equalCircleFill	Short Name:  equal.circle.fill,	PUA: 100055
+Safe Name: equalSquare	Short Name:  equal.square,	PUA: 10000000.0
+Safe Name: equalSquareFill	Short Name:  equal.square.fill,	PUA: 100000000.0
+Safe Name: lessthan	Short Name:  lessthan,	PUA: 100181
+Safe Name: lessthanCircle	Short Name:  lessthan.circle,	PUA: 100058
+Safe Name: lessthanCircleFill	Short Name:  lessthan.circle.fill,	PUA: 100059
+Safe Name: lessthanSquare	Short Name:  lessthan.square,	PUA: 1000000000.0
+Safe Name: lessthanSquareFill	Short Name:  lessthan.square.fill,	PUA: 10000000000.0
+Safe Name: greaterthan	Short Name:  greaterthan,	PUA: 100182
+Safe Name: greaterthanCircle	Short Name:  greaterthan.circle,	PUA: 100056
+Safe Name: greaterthanCircleFill	Short Name:  greaterthan.circle.fill,	PUA: 100057
+Safe Name: greaterthanSquare	Short Name:  greaterthan.square,	PUA: 100000000000.0
+Safe Name: greaterthanSquareFill	Short Name:  greaterthan.square.fill,	PUA: 1000000000000.0
+Safe Name: number	Short Name:  number,	PUA: 100183
+Safe Name: numberCircle	Short Name:  number.circle,	PUA: 10005A
+Safe Name: numberCircleFill	Short Name:  number.circle.fill,	PUA: 10005B
+Safe Name: numberSquare	Short Name:  number.square,	PUA: 1000EA
+Safe Name: numberSquareFill	Short Name:  number.square.fill,	PUA: 1000EB
+Safe Name: xmark	Short Name:  xmark,	PUA: 100184	Alt 1: close	Alt 2: clear	Alt 3: stop
+Safe Name: xmarkCircle	Short Name:  xmark.circle,	PUA: 100060	Alt 1: closeCircle	Alt 2: clearCircle	Alt 3: stopCircle
+Safe Name: xmarkCircleFill	Short Name:  xmark.circle.fill,	PUA: 100061	Alt 1: closeCircleFill	Alt 2: clearCircleFill	Alt 3: stopCircleFill
+Safe Name: xmarkSquare	Short Name:  xmark.square,	PUA: 1000F0	Alt 1: closeSquare	Alt 2: clearSquare	Alt 3: stopSquare
+Safe Name: xmarkSquareFill	Short Name:  xmark.square.fill,	PUA: 1000F1	Alt 1: closeSquareFill	Alt 2: clearSquareFill	Alt 3: stopSquareFill
+Safe Name: checkmark	Short Name:  checkmark,	PUA: 100185	Alt 1: selected
+Safe Name: checkmarkCircle	Short Name:  checkmark.circle,	PUA: 100062	Alt 1: selectedCircle
+Safe Name: checkmarkCircleFill	Short Name:  checkmark.circle.fill,	PUA: 100063	Alt 1: selectedCircleFill
+Safe Name: checkmarkSquare	Short Name:  checkmark.square,	PUA: 1000F2	Alt 1: selectedSquare
+Safe Name: checkmarkSquareFill	Short Name:  checkmark.square.fill,	PUA: 1000F3	Alt 1: selectedSquareFill
+Safe Name: checkmarkSeal	Short Name:  checkmark.seal,	PUA: 1001FA	Alt 1: verified
+Safe Name: checkmarkSealFill	Short Name:  checkmark.seal.fill,	PUA: 1001FB	Alt 1: verifiedFill
+Safe Name: xmarkSeal	Short Name:  xmark.seal,	PUA: 1001FC	Alt 1: notVerified
+Safe Name: xmarkSealFill	Short Name:  xmark.seal.fill,	PUA: 1001FD	Alt 1: notVerifiedFill
+Safe Name: rosette	Short Name:  rosette,	PUA: 1006EF
+Safe Name: slashCircle	Short Name:  slash.circle,	PUA: 100567
+Safe Name: slashCircleFill	Short Name:  slash.circle.fill,	PUA: 100568
+Safe Name: largecircleFillCircle	Short Name:  largecircle.fill.circle,	PUA: 10075C
+Safe Name: smallcircleFillCircle	Short Name:  smallcircle.fill.circle,	PUA: 100377	Alt 1: vignetteCircle
+Safe Name: smallcircleFillCircleFill	Short Name:  smallcircle.fill.circle.fill,	PUA: 100569	Alt 1: vignetteCircleFill
+Safe Name: smallcircleCircle	Short Name:  smallcircle.circle,	PUA: 10056A
+Safe Name: smallcircleCircleFill	Short Name:  smallcircle.circle.fill,	PUA: 10056B
+Safe Name: asteriskCircle	Short Name:  asterisk.circle,	PUA: 10056C
+Safe Name: asteriskCircleFill	Short Name:  asterisk.circle.fill,	PUA: 10056D
+Safe Name: macwindow	Short Name:  macwindow,	PUA: 1003DC	Alt 1: window
+Safe Name: uiwindowSplitTwoXOne	Short Name:  uiwindow.split.2x1,	PUA: 1003DD
+Safe Name: rectangleSplitThreeXOne	Short Name:  rectangle.split.3x1,	PUA: 1003DF	Alt 1: columnView
+Safe Name: rectangleSplitThreeXOneFill	Short Name:  rectangle.split.3x1.fill,	PUA: 100578	Alt 1: columnViewFill
+Safe Name: rectangleSplitThreeXThree	Short Name:  rectangle.split.3x3,	PUA: 100300.0	Alt 1: gridView
+Safe Name: rectangleSplitThreeXThreeFill	Short Name:  rectangle.split.3x3.fill,	PUA: 10062E	Alt 1: gridViewFill
+Safe Name: squareSplitTwoXOne	Short Name:  square.split.2x1,	PUA: 1003.0
+Safe Name: squareSplitTwoXOneFill	Short Name:  square.split.2x1.fill,	PUA: 10061C
+Safe Name: squareSplitOneXTwo	Short Name:  square.split.1x2,	PUA: 100570
+Safe Name: squareSplitOneXTwoFill	Short Name:  square.split.1x2.fill,	PUA: 100571
+Safe Name: squareSplitTwoXTwo	Short Name:  square.split.2x2,	PUA: 10056E
+Safe Name: squareSplitTwoXTwoFill	Short Name:  square.split.2x2.fill,	PUA: 10056F
+Safe Name: dotSquare	Short Name:  dot.square,	PUA: 100574
+Safe Name: dotSquareFill	Short Name:  dot.square.fill,	PUA: 100575
+Safe Name: exclamationmarkTriangle	Short Name:  exclamationmark.triangle,	PUA: 1001FE	Alt 1: warning
+Safe Name: exclamationmarkTriangleFill	Short Name:  exclamationmark.triangle.fill,	PUA: 1001FF	Alt 1: warningFill
+Safe Name: dropTriangle	Short Name:  drop.triangle,	PUA: 100200	Alt 1: liquidDetect
+Safe Name: dropTriangleFill	Short Name:  drop.triangle.fill,	PUA: 100201	Alt 1: liquidDetectFill
+Safe Name: questionmarkDiamond	Short Name:  questionmark.diamond,	PUA: 100122	Alt 1: question
+Safe Name: questionmarkDiamondFill	Short Name:  questionmark.diamond.fill,	PUA: 100123	Alt 1: questionFill
+Safe Name: exclamationmarkOctagon	Short Name:  exclamationmark.octagon,	PUA: 10062F
+Safe Name: exclamationmarkOctagonFill	Short Name:  exclamationmark.octagon.fill,	PUA: 100630
+Safe Name: xmarkOctagon	Short Name:  xmark.octagon,	PUA: 100489	Alt 1: error
+Safe Name: xmarkOctagonFill	Short Name:  xmark.octagon.fill,	PUA: 10048A	Alt 1: errorFill
+Safe Name: lineHorizontalThree	Short Name:  line.horizontal.3,	PUA: 100307	Alt 1: drag
+Safe Name: lineHorizontalThreeDecrease	Short Name:  line.horizontal.3.decrease,	PUA: 100713
+Safe Name: lineHorizontalThreeDecreaseCircle	Short Name:  line.horizontal.3.decrease.circle,	PUA: 100308	Alt 1: filter
+Safe Name: lineHorizontalThreeDecreaseCircleFill	Short Name:  line.horizontal.3.decrease.circle.fill,	PUA: 100309	Alt 1: filterFill
+Safe Name: squareAndArrowUp	Short Name:  square.and.arrow.up,	PUA: 100202	Alt 1: share
+Safe Name: squareAndArrowUpFill	Short Name:  square.and.arrow.up.fill,	PUA: 100203	Alt 1: shareFill
+Safe Name: squareAndArrowDown	Short Name:  square.and.arrow.down,	PUA: 100204	Alt 1: download
+Safe Name: squareAndArrowDownFill	Short Name:  square.and.arrow.down.fill,	PUA: 100205	Alt 1: downloadFill
+Safe Name: squareAndArrowUpOnSquare	Short Name:  square.and.arrow.up.on.square,	PUA: 100206	Alt 1: shareMultiple
+Safe Name: squareAndArrowUpOnSquareFill	Short Name:  square.and.arrow.up.on.square.fill,	PUA: 100207	Alt 1: shareMultipleFill
+Safe Name: squareAndArrowDownOnSquare	Short Name:  square.and.arrow.down.on.square,	PUA: 100208	Alt 1: downloadMultiple
+Safe Name: squareAndArrowDownOnSquareFill	Short Name:  square.and.arrow.down.on.square.fill,	PUA: 100209	Alt 1: downloadMultipleFill
+Safe Name: pencil	Short Name:  pencil,	PUA: 10020A	Alt 1: edit
+Safe Name: pencilCircle	Short Name:  pencil.circle,	PUA: 10020B	Alt 1: editCircle
+Safe Name: pencilCircleFill	Short Name:  pencil.circle.fill,	PUA: 10020C	Alt 1: editCircleFill
+Safe Name: pencilSlash	Short Name:  pencil.slash,	PUA: 10020D	Alt 1: notEditable
+Safe Name: squareAndPencil	Short Name:  square.and.pencil,	PUA: 10020E	Alt 1: compose
+Safe Name: pencilAndEllipsisRectangle	Short Name:  pencil.and.ellipsis.rectangle,	PUA: 10020F	Alt 1: autofill
+Safe Name: pencilAndOutline	Short Name:  pencil.and.outline,	PUA: 100210	Alt 1: annotate
+Safe Name: pencilTip	Short Name:  pencil.tip,	PUA: 10048B
+Safe Name: pencilTipCropCircle	Short Name:  pencil.tip.crop.circle,	PUA: 100265	Alt 1: markup
+Safe Name: pencilTipCropCircleBadgePlus	Short Name:  pencil.tip.crop.circle.badge.plus,	PUA: 100266	Alt 1: addMarkup
+Safe Name: pencilTipCropCircleBadgeMinus	Short Name:  pencil.tip.crop.circle.badge.minus,	PUA: 100267	Alt 1: removeMarkup
+Safe Name: scribble	Short Name:  scribble,	PUA: 100400000000.0	Alt 1: draw
+Safe Name: lasso	Short Name:  lasso,	PUA: 1004000000000.0	Alt 1: lassoSelect
+Safe Name: trash	Short Name:  trash,	PUA: 100211	Alt 1: trash
+Safe Name: trashFill	Short Name:  trash.fill,	PUA: 100212	Alt 1: trashFill
+Safe Name: trashSlash	Short Name:  trash.slash,	PUA: 100727
+Safe Name: trashSlashFill	Short Name:  trash.slash.fill,	PUA: 100728
+Safe Name: trashCircle	Short Name:  trash.circle,	PUA: 100213	Alt 1: trashCircle
+Safe Name: trashCircleFill	Short Name:  trash.circle.fill,	PUA: 100214	Alt 1: trashCircleFill
+Safe Name: folder	Short Name:  folder,	PUA: 100215	Alt 1: move
+Safe Name: folderFill	Short Name:  folder.fill,	PUA: 100216	Alt 1: moveFill
+Safe Name: folderCircle	Short Name:  folder.circle,	PUA: 100217	Alt 1: moveCircle
+Safe Name: folderCircleFill	Short Name:  folder.circle.fill,	PUA: 100218	Alt 1: moveCircleFill
+Safe Name: folderBadgePlus	Short Name:  folder.badge.plus,	PUA: 100219	Alt 1: newFolder
+Safe Name: folderFillBadgePlus	Short Name:  folder.fill.badge.plus,	PUA: 10021A	Alt 1: newFolder
+Safe Name: folderBadgeMinus	Short Name:  folder.badge.minus,	PUA: 10021B	Alt 1: newFolder
+Safe Name: folderFillBadgeMinus	Short Name:  folder.fill.badge.minus,	PUA: 10021C	Alt 1: newFolder
+Safe Name: folderBadgePersonCrop	Short Name:  folder.badge.person.crop,	PUA: 10021D
+Safe Name: folderFillBadgePersonCrop	Short Name:  folder.fill.badge.person.crop,	PUA: 10021E
+Safe Name: paperplane	Short Name:  paperplane,	PUA: 10021F	Alt 1: send
+Safe Name: paperplaneFill	Short Name:  paperplane.fill,	PUA: 100220	Alt 1: sendFill
+Safe Name: tray	Short Name:  tray,	PUA: 100223	Alt 1: mailbox
+Safe Name: trayFill	Short Name:  tray.fill,	PUA: 100224	Alt 1: mailboxFill
+Safe Name: trayAndArrowUp	Short Name:  tray.and.arrow.up,	PUA: 100225	Alt 1: outbox
+Safe Name: trayAndArrowUpFill	Short Name:  tray.and.arrow.up.fill,	PUA: 100226	Alt 1: outboxFill
+Safe Name: trayAndArrowDown	Short Name:  tray.and.arrow.down,	PUA: 100227	Alt 1: inbox
+Safe Name: trayAndArrowDownFill	Short Name:  tray.and.arrow.down.fill,	PUA: 100228	Alt 1: inboxFill
+Safe Name: trayFull	Short Name:  tray.full,	PUA: 10022B
+Safe Name: trayFullFill	Short Name:  tray.full.fill,	PUA: 10022C
+Safe Name: trayTwo	Short Name:  tray.2,	PUA: 100229	Alt 1: allMailboxes
+Safe Name: trayTwoFill	Short Name:  tray.2.fill,	PUA: 10022A	Alt 1: allMailboxesFill
+Safe Name: archivebox	Short Name:  archivebox,	PUA: 10022D	Alt 1: archive
+Safe Name: archiveboxFill	Short Name:  archivebox.fill,	PUA: 10022E	Alt 1: archiveFill
+Safe Name: binXmark	Short Name:  bin.xmark,	PUA: 100231	Alt 1: junk
+Safe Name: binXmarkFill	Short Name:  bin.xmark.fill,	PUA: 100232	Alt 1: junkFill
+Safe Name: arrowUpBin	Short Name:  arrow.up.bin,	PUA: 100235
+Safe Name: arrowUpBinFill	Short Name:  arrow.up.bin.fill,	PUA: 100236
+Safe Name: doc	Short Name:  doc,	PUA: 100237	Alt 1: document
+Safe Name: docFill	Short Name:  doc.fill,	PUA: 100238	Alt 1: documentFill
+Safe Name: arrowUpDoc	Short Name:  arrow.up.doc,	PUA: 10023B
+Safe Name: arrowUpDocFill	Short Name:  arrow.up.doc.fill,	PUA: 10023C
+Safe Name: arrowDownDoc	Short Name:  arrow.down.doc,	PUA: 10023D
+Safe Name: arrowDownDocFill	Short Name:  arrow.down.doc.fill,	PUA: 10023E
+Safe Name: docCircle	Short Name:  doc.circle,	PUA: 100239	Alt 1: documentCircle
+Safe Name: docCircleFill	Short Name:  doc.circle.fill,	PUA: 10023A	Alt 1: documentCircleFill
+Safe Name: docText	Short Name:  doc.text,	PUA: 10023F	Alt 1: plainTextDocument
+Safe Name: docTextFill	Short Name:  doc.text.fill,	PUA: 100240	Alt 1: plainTextDocumentFill
+Safe Name: docRichtext	Short Name:  doc.richtext,	PUA: 100245	Alt 1: richTextDocument
+Safe Name: docPlaintext	Short Name:  doc.plaintext,	PUA: 100246
+Safe Name: docAppend	Short Name:  doc.append,	PUA: 100247
+Safe Name: viewfinder	Short Name:  viewfinder,	PUA: 1003B9	Alt 1: scan
+Safe Name: viewfinderCircle	Short Name:  viewfinder.circle,	PUA: 1003BF	Alt 1: scanCircle
+Safe Name: viewfinderCircleFill	Short Name:  viewfinder.circle.fill,	PUA: 1003C0	Alt 1: scanCircleFill
+Safe Name: cameraViewfinder	Short Name:  camera.viewfinder,	PUA: 1003BC	Alt 1: screenshot
+Safe Name: barcodeViewfinder	Short Name:  barcode.viewfinder,	PUA: 1003BA	Alt 1: scanBarcode
+Safe Name: qrcodeViewfinder	Short Name:  qrcode.viewfinder,	PUA: 1003BB	Alt 1: scanQrCode
+Safe Name: docTextViewfinder	Short Name:  doc.text.viewfinder,	PUA: 1003BE	Alt 1: scanDocument
+Safe Name: barcode	Short Name:  barcode,	PUA: 100631
+Safe Name: qrcode	Short Name:  qrcode,	PUA: 100582	Alt 1: qrCode
+Safe Name: docOnDoc	Short Name:  doc.on.doc,	PUA: 100241	Alt 1: copy	Alt 2: documents
+Safe Name: docOnDocFill	Short Name:  doc.on.doc.fill,	PUA: 100242	Alt 1: copyFill	Alt 2: documentsFill
+Safe Name: docOnClipboard	Short Name:  doc.on.clipboard,	PUA: 100243	Alt 1: paste
+Safe Name: docOnClipboardFill	Short Name:  doc.on.clipboard.fill,	PUA: 100244	Alt 1: pasteFill
+Safe Name: scissors	Short Name:  scissors,	PUA: 100248	Alt 1: cut
+Safe Name: scissorsBadgeEllipsis	Short Name:  scissors.badge.ellipsis,	PUA: 1007B7
+Safe Name: calendar	Short Name:  calendar,	PUA: 100249	Alt 1: calendar
+Safe Name: calendarCircle	Short Name:  calendar.circle,	PUA: 10048E	Alt 1: calendarCircle
+Safe Name: calendarCircleFill	Short Name:  calendar.circle.fill,	PUA: 10048F	Alt 1: calendarCircleFill
+Safe Name: calendarBadgePlus	Short Name:  calendar.badge.plus,	PUA: 10024A	Alt 1: addToCalendar
+Safe Name: calendarBadgeMinus	Short Name:  calendar.badge.minus,	PUA: 10024B	Alt 1: removeFromCalendar
+Safe Name: arrowshapeTurnUpLeft	Short Name:  arrowshape.turn.up.left,	PUA: 10024C	Alt 1: reply
+Safe Name: arrowshapeTurnUpLeftFill	Short Name:  arrowshape.turn.up.left.fill,	PUA: 10024D	Alt 1: replyFill
+Safe Name: arrowshapeTurnUpLeftCircle	Short Name:  arrowshape.turn.up.left.circle,	PUA: 10024E	Alt 1: reply
+Safe Name: arrowshapeTurnUpLeftCircleFill	Short Name:  arrowshape.turn.up.left.circle.fill,	PUA: 10024F	Alt 1: replyFill
+Safe Name: arrowshapeTurnUpRight	Short Name:  arrowshape.turn.up.right,	PUA: 100250	Alt 1: forward
+Safe Name: arrowshapeTurnUpRightFill	Short Name:  arrowshape.turn.up.right.fill,	PUA: 100251	Alt 1: forwardFill
+Safe Name: arrowshapeTurnUpRightCircle	Short Name:  arrowshape.turn.up.right.circle,	PUA: 100252	Alt 1: forward
+Safe Name: arrowshapeTurnUpRightCircleFill	Short Name:  arrowshape.turn.up.right.circle.fill,	PUA: 100253	Alt 1: forwardFill
+Safe Name: arrowshapeTurnUpLeftTwo	Short Name:  arrowshape.turn.up.left.2,	PUA: 100254	Alt 1: replyAll
+Safe Name: arrowshapeTurnUpLeftTwoFill	Short Name:  arrowshape.turn.up.left.2.fill,	PUA: 100255	Alt 1: replyAllFill
+Safe Name: book	Short Name:  book,	PUA: 10025A	Alt 1: books	Alt 2: bookmarks
+Safe Name: bookFill	Short Name:  book.fill,	PUA: 10025B	Alt 1: booksFill	Alt 2: bookmarksFill
+Safe Name: bookCircle	Short Name:  book.circle,	PUA: 10025C	Alt 1: booksCircle	Alt 2: bookmarksCircle
+Safe Name: bookCircleFill	Short Name:  book.circle.fill,	PUA: 10025D	Alt 1: booksCircleFill	Alt 2: bookmarksCircleFill
+Safe Name: bookmark	Short Name:  bookmark,	PUA: 10025E	Alt 1: bookmark
+Safe Name: bookmarkFill	Short Name:  bookmark.fill,	PUA: 10025F	Alt 1: bookmarkFill
+Safe Name: magnifyingglass	Short Name:  magnifyingglass,	PUA: 1002AB	Alt 1: search
+Safe Name: magnifyingglassCircle	Short Name:  magnifyingglass.circle,	PUA: 100492	Alt 1: searchCircle
+Safe Name: magnifyingglassCircleFill	Short Name:  magnifyingglass.circle.fill,	PUA: 100493	Alt 1: searchCircleFill
+Safe Name: plusMagnifyingglass	Short Name:  plus.magnifyingglass,	PUA: 1002AC	Alt 1: zoomIn
+Safe Name: minusMagnifyingglass	Short Name:  minus.magnifyingglass,	PUA: 1002AD	Alt 1: zoomOut
+Safe Name: oneMagnifyingglass	Short Name:  1.magnifyingglass,	PUA: 1002AE	Alt 1: zoomToActualSize
+Safe Name: docTextMagnifyingglass	Short Name:  doc.text.magnifyingglass,	PUA: 100579	Alt 1: searchDocument
+Safe Name: chevronUp	Short Name:  chevron.up,	PUA: 100187	Alt 1: goUp
+Safe Name: chevronUpCircle	Short Name:  chevron.up.circle,	PUA: 10006E	Alt 1: goUpCircle
+Safe Name: chevronUpCircleFill	Short Name:  chevron.up.circle.fill,	PUA: 10006F	Alt 1: goUpCircleFill
+Safe Name: chevronUpSquare	Short Name:  chevron.up.square,	PUA: 1000FE	Alt 1: goUpSquare
+Safe Name: chevronUpSquareFill	Short Name:  chevron.up.square.fill,	PUA: 1000FF	Alt 1: goUpSquareFill
+Safe Name: chevronDown	Short Name:  chevron.down,	PUA: 100188	Alt 1: goDown
+Safe Name: chevronDownCircle	Short Name:  chevron.down.circle,	PUA: 100070	Alt 1: goDownCircle
+Safe Name: chevronDownCircleFill	Short Name:  chevron.down.circle.fill,	PUA: 100071	Alt 1: goDownCircleFill
+Safe Name: chevronDownSquare	Short Name:  chevron.down.square,	PUA: 100100	Alt 1: goDownSquare
+Safe Name: chevronDownSquareFill	Short Name:  chevron.down.square.fill,	PUA: 100101	Alt 1: goDownSquareFill
+Safe Name: chevronLeft	Short Name:  chevron.left,	PUA: 100189	Alt 1: goLeft
+Safe Name: chevronLeftCircle	Short Name:  chevron.left.circle,	PUA: 100072	Alt 1: goLeftCircle
+Safe Name: chevronLeftCircleFill	Short Name:  chevron.left.circle.fill,	PUA: 100073	Alt 1: goLeftCircleFill
+Safe Name: chevronLeftSquare	Short Name:  chevron.left.square,	PUA: 100102	Alt 1: goLeftSquare
+Safe Name: chevronLeftSquareFill	Short Name:  chevron.left.square.fill,	PUA: 100103	Alt 1: goLeftSquareFill
+Safe Name: chevronRight	Short Name:  chevron.right,	PUA: 10018A	Alt 1: goRight
+Safe Name: chevronRightCircle	Short Name:  chevron.right.circle,	PUA: 100074	Alt 1: goRightCircle
+Safe Name: chevronRightCircleFill	Short Name:  chevron.right.circle.fill,	PUA: 100075	Alt 1: goRightCircleFill
+Safe Name: chevronRightSquare	Short Name:  chevron.right.square,	PUA: 100104	Alt 1: goRightSquare
+Safe Name: chevronRightSquareFill	Short Name:  chevron.right.square.fill,	PUA: 100105	Alt 1: goRightSquareFill
+Safe Name: chevronUpChevronDown	Short Name:  chevron.up.chevron.down,	PUA: 10018F
+Safe Name: chevronLeftTwo	Short Name:  chevron.left.2,	PUA: 10018B
+Safe Name: chevronRightTwo	Short Name:  chevron.right.2,	PUA: 10018C
+Safe Name: chevronCompactUp	Short Name:  chevron.compact.up,	PUA: 100190
+Safe Name: chevronCompactDown	Short Name:  chevron.compact.down,	PUA: 100191
+Safe Name: chevronCompactLeft	Short Name:  chevron.compact.left,	PUA: 100192
+Safe Name: chevronCompactRight	Short Name:  chevron.compact.right,	PUA: 100193
+Safe Name: paperclip	Short Name:  paperclip,	PUA: 100262	Alt 1: attachements
+Safe Name: paperclipCircle	Short Name:  paperclip.circle,	PUA: 100494	Alt 1: attachementsCircle
+Safe Name: paperclipCircleFill	Short Name:  paperclip.circle.fill,	PUA: 100495	Alt 1: attachementsCircleFill
+Safe Name: rectangleAndPaperclip	Short Name:  rectangle.and.paperclip,	PUA: 100496	Alt 1: includeAttachements
+Safe Name: house	Short Name:  house,	PUA: 10039E	Alt 1: home
+Safe Name: houseFill	Short Name:  house.fill,	PUA: 10039F	Alt 1: homeFill
+Safe Name: musicHouse	Short Name:  music.house,	PUA: 1004BC
+Safe Name: musicHouseFill	Short Name:  music.house.fill,	PUA: 1004BD
+Safe Name: person	Short Name:  person,	PUA: 100269
+Safe Name: personFill	Short Name:  person.fill,	PUA: 10026A
+Safe Name: personCircle	Short Name:  person.circle,	PUA: 1004000.0
+Safe Name: personCircleFill	Short Name:  person.circle.fill,	PUA: 10040000.0
+Safe Name: personBadgePlus	Short Name:  person.badge.plus,	PUA: 100715
+Safe Name: personBadgePlusFill	Short Name:  person.badge.plus.fill,	PUA: 100716
+Safe Name: personBadgeMinus	Short Name:  person.badge.minus,	PUA: 100717
+Safe Name: personBadgeMinusFill	Short Name:  person.badge.minus.fill,	PUA: 100718
+Safe Name: personTwo	Short Name:  person.2,	PUA: 10026B
+Safe Name: personTwoFill	Short Name:  person.2.fill,	PUA: 10026C
+Safe Name: personThree	Short Name:  person.3,	PUA: 10074A
+Safe Name: personThreeFill	Short Name:  person.3.fill,	PUA: 10074B
+Safe Name: personCropCircle	Short Name:  person.crop.circle,	PUA: 10026D	Alt 1: account	Alt 2: contacts
+Safe Name: personCropCircleFill	Short Name:  person.crop.circle.fill,	PUA: 10026E	Alt 1: accountFill	Alt 2: contactsFill
+Safe Name: personCropCircleBadgePlus	Short Name:  person.crop.circle.badge.plus,	PUA: 10026F
+Safe Name: personCropCircleFillBadgePlus	Short Name:  person.crop.circle.fill.badge.plus,	PUA: 100270
+Safe Name: personCropCircleBadgeMinus	Short Name:  person.crop.circle.badge.minus,	PUA: 100271
+Safe Name: personCropCircleFillBadgeMinus	Short Name:  person.crop.circle.fill.badge.minus,	PUA: 100272
+Safe Name: personCropCircleBadgeCheckmark	Short Name:  person.crop.circle.badge.checkmark,	PUA: 100273
+Safe Name: personCropCircleFillBadgeCheckmark	Short Name:  person.crop.circle.fill.badge.checkmark,	PUA: 100274
+Safe Name: personCropCircleBadgeXmark	Short Name:  person.crop.circle.badge.xmark,	PUA: 100275
+Safe Name: personCropCircleFillBadgeXmark	Short Name:  person.crop.circle.fill.badge.xmark,	PUA: 100276
+Safe Name: personCropCircleBadgeExclam	Short Name:  person.crop.circle.badge.exclam,	PUA: 100277
+Safe Name: personCropCircleFillBadgeExclam	Short Name:  person.crop.circle.fill.badge.exclam,	PUA: 100278
+Safe Name: personCropSquare	Short Name:  person.crop.square,	PUA: 100279	Alt 1: selfie
+Safe Name: personCropSquareFill	Short Name:  person.crop.square.fill,	PUA: 10027A	Alt 1: selfieFill
+Safe Name: handRaised	Short Name:  hand.raised,	PUA: 10027B	Alt 1: block	Alt 2: privacy
+Safe Name: handRaisedFill	Short Name:  hand.raised.fill,	PUA: 10027C	Alt 1: blockFill	Alt 2: privacyFill
+Safe Name: handRaisedSlash	Short Name:  hand.raised.slash,	PUA: 10027D	Alt 1: unblock
+Safe Name: handRaisedSlashFill	Short Name:  hand.raised.slash.fill,	PUA: 10027E	Alt 1: unblockFill
+Safe Name: handPointLeft	Short Name:  hand.point.left,	PUA: 10067D
+Safe Name: handPointLeftFill	Short Name:  hand.point.left.fill,	PUA: 10067E
+Safe Name: handPointRight	Short Name:  hand.point.right,	PUA: 10067F
+Safe Name: handPointRightFill	Short Name:  hand.point.right.fill,	PUA: 100680
+Safe Name: handDraw	Short Name:  hand.draw,	PUA: 100593
+Safe Name: handDrawFill	Short Name:  hand.draw.fill,	PUA: 100594
+Safe Name: handThumbsup	Short Name:  hand.thumbsup,	PUA: 10027F	Alt 1: like
+Safe Name: handThumbsupFill	Short Name:  hand.thumbsup.fill,	PUA: 100280	Alt 1: likeFill
+Safe Name: handThumbsdown	Short Name:  hand.thumbsdown,	PUA: 100281	Alt 1: dislike
+Safe Name: handThumbsdownFill	Short Name:  hand.thumbsdown.fill,	PUA: 100282	Alt 1: dislikeFill
+Safe Name: ear	Short Name:  ear,	PUA: 100723
+Safe Name: sliderHorizontalThree	Short Name:  slider.horizontal.3,	PUA: 100306	Alt 1: edit
+Safe Name: sliderHorizontalBelowRectangle	Short Name:  slider.horizontal.below.rectangle,	PUA: 100417
+Safe Name: location	Short Name:  location,	PUA: 1002D1	Alt 1: locationServices
+Safe Name: locationFill	Short Name:  location.fill,	PUA: 1002D2	Alt 1: locationServicesFill
+Safe Name: locationSlash	Short Name:  location.slash,	PUA: 10062C	Alt 1: locationServicesOff
+Safe Name: locationSlashFill	Short Name:  location.slash.fill,	PUA: 10062D	Alt 1: locationServicesOffFill
+Safe Name: locationNorth	Short Name:  location.north,	PUA: 1002D3	Alt 1: orientToPhone
+Safe Name: locationNorthFill	Short Name:  location.north.fill,	PUA: 1002D4	Alt 1: orientToPhoneFill
+Safe Name: locationCircle	Short Name:  location.circle,	PUA: 1002D5	Alt 1: orientToPhoneCircle
+Safe Name: locationCircleFill	Short Name:  location.circle.fill,	PUA: 1002D6	Alt 1: orientToPhoneCircleFill
+Safe Name: locationNorthLine	Short Name:  location.north.line,	PUA: 1002D7	Alt 1: orientToNorth
+Safe Name: locationNorthLineFill	Short Name:  location.north.line.fill,	PUA: 1002D8	Alt 1: orientToNorthFill
+Safe Name: heart	Short Name:  heart,	PUA: 1002B4	Alt 1: love
+Safe Name: heartFill	Short Name:  heart.fill,	PUA: 1002B5	Alt 1: loveFill
+Safe Name: heartSlash	Short Name:  heart.slash,	PUA: 1002B6	Alt 1: unlove
+Safe Name: heartSlashFill	Short Name:  heart.slash.fill,	PUA: 1002B7	Alt 1: unloveFill
+Safe Name: heartCircle	Short Name:  heart.circle,	PUA: 1002B8	Alt 1: loveCircle
+Safe Name: heartCircleFill	Short Name:  heart.circle.fill,	PUA: 1002B9	Alt 1: loveCircleFill
+Safe Name: heartSlashCircle	Short Name:  heart.slash.circle,	PUA: 1002BA	Alt 1: unloveCircle
+Safe Name: heartSlashCircleFill	Short Name:  heart.slash.circle.fill,	PUA: 1002BB	Alt 1: unloveCircleFill
+Safe Name: suitHeart	Short Name:  suit.heart,	PUA: 100482
+Safe Name: suitHeartFill	Short Name:  suit.heart.fill,	PUA: 1002BC
+Safe Name: suitClub	Short Name:  suit.club,	PUA: 100483
+Safe Name: suitClubFill	Short Name:  suit.club.fill,	PUA: 1002BD
+Safe Name: suitDiamond	Short Name:  suit.diamond,	PUA: 100484
+Safe Name: suitDiamondFill	Short Name:  suit.diamond.fill,	PUA: 1002BF
+Safe Name: suitSpade	Short Name:  suit.spade,	PUA: 100485
+Safe Name: suitSpadeFill	Short Name:  suit.spade.fill,	PUA: 1002BE
+Safe Name: rhombus	Short Name:  rhombus,	PUA: 1002C0
+Safe Name: rhombusFill	Short Name:  rhombus.fill,	PUA: 1002C1
+Safe Name: star	Short Name:  star,	PUA: 1002C2	Alt 1: favorites
+Safe Name: starFill	Short Name:  star.fill,	PUA: 1002C3	Alt 1: favoritesFill
+Safe Name: starLefthalfFill	Short Name:  star.lefthalf.fill,	PUA: 1002C4
+Safe Name: starSlash	Short Name:  star.slash,	PUA: 1002C7	Alt 1: removeFavorite
+Safe Name: starSlashFill	Short Name:  star.slash.fill,	PUA: 1002C8	Alt 1: removeFavoriteFill
+Safe Name: starCircle	Short Name:  star.circle,	PUA: 1002C5	Alt 1: favoritesCircle
+Safe Name: starCircleFill	Short Name:  star.circle.fill,	PUA: 1002C6	Alt 1: favoritesCircleFill
+Safe Name: flag	Short Name:  flag,	PUA: 1002C9	Alt 1: flag
+Safe Name: flagFill	Short Name:  flag.fill,	PUA: 1002CA	Alt 1: flagFill
+Safe Name: flagCircle	Short Name:  flag.circle,	PUA: 1002CB	Alt 1: flagCircle
+Safe Name: flagCircleFill	Short Name:  flag.circle.fill,	PUA: 1002CC	Alt 1: flagCircleFill
+Safe Name: flagSlash	Short Name:  flag.slash,	PUA: 1002CD	Alt 1: removeFlag
+Safe Name: flagSlashFill	Short Name:  flag.slash.fill,	PUA: 1002CE	Alt 1: removeFlagFill
+Safe Name: bell	Short Name:  bell,	PUA: 1002D9	Alt 1: notifications
+Safe Name: bellFill	Short Name:  bell.fill,	PUA: 1002DA	Alt 1: notificationsFill
+Safe Name: bellCircle	Short Name:  bell.circle,	PUA: 1002DB	Alt 1: notificationsCircle
+Safe Name: bellCircleFill	Short Name:  bell.circle.fill,	PUA: 1002DC	Alt 1: notificationsCircleFill
+Safe Name: bellSlash	Short Name:  bell.slash,	PUA: 1002DD	Alt 1: notificationsOff
+Safe Name: bellSlashFill	Short Name:  bell.slash.fill,	PUA: 1002DE	Alt 1: notificationsOffFill
+Safe Name: tag	Short Name:  tag,	PUA: 10020.0	Alt 1: tag
+Safe Name: tagFill	Short Name:  tag.fill,	PUA: 100200.0	Alt 1: tagFill
+Safe Name: tagCircle	Short Name:  tag.circle,	PUA: 1002000.0	Alt 1: tagCircle
+Safe Name: tagCircleFill	Short Name:  tag.circle.fill,	PUA: 10020000.0	Alt 1: tagCircleFill
+Safe Name: bolt	Short Name:  bolt,	PUA: 100200000.0	Alt 1: flash
+Safe Name: boltFill	Short Name:  bolt.fill,	PUA: 1002000000.0	Alt 1: flashFill
+Safe Name: boltCircle	Short Name:  bolt.circle,	PUA: 10020000000.0	Alt 1: flashCircle
+Safe Name: boltCircleFill	Short Name:  bolt.circle.fill,	PUA: 100200000000.0	Alt 1: flashCircleFill
+Safe Name: boltBadgeA	Short Name:  bolt.badge.a,	PUA: 100633	Alt 1: flashAuto
+Safe Name: boltBadgeAFill	Short Name:  bolt.badge.a.fill,	PUA: 100634	Alt 1: flashAutoFill
+Safe Name: boltSlash	Short Name:  bolt.slash,	PUA: 1002000000000.0	Alt 1: flashOff
+Safe Name: boltSlashFill	Short Name:  bolt.slash.fill,	PUA: 1002EA	Alt 1: flashOffFill
+Safe Name: boltHorizontal	Short Name:  bolt.horizontal,	PUA: 100497	Alt 1: disconnect
+Safe Name: boltHorizontalFill	Short Name:  bolt.horizontal.fill,	PUA: 100498	Alt 1: disconnectFill
+Safe Name: boltHorizontalCircle	Short Name:  bolt.horizontal.circle,	PUA: 100499	Alt 1: disconnectCircle
+Safe Name: boltHorizontalCircleFill	Short Name:  bolt.horizontal.circle.fill,	PUA: 10049A	Alt 1: disconnectCircleFill
+Safe Name: speaker	Short Name:  speaker,	PUA: 1002A0	Alt 1: volumeLowest
+Safe Name: speakerFill	Short Name:  speaker.fill,	PUA: 1002A1	Alt 1: volumeLowestFill
+Safe Name: speakerSlash	Short Name:  speaker.slash,	PUA: 1002A2	Alt 1: soundOff
+Safe Name: speakerSlashFill	Short Name:  speaker.slash.fill,	PUA: 1002A3	Alt 1: soundOffFill
+Safe Name: speakerSlashRtl	Short Name:  speaker.slash.rtl,	PUA: 100639	Alt 1: soundOffRtl
+Safe Name: speakerSlashFillRtl	Short Name:  speaker.slash.fill.rtl,	PUA: 10063A	Alt 1: soundOffFillRtl
+Safe Name: speakerOne	Short Name:  speaker.1,	PUA: 1002A4	Alt 1: volumeLow
+Safe Name: speakerOneFill	Short Name:  speaker.1.fill,	PUA: 1002A5	Alt 1: volumeLowFill
+Safe Name: speakerTwo	Short Name:  speaker.2,	PUA: 1002A6	Alt 1: volumeHigh
+Safe Name: speakerTwoFill	Short Name:  speaker.2.fill,	PUA: 1002A7	Alt 1: volumeHighFill
+Safe Name: speakerThree	Short Name:  speaker.3,	PUA: 1002A8	Alt 1: volumeHighest
+Safe Name: speakerThreeFill	Short Name:  speaker.3.fill,	PUA: 1002A9	Alt 1: volumeHighestFill
+Safe Name: speakerZzz	Short Name:  speaker.zzz,	PUA: 10030A
+Safe Name: speakerZzzFill	Short Name:  speaker.zzz.fill,	PUA: 10045E
+Safe Name: speakerZzzRtl	Short Name:  speaker.zzz.rtl,	PUA: 10073F
+Safe Name: speakerZzzFillRtl	Short Name:  speaker.zzz.fill.rtl,	PUA: 100740
+Safe Name: antennaRadiowavesLeftAndRight	Short Name:  antenna.radiowaves.left.and.right,	PUA: 100580	Alt 1: cellularData
+Safe Name: info	Short Name:  info,	PUA: 100173	Alt 1: info
+Safe Name: infoCircle	Short Name:  info.circle,	PUA: 100174	Alt 1: infoCircle
+Safe Name: infoCircleFill	Short Name:  info.circle.fill,	PUA: 100175	Alt 1: infoCircleFill
+Safe Name: a	Short Name:  a,	PUA: 10014F
+Safe Name: textformatSuperscript	Short Name:  textformat.superscript,	PUA: 100400.0	Alt 1: superscript
+Safe Name: textformatSubscript	Short Name:  textformat.subscript,	PUA: 10040.0	Alt 1: subscript
+Safe Name: textformat	Short Name:  textformat,	PUA: 100152	Alt 1: textFormatting
+Safe Name: textformatAlt	Short Name:  textformat.alt,	PUA: 100151	Alt 1: textFormatting
+Safe Name: textformatSize	Short Name:  textformat.size,	PUA: 100150	Alt 1: changeTextSize
+Safe Name: textformatAbc	Short Name:  textformat.abc,	PUA: 10016F
+Safe Name: textformatAbcDottedunderline	Short Name:  textformat.abc.dottedunderline,	PUA: 100170	Alt 1: underline
+Safe Name: textformatOneTwoThree	Short Name:  textformat.123,	PUA: 100171
+Safe Name: textCursor	Short Name:  text.cursor,	PUA: 10016B	Alt 1: insertText
+Safe Name: textbox	Short Name:  textbox,	PUA: 100176	Alt 1: insertTextbox
+Safe Name: bold	Short Name:  bold,	PUA: 100153	Alt 1: bold
+Safe Name: italic	Short Name:  italic,	PUA: 100154	Alt 1: italic
+Safe Name: underline	Short Name:  underline,	PUA: 100155	Alt 1: underline
+Safe Name: strikethrough	Short Name:  strikethrough,	PUA: 100156	Alt 1: strikeThrough
+Safe Name: boldItalicUnderline	Short Name:  bold.italic.underline,	PUA: 100157	Alt 1: textFormattingBiu
+Safe Name: boldUnderline	Short Name:  bold.underline,	PUA: 100158	Alt 1: textFormattingBu
+Safe Name: paragraph	Short Name:  paragraph,	PUA: 100486
+Safe Name: xSquareroot	Short Name:  x.squareroot,	PUA: 1004EA	Alt 1: functionX
+Safe Name: fx	Short Name:  fx,	PUA: 10016C	Alt 1: functionFx
+Safe Name: function	Short Name:  function,	PUA: 10016E	Alt 1: function
+Safe Name: fCursive	Short Name:  f.cursive,	PUA: 10016D	Alt 1: functionFstop
+Safe Name: fCursiveCircle	Short Name:  f.cursive.circle,	PUA: 100767
+Safe Name: fCursiveCircleFill	Short Name:  f.cursive.circle.fill,	PUA: 100768
+Safe Name: sum	Short Name:  sum,	PUA: 10063D
+Safe Name: percent	Short Name:  percent,	PUA: 10063E
+Safe Name: viewTwoD	Short Name:  view.2d,	PUA: 100159	Alt 1: showInTwoD
+Safe Name: viewThreeD	Short Name:  view.3d,	PUA: 10016A	Alt 1: showInThreeD
+Safe Name: at	Short Name:  at,	PUA: 100177	Alt 1: connect
+Safe Name: atBadgePlus	Short Name:  at.badge.plus,	PUA: 100178
+Safe Name: atBadgeMinus	Short Name:  at.badge.minus,	PUA: 100179
+Safe Name: plusSlashMinus	Short Name:  plus.slash.minus,	PUA: 10017A
+Safe Name: minusSlashPlus	Short Name:  minus.slash.plus,	PUA: 10017B
+Safe Name: plusminus	Short Name:  plusminus,	PUA: 1006FA
+Safe Name: plusminusCircle	Short Name:  plusminus.circle,	PUA: 100376	Alt 1: exposure
+Safe Name: plusminusCircleFill	Short Name:  plusminus.circle.fill,	PUA: 10061D	Alt 1: exposureFill
+Safe Name: questionmark	Short Name:  questionmark,	PUA: 10014D
+Safe Name: exclamationmark	Short Name:  exclamationmark,	PUA: 10014E
+Safe Name: flashlightOffFill	Short Name:  flashlight.off.fill,	PUA: 10074C	Alt 1: flashlightFill
+Safe Name: flashlightOnFill	Short Name:  flashlight.on.fill,	PUA: 10078B
+Safe Name: arrowUpLeftAndArrowDownRight	Short Name:  arrow.up.left.and.arrow.down.right,	PUA: 10014A	Alt 1: enterFullScreen
+Safe Name: arrowDownRightAndArrowUpLeft	Short Name:  arrow.down.right.and.arrow.up.left,	PUA: 10014B	Alt 1: exitFullScreen
+Safe Name: icloud	Short Name:  icloud,	PUA: 10030B	Alt 1: icloud
+Safe Name: icloudFill	Short Name:  icloud.fill,	PUA: 10030C	Alt 1: icloudFill
+Safe Name: icloudCircle	Short Name:  icloud.circle,	PUA: 10030D	Alt 1: icloudCircle
+Safe Name: icloudCircleFill	Short Name:  icloud.circle.fill,	PUA: 10030E	Alt 1: icloudCircleFill
+Safe Name: icloudSlash	Short Name:  icloud.slash,	PUA: 10030F	Alt 1: notUploadedToIcloud
+Safe Name: icloudSlashFill	Short Name:  icloud.slash.fill,	PUA: 100310	Alt 1: notUploadedToIcloudFill
+Safe Name: exclamationmarkIcloud	Short Name:  exclamationmark.icloud,	PUA: 100311	Alt 1: icloudUploadError
+Safe Name: exclamationmarkIcloudFill	Short Name:  exclamationmark.icloud.fill,	PUA: 100312	Alt 1: icloudUploadErrorFill
+Safe Name: xmarkIcloud	Short Name:  xmark.icloud,	PUA: 100313	Alt 1: removedFromIcloud
+Safe Name: xmarkIcloudFill	Short Name:  xmark.icloud.fill,	PUA: 100314	Alt 1: removedFromIcloudFill
+Safe Name: linkIcloud	Short Name:  link.icloud,	PUA: 10049E	Alt 1: icloudAttachement
+Safe Name: linkIcloudFill	Short Name:  link.icloud.fill,	PUA: 10049F	Alt 1: icloudAttachementFill
+Safe Name: boltHorizontalIcloud	Short Name:  bolt.horizontal.icloud,	PUA: 10063F	Alt 1: disconnectedFromIcloud
+Safe Name: boltHorizontalIcloudFill	Short Name:  bolt.horizontal.icloud.fill,	PUA: 100640	Alt 1: disconnectedFromIcloudFill
+Safe Name: personIcloud	Short Name:  person.icloud,	PUA: 100673
+Safe Name: personIcloudFill	Short Name:  person.icloud.fill,	PUA: 100674
+Safe Name: lockIcloud	Short Name:  lock.icloud,	PUA: 100675
+Safe Name: lockIcloudFill	Short Name:  lock.icloud.fill,	PUA: 100676
+Safe Name: arrowClockwiseIcloud	Short Name:  arrow.clockwise.icloud,	PUA: 100677
+Safe Name: arrowClockwiseIcloudFill	Short Name:  arrow.clockwise.icloud.fill,	PUA: 100678
+Safe Name: arrowCounterclockwiseIcloud	Short Name:  arrow.counterclockwise.icloud,	PUA: 100679
+Safe Name: arrowCounterclockwiseIcloudFill	Short Name:  arrow.counterclockwise.icloud.fill,	PUA: 10067A
+Safe Name: icloudAndArrowDown	Short Name:  icloud.and.arrow.down,	PUA: 100315	Alt 1: icloudDownload
+Safe Name: icloudAndArrowDownFill	Short Name:  icloud.and.arrow.down.fill,	PUA: 100316	Alt 1: icloudDownloadFill
+Safe Name: icloudAndArrowUp	Short Name:  icloud.and.arrow.up,	PUA: 100317	Alt 1: icloudUpload
+Safe Name: icloudAndArrowUpFill	Short Name:  icloud.and.arrow.up.fill,	PUA: 100318	Alt 1: icloudUploadFill
+Safe Name: circleBottomthirdSplit	Short Name:  circle.bottomthird.split,	PUA: 10071A
+Safe Name: lightMin	Short Name:  light.min,	PUA: 1001ED	Alt 1: keyboardBacklightLower
+Safe Name: lightMax	Short Name:  light.max,	PUA: 1001EE	Alt 1: keyboardBacklightHigher
+Safe Name: sunMin	Short Name:  sun.min,	PUA: 1001AB	Alt 1: brightnessLower
+Safe Name: sunMinFill	Short Name:  sun.min.fill,	PUA: 1001AC	Alt 1: brightnessLowerFill
+Safe Name: sunMax	Short Name:  sun.max,	PUA: 1001AD	Alt 1: brightnessHigher
+Safe Name: sunMaxFill	Short Name:  sun.max.fill,	PUA: 1001AE	Alt 1: brightnessHigherFill
+Safe Name: sunrise	Short Name:  sunrise,	PUA: 1001B1	Alt 1: sunrise
+Safe Name: sunriseFill	Short Name:  sunrise.fill,	PUA: 1001B2	Alt 1: sunriseFill
+Safe Name: sunset	Short Name:  sunset,	PUA: 1001B3	Alt 1: sunset
+Safe Name: sunsetFill	Short Name:  sunset.fill,	PUA: 1001B4	Alt 1: sunsetFill
+Safe Name: sunDust	Short Name:  sun.dust,	PUA: 1001B5
+Safe Name: sunDustFill	Short Name:  sun.dust.fill,	PUA: 1001B6
+Safe Name: sunHaze	Short Name:  sun.haze,	PUA: 1001B7
+Safe Name: sunHazeFill	Short Name:  sun.haze.fill,	PUA: 1001B8
+Safe Name: moon	Short Name:  moon,	PUA: 1001B9	Alt 1: doNotDisturb
+Safe Name: moonFill	Short Name:  moon.fill,	PUA: 1001BA	Alt 1: doNotDisturbFill
+Safe Name: moonCircle	Short Name:  moon.circle,	PUA: 1001BB	Alt 1: doNotDisturbCircle
+Safe Name: moonCircleFill	Short Name:  moon.circle.fill,	PUA: 1001BC	Alt 1: doNotDisturbCircleFill
+Safe Name: zzz	Short Name:  zzz,	PUA: 100583
+Safe Name: moonZzz	Short Name:  moon.zzz,	PUA: 1001BD	Alt 1: snoozeZzz
+Safe Name: moonZzzFill	Short Name:  moon.zzz.fill,	PUA: 1001BE	Alt 1: snoozeZzzFill
+Safe Name: sparkles	Short Name:  sparkles,	PUA: 1001BF	Alt 1: sparkle
+Safe Name: moonStars	Short Name:  moon.stars,	PUA: 1001C0	Alt 1: clearNight
+Safe Name: moonStarsFill	Short Name:  moon.stars.fill,	PUA: 1001C1	Alt 1: clearNightFill
+Safe Name: cloud	Short Name:  cloud,	PUA: 1001C2	Alt 1: mostlyCloudy
+Safe Name: cloudFill	Short Name:  cloud.fill,	PUA: 1001C3	Alt 1: mostlyCloudyFill
+Safe Name: cloudDrizzle	Short Name:  cloud.drizzle,	PUA: 1001C4	Alt 1: drizzle
+Safe Name: cloudDrizzleFill	Short Name:  cloud.drizzle.fill,	PUA: 1001C5	Alt 1: drizzleFill
+Safe Name: cloudRain	Short Name:  cloud.rain,	PUA: 1001C6	Alt 1: rain
+Safe Name: cloudRainFill	Short Name:  cloud.rain.fill,	PUA: 1001C7	Alt 1: rainFill
+Safe Name: cloudHeavyrain	Short Name:  cloud.heavyrain,	PUA: 1001C8	Alt 1: heavyRain
+Safe Name: cloudHeavyrainFill	Short Name:  cloud.heavyrain.fill,	PUA: 1001C9	Alt 1: heavyRainFill
+Safe Name: cloudFog	Short Name:  cloud.fog,	PUA: 1001CA	Alt 1: fog
+Safe Name: cloudFogFill	Short Name:  cloud.fog.fill,	PUA: 1001CB	Alt 1: fogFill
+Safe Name: cloudHail	Short Name:  cloud.hail,	PUA: 1001CC	Alt 1: hail
+Safe Name: cloudHailFill	Short Name:  cloud.hail.fill,	PUA: 1001CD	Alt 1: hailFill
+Safe Name: cloudSnow	Short Name:  cloud.snow,	PUA: 1001CE	Alt 1: blizzard
+Safe Name: cloudSnowFill	Short Name:  cloud.snow.fill,	PUA: 1001CF	Alt 1: blizzardFill
+Safe Name: cloudSleet	Short Name:  cloud.sleet,	PUA: 1001D0	Alt 1: sleet
+Safe Name: cloudSleetFill	Short Name:  cloud.sleet.fill,	PUA: 1001D1	Alt 1: sleetFill
+Safe Name: cloudBolt	Short Name:  cloud.bolt,	PUA: 1001D2	Alt 1: severeThunderstorm
+Safe Name: cloudBoltFill	Short Name:  cloud.bolt.fill,	PUA: 1001D3	Alt 1: severeThunderstormFill
+Safe Name: cloudSun	Short Name:  cloud.sun,	PUA: 1001D4	Alt 1: partlyCloudy
+Safe Name: cloudSunFill	Short Name:  cloud.sun.fill,	PUA: 1001D5	Alt 1: partlyCloudyFill
+Safe Name: cloudSunRain	Short Name:  cloud.sun.rain,	PUA: 1001D6	Alt 1: scatteredShowers
+Safe Name: cloudSunRainFill	Short Name:  cloud.sun.rain.fill,	PUA: 1001D7	Alt 1: scatteredShowersFill
+Safe Name: cloudSunBolt	Short Name:  cloud.sun.bolt,	PUA: 1001D8	Alt 1: scatteredThunderstorm
+Safe Name: cloudSunBoltFill	Short Name:  cloud.sun.bolt.fill,	PUA: 1001D9	Alt 1: scatteredThunderstormFill
+Safe Name: cloudMoon	Short Name:  cloud.moon,	PUA: 1001DA	Alt 1: partlyCloudyNight
+Safe Name: cloudMoonFill	Short Name:  cloud.moon.fill,	PUA: 1001DB	Alt 1: partlyCloudyNightFill
+Safe Name: cloudMoonRain	Short Name:  cloud.moon.rain,	PUA: 1001DC	Alt 1: rainyNight
+Safe Name: cloudMoonRainFill	Short Name:  cloud.moon.rain.fill,	PUA: 1001DD	Alt 1: rainyNightFill
+Safe Name: cloudBoltRain	Short Name:  cloud.bolt.rain,	PUA: 1001DE	Alt 1: mixRainfall
+Safe Name: cloudBoltRainFill	Short Name:  cloud.bolt.rain.fill,	PUA: 1001DF	Alt 1: mixRainfallFill
+Safe Name: cloudMoonBolt	Short Name:  cloud.moon.bolt,	PUA: 1001.0	Alt 1: scatteredThunderstormNight
+Safe Name: cloudMoonBoltFill	Short Name:  cloud.moon.bolt.fill,	PUA: 10010.0	Alt 1: scatteredThunderstormNightFill
+Safe Name: smoke	Short Name:  smoke,	PUA: 100100.0	Alt 1: smoke
+Safe Name: smokeFill	Short Name:  smoke.fill,	PUA: 1001000.0	Alt 1: smokeFill
+Safe Name: wind	Short Name:  wind,	PUA: 10010000.0	Alt 1: breezy
+Safe Name: snow	Short Name:  snow,	PUA: 100100000.0	Alt 1: snowFlurry
+Safe Name: windSnow	Short Name:  wind.snow,	PUA: 1001000000.0	Alt 1: blowingSnow
+Safe Name: tornado	Short Name:  tornado,	PUA: 10010000000.0	Alt 1: tornado
+Safe Name: tropicalstorm	Short Name:  tropicalstorm,	PUA: 100100000000.0	Alt 1: tropicalStorm
+Safe Name: hurricane	Short Name:  hurricane,	PUA: 1001000000000.0	Alt 1: hurricane
+Safe Name: thermometerSun	Short Name:  thermometer.sun,	PUA: 1001EA	Alt 1: hot
+Safe Name: thermometerSnowflake	Short Name:  thermometer.snowflake,	PUA: 1001EB	Alt 1: ice
+Safe Name: thermometer	Short Name:  thermometer,	PUA: 1001EC
+Safe Name: listNumber	Short Name:  list.number,	PUA: 1002F4	Alt 1: numberedListNumber
+Safe Name: listNumberRtl	Short Name:  list.number.rtl,	PUA: 100641	Alt 1: numberedListNumberRtl
+Safe Name: listDash	Short Name:  list.dash,	PUA: 1002F1	Alt 1: list
+Safe Name: listBullet	Short Name:  list.bullet,	PUA: 1002F2	Alt 1: bulletedList
+Safe Name: listBulletIndent	Short Name:  list.bullet.indent,	PUA: 1002F3	Alt 1: bulletestListIndent
+Safe Name: listBulletBelowRectangle	Short Name:  list.bullet.below.rectangle,	PUA: 1002F7	Alt 1: splitViewVertically
+Safe Name: increaseQuotelevel	Short Name:  increase.quotelevel,	PUA: 100780
+Safe Name: decreaseQuotelevel	Short Name:  decrease.quotelevel,	PUA: 10077F
+Safe Name: increaseIndent	Short Name:  increase.indent,	PUA: 1002F5
+Safe Name: decreaseIndent	Short Name:  decrease.indent,	PUA: 1002F6
+Safe Name: textBadgePlus	Short Name:  text.badge.plus,	PUA: 1002F8	Alt 1: addList
+Safe Name: textBadgeMinus	Short Name:  text.badge.minus,	PUA: 1002F9	Alt 1: removeList
+Safe Name: textBadgeCheckmark	Short Name:  text.badge.checkmark,	PUA: 1002FA
+Safe Name: textBadgeXmark	Short Name:  text.badge.xmark,	PUA: 1002FB
+Safe Name: textBadgeStar	Short Name:  text.badge.star,	PUA: 1002FC	Alt 1: wishlist
+Safe Name: textInsert	Short Name:  text.insert,	PUA: 1002FD	Alt 1: moveToTopOfList
+Safe Name: textAppend	Short Name:  text.append,	PUA: 1002FE	Alt 1: moveToBottomOfList
+Safe Name: textQuote	Short Name:  text.quote,	PUA: 1002FF	Alt 1: lyrics
+Safe Name: textAlignleft	Short Name:  text.alignleft,	PUA: 100300	Alt 1: alignLeft
+Safe Name: textAligncenter	Short Name:  text.aligncenter,	PUA: 100301	Alt 1: alignCenter
+Safe Name: textAlignright	Short Name:  text.alignright,	PUA: 100302	Alt 1: alignRight
+Safe Name: textJustify	Short Name:  text.justify,	PUA: 100303	Alt 1: justify
+Safe Name: textJustifyleft	Short Name:  text.justifyleft,	PUA: 100304	Alt 1: justifyLeft
+Safe Name: textJustifyright	Short Name:  text.justifyright,	PUA: 100305	Alt 1: justifyRight
+Safe Name: dotRadiowavesLeftAndRight	Short Name:  dot.radiowaves.left.and.right,	PUA: 100319	Alt 1: radio
+Safe Name: dotRadiowavesRight	Short Name:  dot.radiowaves.right,	PUA: 100592
+Safe Name: radiowavesLeft	Short Name:  radiowaves.left,	PUA: 100671
+Safe Name: radiowavesRight	Short Name:  radiowaves.right,	PUA: 100672
+Safe Name: badgePlusRadiowavesRight	Short Name:  badge.plus.radiowaves.right,	PUA: 1002AA	Alt 1: addStation
+Safe Name: eye	Short Name:  eye,	PUA: 1002ED	Alt 1: show
+Safe Name: eyeFill	Short Name:  eye.fill,	PUA: 1002EE	Alt 1: showFill
+Safe Name: eyeSlash	Short Name:  eye.slash,	PUA: 1002EF	Alt 1: hide	Alt 2: removeRedEye
+Safe Name: eyeSlashFill	Short Name:  eye.slash.fill,	PUA: 1002F0	Alt 1: hideFill	Alt 2: removeRedEyeFill
+Safe Name: ant	Short Name:  ant,	PUA: 10031A	Alt 1: reportIssue
+Safe Name: antFill	Short Name:  ant.fill,	PUA: 10031B	Alt 1: reportIssueFill
+Safe Name: antCircle	Short Name:  ant.circle,	PUA: 10031C	Alt 1: reportIssueCircle
+Safe Name: antCircleFill	Short Name:  ant.circle.fill,	PUA: 10031D	Alt 1: reportIssueCircleFill
+Safe Name: hare	Short Name:  hare,	PUA: 1004CE	Alt 1: increaseSpeed
+Safe Name: hareFill	Short Name:  hare.fill,	PUA: 1004CF	Alt 1: increaseSpeedFill
+Safe Name: tortoise	Short Name:  tortoise,	PUA: 1004D0	Alt 1: decreaseSpeed
+Safe Name: tortoiseFill	Short Name:  tortoise.fill,	PUA: 1004D1	Alt 1: decreaseSpeedFill
+Safe Name: camera	Short Name:  camera,	PUA: 10031E	Alt 1: camera
+Safe Name: cameraFill	Short Name:  camera.fill,	PUA: 10031F	Alt 1: cameraFill
+Safe Name: cameraCircle	Short Name:  camera.circle,	PUA: 100320	Alt 1: cameraCircle
+Safe Name: cameraCircleFill	Short Name:  camera.circle.fill,	PUA: 100321	Alt 1: cameraCircleFill
+Safe Name: cameraOnRectangle	Short Name:  camera.on.rectangle,	PUA: 100741
+Safe Name: cameraOnRectangleFill	Short Name:  camera.on.rectangle.fill,	PUA: 100742
+Safe Name: cameraRotate	Short Name:  camera.rotate,	PUA: 100322	Alt 1: switchCamera
+Safe Name: cameraRotateFill	Short Name:  camera.rotate.fill,	PUA: 100323	Alt 1: switchCameraFill
+Safe Name: message	Short Name:  message,	PUA: 100324	Alt 1: message
+Safe Name: messageFill	Short Name:  message.fill,	PUA: 100325	Alt 1: messageFill
+Safe Name: messageCircle	Short Name:  message.circle,	PUA: 100326	Alt 1: messageCircle
+Safe Name: messageCircleFill	Short Name:  message.circle.fill,	PUA: 100327	Alt 1: messageCircleFill
+Safe Name: bubbleRight	Short Name:  bubble.right,	PUA: 100328	Alt 1: commentRight
+Safe Name: bubbleRightFill	Short Name:  bubble.right.fill,	PUA: 100329	Alt 1: commentRightFill
+Safe Name: bubbleLeft	Short Name:  bubble.left,	PUA: 10032A	Alt 1: commentLeft
+Safe Name: bubbleLeftFill	Short Name:  bubble.left.fill,	PUA: 10032B	Alt 1: commentLeftFill
+Safe Name: exclamationmarkBubble	Short Name:  exclamationmark.bubble,	PUA: 10032C	Alt 1: report
+Safe Name: exclamationmarkBubbleFill	Short Name:  exclamationmark.bubble.fill,	PUA: 10032D	Alt 1: reportFill
+Safe Name: ellipsesBubble	Short Name:  ellipses.bubble,	PUA: 10057A
+Safe Name: ellipsesBubbleFill	Short Name:  ellipses.bubble.fill,	PUA: 10057B
+Safe Name: quoteBubble	Short Name:  quote.bubble,	PUA: 10032E
+Safe Name: quoteBubbleFill	Short Name:  quote.bubble.fill,	PUA: 10032F
+Safe Name: tBubble	Short Name:  t.bubble,	PUA: 100330
+Safe Name: tBubbleFill	Short Name:  t.bubble.fill,	PUA: 100331
+Safe Name: textBubble	Short Name:  text.bubble,	PUA: 100332	Alt 1: commentLines
+Safe Name: textBubbleFill	Short Name:  text.bubble.fill,	PUA: 100333	Alt 1: commentLinesFill
+Safe Name: captionsBubble	Short Name:  captions.bubble,	PUA: 100334	Alt 1: captions
+Safe Name: captionsBubbleFill	Short Name:  captions.bubble.fill,	PUA: 100335	Alt 1: captionsFill
+Safe Name: plusBubble	Short Name:  plus.bubble,	PUA: 100336	Alt 1: comment
+Safe Name: plusBubbleFill	Short Name:  plus.bubble.fill,	PUA: 100337	Alt 1: commentFill
+Safe Name: bubbleLeftAndBubbleRight	Short Name:  bubble.left.and.bubble.right,	PUA: 1004A4	Alt 1: conversation
+Safe Name: bubbleLeftAndBubbleRightFill	Short Name:  bubble.left.and.bubble.right.fill,	PUA: 100632	Alt 1: conversationFill
+Safe Name: bubbleMiddleBottom	Short Name:  bubble.middle.bottom,	PUA: 100338
+Safe Name: bubbleMiddleBottomFill	Short Name:  bubble.middle.bottom.fill,	PUA: 100339
+Safe Name: bubbleMiddleTop	Short Name:  bubble.middle.top,	PUA: 10033C
+Safe Name: bubbleMiddleTopFill	Short Name:  bubble.middle.top.fill,	PUA: 10033D
+Safe Name: phone	Short Name:  phone,	PUA: 10033E	Alt 1: call
+Safe Name: phoneFill	Short Name:  phone.fill,	PUA: 10033F	Alt 1: callFill
+Safe Name: phoneCircle	Short Name:  phone.circle,	PUA: 1004A5	Alt 1: callCircle
+Safe Name: phoneCircleFill	Short Name:  phone.circle.fill,	PUA: 1004A6	Alt 1: callCircleFill
+Safe Name: phoneArrowUpRight	Short Name:  phone.arrow.up.right,	PUA: 100340	Alt 1: outgoingCall
+Safe Name: phoneFillArrowUpRight	Short Name:  phone.fill.arrow.up.right,	PUA: 100341	Alt 1: outgoingCall
+Safe Name: phoneArrowDownLeft	Short Name:  phone.arrow.down.left,	PUA: 100342	Alt 1: incomingCall
+Safe Name: phoneFillArrowDownLeft	Short Name:  phone.fill.arrow.down.left,	PUA: 100343	Alt 1: incomingCall
+Safe Name: phoneArrowRight	Short Name:  phone.arrow.right,	PUA: 100344	Alt 1: callForwarding
+Safe Name: phoneFillArrowRight	Short Name:  phone.fill.arrow.right,	PUA: 100345	Alt 1: callForwarding
+Safe Name: phoneBadgePlus	Short Name:  phone.badge.plus,	PUA: 10058E	Alt 1: addToCall
+Safe Name: phoneFillBadgePlus	Short Name:  phone.fill.badge.plus,	PUA: 10058F	Alt 1: addToCall
+Safe Name: phoneDown	Short Name:  phone.down,	PUA: 100346	Alt 1: hangUp
+Safe Name: phoneDownFill	Short Name:  phone.down.fill,	PUA: 100347	Alt 1: hangUpFill
+Safe Name: phoneDownCircle	Short Name:  phone.down.circle,	PUA: 1004A7	Alt 1: hangUpCircle
+Safe Name: phoneDownCircleFill	Short Name:  phone.down.circle.fill,	PUA: 1004A8	Alt 1: hangUpCircleFill
+Safe Name: teletype	Short Name:  teletype,	PUA: 100348	Alt 1: tty
+Safe Name: teletypeAnswer	Short Name:  teletype.answer,	PUA: 100670
+Safe Name: recordingtape	Short Name:  recordingtape,	PUA: 10057C	Alt 1: voicemail
+Safe Name: video	Short Name:  video,	PUA: 100349	Alt 1: facetimeVideoCall	Alt 2: videoCamera
+Safe Name: videoFill	Short Name:  video.fill,	PUA: 10034A	Alt 1: facetimeVideoCallFill	Alt 2: videoCameraFill
+Safe Name: videoCircle	Short Name:  video.circle,	PUA: 10034B	Alt 1: facetimeVideoCallCircle	Alt 2: videoCameraCircle
+Safe Name: videoCircleFill	Short Name:  video.circle.fill,	PUA: 10034C	Alt 1: facetimeVideoCallCircleFill	Alt 2: videoCameraCircleFill
+Safe Name: videoSlash	Short Name:  video.slash,	PUA: 10034D	Alt 1: videoCameraOff
+Safe Name: videoSlashFill	Short Name:  video.slash.fill,	PUA: 10034E	Alt 1: videoCameraOffFill
+Safe Name: videoBadgePlus	Short Name:  video.badge.plus,	PUA: 10072E
+Safe Name: videoBadgePlusFill	Short Name:  video.badge.plus.fill,	PUA: 10072F
+Safe Name: arrowUpRightVideo	Short Name:  arrow.up.right.video,	PUA: 10034F	Alt 1: outgoingFacetimeVideoCall
+Safe Name: arrowUpRightVideoFill	Short Name:  arrow.up.right.video.fill,	PUA: 100350	Alt 1: outgoingFacetimeVideoCallFill
+Safe Name: arrowDownLeftVideo	Short Name:  arrow.down.left.video,	PUA: 100351	Alt 1: incomingFacetimeVideoCall
+Safe Name: arrowDownLeftVideoFill	Short Name:  arrow.down.left.video.fill,	PUA: 100352	Alt 1: incomingFacetimeVideoCallFill
+Safe Name: questionmarkVideo	Short Name:  questionmark.video,	PUA: 100353	Alt 1: facetimeUnavailable
+Safe Name: questionmarkVideoFill	Short Name:  questionmark.video.fill,	PUA: 100354	Alt 1: facetimeUnavailableFill
+Safe Name: questionmarkVideoRtl	Short Name:  questionmark.video.rtl,	PUA: 100642	Alt 1: facetimeUnavailableRtl
+Safe Name: questionmarkVideoFillRtl	Short Name:  questionmark.video.fill.rtl,	PUA: 100643	Alt 1: facetimeUnavailableFillRtl
+Safe Name: envelope	Short Name:  envelope,	PUA: 100355	Alt 1: getMail	Alt 2: composeMail
+Safe Name: envelopeFill	Short Name:  envelope.fill,	PUA: 100356	Alt 1: getMailFill	Alt 2: composeMailFill
+Safe Name: envelopeCircle	Short Name:  envelope.circle,	PUA: 100357	Alt 1: getMailCircle	Alt 2: composeMailCircle
+Safe Name: envelopeCircleFill	Short Name:  envelope.circle.fill,	PUA: 100358	Alt 1: getMailCircleFill	Alt 2: composeMailCircleFill
+Safe Name: envelopeOpen	Short Name:  envelope.open,	PUA: 100359	Alt 1: markRead
+Safe Name: envelopeOpenFill	Short Name:  envelope.open.fill,	PUA: 10035A	Alt 1: markReadFill
+Safe Name: envelopeBadge	Short Name:  envelope.badge,	PUA: 10035B	Alt 1: markUnread
+Safe Name: envelopeBadgeFill	Short Name:  envelope.badge.fill,	PUA: 10035C	Alt 1: markUnreadFill
+Safe Name: gear	Short Name:  gear,	PUA: 10035F	Alt 1: settings
+Safe Name: ellipsis	Short Name:  ellipsis,	PUA: 100360	Alt 1: more
+Safe Name: ellipsisCircle	Short Name:  ellipsis.circle,	PUA: 100361	Alt 1: moreCircle
+Safe Name: ellipsisCircleFill	Short Name:  ellipsis.circle.fill,	PUA: 100362	Alt 1: moreCircleFill
+Safe Name: mic	Short Name:  mic,	PUA: 1002B0	Alt 1: microphone
+Safe Name: micFill	Short Name:  mic.fill,	PUA: 1002B1	Alt 1: microphoneFill
+Safe Name: micCircle	Short Name:  mic.circle,	PUA: 1004A9	Alt 1: microphoneCircle
+Safe Name: micCircleFill	Short Name:  mic.circle.fill,	PUA: 1004AA	Alt 1: microphoneCircleFill
+Safe Name: micSlash	Short Name:  mic.slash,	PUA: 1002B2	Alt 1: microphoneOff
+Safe Name: micSlashFill	Short Name:  mic.slash.fill,	PUA: 1002B3	Alt 1: microphoneOffFill
+Safe Name: bag	Short Name:  bag,	PUA: 100363	Alt 1: shoppingBag
+Safe Name: bagFill	Short Name:  bag.fill,	PUA: 100364	Alt 1: shoppingBagFill
+Safe Name: bagBadgePlus	Short Name:  bag.badge.plus,	PUA: 100365	Alt 1: addToShoppingBag
+Safe Name: bagFillBadgePlus	Short Name:  bag.fill.badge.plus,	PUA: 100366	Alt 1: addToShoppingBag
+Safe Name: bagBadgeMinus	Short Name:  bag.badge.minus,	PUA: 100367	Alt 1: removeFromShoppingBag
+Safe Name: bagFillBadgeMinus	Short Name:  bag.fill.badge.minus,	PUA: 100368	Alt 1: removeFromShoppingBag
+Safe Name: cart	Short Name:  cart,	PUA: 100369	Alt 1: shoppingCart
+Safe Name: cartFill	Short Name:  cart.fill,	PUA: 10036A	Alt 1: shoppingCartFill
+Safe Name: cartBadgePlus	Short Name:  cart.badge.plus,	PUA: 10036B	Alt 1: addToShoppingCart
+Safe Name: cartFillBadgePlus	Short Name:  cart.fill.badge.plus,	PUA: 10036C	Alt 1: addToShoppingCart
+Safe Name: cartBadgeMinus	Short Name:  cart.badge.minus,	PUA: 10036D	Alt 1: removeFromShoppingCart
+Safe Name: cartFillBadgeMinus	Short Name:  cart.fill.badge.minus,	PUA: 10036E	Alt 1: removeFromShoppingCart
+Safe Name: creditcard	Short Name:  creditcard,	PUA: 10036F	Alt 1: card
+Safe Name: creditcardFill	Short Name:  creditcard.fill,	PUA: 100370	Alt 1: cardFill
+Safe Name: wandAndRays	Short Name:  wand.and.rays,	PUA: 100371	Alt 1: enhance
+Safe Name: wandAndRaysInverse	Short Name:  wand.and.rays.inverse,	PUA: 100372	Alt 1: enhanceInverse
+Safe Name: wandAndStars	Short Name:  wand.and.stars,	PUA: 10070D
+Safe Name: wandAndStarsInverse	Short Name:  wand.and.stars.inverse,	PUA: 10070E
+Safe Name: crop	Short Name:  crop,	PUA: 100373	Alt 1: crop
+Safe Name: cropRotate	Short Name:  crop.rotate,	PUA: 100374	Alt 1: cropAndRotate
+Safe Name: perspective	Short Name:  perspective,	PUA: 1004B1	Alt 1: editPerspective
+Safe Name: skew	Short Name:  skew,	PUA: 100375	Alt 1: editPerspective
+Safe Name: aspectratio	Short Name:  aspectratio,	PUA: 100796
+Safe Name: aspectratioFill	Short Name:  aspectratio.fill,	PUA: 10078F
+Safe Name: dial	Short Name:  dial,	PUA: 10037A	Alt 1: adjust
+Safe Name: dialFill	Short Name:  dial.fill,	PUA: 10037B	Alt 1: adjustFill
+Safe Name: gauge	Short Name:  gauge,	PUA: 10037D	Alt 1: dashboard
+Safe Name: gaugeBadgePlus	Short Name:  gauge.badge.plus,	PUA: 1004D3	Alt 1: addToDashboard
+Safe Name: gaugeBadgeMinus	Short Name:  gauge.badge.minus,	PUA: 10040000000.0	Alt 1: removeFromDashboard
+Safe Name: speedometer	Short Name:  speedometer,	PUA: 10037E	Alt 1: speed
+Safe Name: play	Short Name:  play,	PUA: 100283	Alt 1: play
+Safe Name: playFill	Short Name:  play.fill,	PUA: 100284	Alt 1: playFill
+Safe Name: playCircle	Short Name:  play.circle,	PUA: 100295	Alt 1: playCircle
+Safe Name: playCircleFill	Short Name:  play.circle.fill,	PUA: 100296	Alt 1: playCircleFill
+Safe Name: playRectangle	Short Name:  play.rectangle,	PUA: 100299	Alt 1: playRectangle
+Safe Name: playRectangleFill	Short Name:  play.rectangle.fill,	PUA: 10029A	Alt 1: playRectangleFill
+Safe Name: pause	Short Name:  pause,	PUA: 100285	Alt 1: pause
+Safe Name: pauseFill	Short Name:  pause.fill,	PUA: 100286	Alt 1: pauseFill
+Safe Name: pauseCircle	Short Name:  pause.circle,	PUA: 100297	Alt 1: pauseCircle
+Safe Name: pauseCircleFill	Short Name:  pause.circle.fill,	PUA: 100298	Alt 1: pauseCircleFill
+Safe Name: pauseRectangle	Short Name:  pause.rectangle,	PUA: 10029B	Alt 1: pauseRectangle
+Safe Name: pauseRectangleFill	Short Name:  pause.rectangle.fill,	PUA: 10029C	Alt 1: pauseRectangleFill
+Safe Name: stop	Short Name:  stop,	PUA: 1006F6
+Safe Name: stopFill	Short Name:  stop.fill,	PUA: 1006F7
+Safe Name: stopCircle	Short Name:  stop.circle,	PUA: 10072A
+Safe Name: stopCircleFill	Short Name:  stop.circle.fill,	PUA: 10072B
+Safe Name: playpause	Short Name:  playpause,	PUA: 100287
+Safe Name: playpauseFill	Short Name:  playpause.fill,	PUA: 100288	Alt 1: goBackwardFill
+Safe Name: backward	Short Name:  backward,	PUA: 100289	Alt 1: goBackward
+Safe Name: backwardFill	Short Name:  backward.fill,	PUA: 10028A	Alt 1: goForwardFill
+Safe Name: forward	Short Name:  forward,	PUA: 10028B	Alt 1: goForward
+Safe Name: forwardFill	Short Name:  forward.fill,	PUA: 10028C	Alt 1: goToStartFill
+Safe Name: backwardEnd	Short Name:  backward.end,	PUA: 10028D	Alt 1: goToStart
+Safe Name: backwardEndFill	Short Name:  backward.end.fill,	PUA: 10028E	Alt 1: goToEndFill
+Safe Name: forwardEnd	Short Name:  forward.end,	PUA: 10028F	Alt 1: goToEnd
+Safe Name: forwardEndFill	Short Name:  forward.end.fill,	PUA: 100290	Alt 1: goToStartFill
+Safe Name: backwardEndAlt	Short Name:  backward.end.alt,	PUA: 100291	Alt 1: goToStart
+Safe Name: backwardEndAltFill	Short Name:  backward.end.alt.fill,	PUA: 100292	Alt 1: goToEndFill
+Safe Name: forwardEndAlt	Short Name:  forward.end.alt,	PUA: 100293	Alt 1: goToEnd
+Safe Name: forwardEndAltFill	Short Name:  forward.end.alt.fill,	PUA: 100294	Alt 1: shuffleFill
+Safe Name: shuffle	Short Name:  shuffle,	PUA: 10029D	Alt 1: repeat
+Safe Name: repeat	Short Name:  repeat,	PUA: 10029E	Alt 1: repeatOne
+Safe Name: repeatOne	Short Name:  repeat.1,	PUA: 10029F	Alt 1: goForward
+Safe Name: goforward	Short Name:  goforward,	PUA: 10037F	Alt 1: goBackward
+Safe Name: gobackward	Short Name:  gobackward,	PUA: 100380	Alt 1: goForwardOneZeroSeconds
+Safe Name: goforwardOneZero	Short Name:  goforward.10,	PUA: 100381	Alt 1: goBackwardOneZeroSeconds
+Safe Name: gobackwardOneZero	Short Name:  gobackward.10,	PUA: 100382	Alt 1: goForwardOneFiveSeconds
+Safe Name: goforwardOneFive	Short Name:  goforward.15,	PUA: 100383	Alt 1: goBackwardOneFiveSeconds
+Safe Name: gobackwardOneFive	Short Name:  gobackward.15,	PUA: 100384	Alt 1: goForwardThreeZeroSeconds
+Safe Name: goforwardThreeZero	Short Name:  goforward.30,	PUA: 100385	Alt 1: goBackwardThreeZeroSeconds
+Safe Name: gobackwardThreeZero	Short Name:  gobackward.30,	PUA: 100386	Alt 1: goForwardFourFiveSeconds
+Safe Name: goforwardFourFive	Short Name:  goforward.45,	PUA: 100387	Alt 1: goBackwardFourFiveSeconds
+Safe Name: gobackwardFourFive	Short Name:  gobackward.45,	PUA: 100388	Alt 1: goForwardSixZeroSeconds
+Safe Name: goforwardSixZero	Short Name:  goforward.60,	PUA: 100389	Alt 1: goBackwardSixZeroSeconds
+Safe Name: gobackwardSixZero	Short Name:  gobackward.60,	PUA: 10038A
+Safe Name: goforwardSevenFive	Short Name:  goforward.75,	PUA: 100624
+Safe Name: gobackwardSevenFive	Short Name:  gobackward.75,	PUA: 100625
+Safe Name: goforwardNineZero	Short Name:  goforward.90,	PUA: 100626
+Safe Name: gobackwardNineZero	Short Name:  gobackward.90,	PUA: 100627
+Safe Name: goforwardOneZeroAr	Short Name:  goforward.10.ar,	PUA: 100731
+Safe Name: gobackwardOneZeroAr	Short Name:  gobackward.10.ar,	PUA: 100732
+Safe Name: goforwardOneFiveAr	Short Name:  goforward.15.ar,	PUA: 100733
+Safe Name: gobackwardOneFiveAr	Short Name:  gobackward.15.ar,	PUA: 100734
+Safe Name: goforwardThreeZeroAr	Short Name:  goforward.30.ar,	PUA: 100735
+Safe Name: gobackwardThreeZeroAr	Short Name:  gobackward.30.ar,	PUA: 100736
+Safe Name: goforwardFourFiveAr	Short Name:  goforward.45.ar,	PUA: 100737
+Safe Name: gobackwardFourFiveAr	Short Name:  gobackward.45.ar,	PUA: 100738
+Safe Name: goforwardSixZeroAr	Short Name:  goforward.60.ar,	PUA: 100739
+Safe Name: gobackwardSixZeroAr	Short Name:  gobackward.60.ar,	PUA: 10073A
+Safe Name: goforwardSevenFiveAr	Short Name:  goforward.75.ar,	PUA: 10073B
+Safe Name: gobackwardSevenFiveAr	Short Name:  gobackward.75.ar,	PUA: 10073C
+Safe Name: goforwardNineZeroAr	Short Name:  goforward.90.ar,	PUA: 10073D
+Safe Name: gobackwardNineZeroAr	Short Name:  gobackward.90.ar,	PUA: 10073E
+Safe Name: goforwardOneZeroHi	Short Name:  goforward.10.hi,	PUA: 1007A4
+Safe Name: gobackwardOneZeroHi	Short Name:  gobackward.10.hi,	PUA: 1007A5
+Safe Name: goforwardOneFiveHi	Short Name:  goforward.15.hi,	PUA: 1007A6
+Safe Name: gobackwardOneFiveHi	Short Name:  gobackward.15.hi,	PUA: 1007A7
+Safe Name: goforwardThreeZeroHi	Short Name:  goforward.30.hi,	PUA: 1007A8
+Safe Name: gobackwardThreeZeroHi	Short Name:  gobackward.30.hi,	PUA: 1007A9
+Safe Name: goforwardFourFiveHi	Short Name:  goforward.45.hi,	PUA: 1007AA
+Safe Name: gobackwardFourFiveHi	Short Name:  gobackward.45.hi,	PUA: 1007AB
+Safe Name: goforwardSixZeroHi	Short Name:  goforward.60.hi,	PUA: 1007AC
+Safe Name: gobackwardSixZeroHi	Short Name:  gobackward.60.hi,	PUA: 1007AD
+Safe Name: goforwardSevenFiveHi	Short Name:  goforward.75.hi,	PUA: 1007AE
+Safe Name: gobackwardSevenFiveHi	Short Name:  gobackward.75.hi,	PUA: 1007AF
+Safe Name: goforwardNineZeroHi	Short Name:  goforward.90.hi,	PUA: 1007B0
+Safe Name: gobackwardNineZeroHi	Short Name:  gobackward.90.hi,	PUA: 1007B1
+Safe Name: goforwardPlus	Short Name:  goforward.plus,	PUA: 100628
+Safe Name: gobackwardMinus	Short Name:  gobackward.minus,	PUA: 100629
+Safe Name: selectionPinInOut	Short Name:  selection.pin.in.out,	PUA: 100460	Alt 1: crop
+Safe Name: metronome	Short Name:  metronome,	PUA: 10038C	Alt 1: tempo
+Safe Name: bandage	Short Name:  bandage,	PUA: 100393
+Safe Name: bandageFill	Short Name:  bandage.fill,	PUA: 100394
+Safe Name: tuningfork	Short Name:  tuningfork,	PUA: 100390
+Safe Name: paintbrush	Short Name:  paintbrush,	PUA: 100391	Alt 1: format
+Safe Name: paintbrushFill	Short Name:  paintbrush.fill,	PUA: 100392	Alt 1: formatFill
+Safe Name: wrench	Short Name:  wrench,	PUA: 100395
+Safe Name: wrenchFill	Short Name:  wrench.fill,	PUA: 100396
+Safe Name: hammer	Short Name:  hammer,	PUA: 100644	Alt 1: build
+Safe Name: hammerFill	Short Name:  hammer.fill,	PUA: 100645	Alt 1: buildFill
+Safe Name: eyedropper	Short Name:  eyedropper,	PUA: 100397	Alt 1: pickColorEmpty
+Safe Name: eyedropperHalffull	Short Name:  eyedropper.halffull,	PUA: 100398	Alt 1: pickColorHalffullHalffull
+Safe Name: eyedropperFull	Short Name:  eyedropper.full,	PUA: 100399	Alt 1: pickColorFullFull
+Safe Name: printer	Short Name:  printer,	PUA: 10039A	Alt 1: print
+Safe Name: printerFill	Short Name:  printer.fill,	PUA: 10039B	Alt 1: printFill
+Safe Name: lock	Short Name:  lock,	PUA: 1003A0	Alt 1: lock
+Safe Name: lockFill	Short Name:  lock.fill,	PUA: 1003A1	Alt 1: lockFill
+Safe Name: lockCircle	Short Name:  lock.circle,	PUA: 1004B2	Alt 1: lockCircle
+Safe Name: lockCircleFill	Short Name:  lock.circle.fill,	PUA: 1004B3	Alt 1: lockCircleFill
+Safe Name: lockSlash	Short Name:  lock.slash,	PUA: 1003A2	Alt 1: lockOff
+Safe Name: lockSlashFill	Short Name:  lock.slash.fill,	PUA: 1003A3	Alt 1: lockOffFill
+Safe Name: lockOpen	Short Name:  lock.open,	PUA: 1003A4	Alt 1: unlock
+Safe Name: lockOpenFill	Short Name:  lock.open.fill,	PUA: 1003A5	Alt 1: unlockFill
+Safe Name: lockRotation	Short Name:  lock.rotation,	PUA: 100459	Alt 1: lockRotation
+Safe Name: lockRotationOpen	Short Name:  lock.rotation.open,	PUA: 10045A	Alt 1: unlockRotation
+Safe Name: wifi	Short Name:  wifi,	PUA: 100647	Alt 1: wifi
+Safe Name: wifiSlash	Short Name:  wifi.slash,	PUA: 100648	Alt 1: wifiOff
+Safe Name: wifiExclamationmark	Short Name:  wifi.exclamationmark,	PUA: 100665	Alt 1: wifiError
+Safe Name: batteryOneZeroZero	Short Name:  battery.100,	PUA: 100600000000.0
+Safe Name: batteryTwoFive	Short Name:  battery.25,	PUA: 1006000000000.0
+Safe Name: batteryZero	Short Name:  battery.0,	PUA: 1006EA
+Safe Name: pin	Short Name:  pin,	PUA: 1003A6	Alt 1: pin
+Safe Name: pinFill	Short Name:  pin.fill,	PUA: 1003A7	Alt 1: pinFill
+Safe Name: pinCircle	Short Name:  pin.circle,	PUA: 1004B4	Alt 1: pinCircle
+Safe Name: pinCircleFill	Short Name:  pin.circle.fill,	PUA: 1004B5	Alt 1: pinCircleFill
+Safe Name: pinSlash	Short Name:  pin.slash,	PUA: 1003A8	Alt 1: removePin
+Safe Name: pinSlashFill	Short Name:  pin.slash.fill,	PUA: 1003A9	Alt 1: removePinFill
+Safe Name: mappin	Short Name:  mappin,	PUA: 1003AA	Alt 1: mapPin
+Safe Name: mappinCircle	Short Name:  mappin.circle,	PUA: 100707	Alt 1: mapPinCircle
+Safe Name: mappinCircleFill	Short Name:  mappin.circle.fill,	PUA: 100708	Alt 1: mapPinCircleFill
+Safe Name: mappinSlash	Short Name:  mappin.slash,	PUA: 100649	Alt 1: removeMapPin
+Safe Name: mappinAndEllipse	Short Name:  mappin.and.ellipse,	PUA: 1003AB	Alt 1: removeMapPin
+Safe Name: map	Short Name:  map,	PUA: 10064A	Alt 1: showMap
+Safe Name: mapFill	Short Name:  map.fill,	PUA: 10064B	Alt 1: showMapFill
+Safe Name: safari	Short Name:  safari,	PUA: 1003AC	Alt 1: safari
+Safe Name: safariFill	Short Name:  safari.fill,	PUA: 1003AD	Alt 1: safariFill
+Safe Name: rotateLeft	Short Name:  rotate.left,	PUA: 1003AE	Alt 1: rotateFourFiveDegLeft
+Safe Name: rotateLeftFill	Short Name:  rotate.left.fill,	PUA: 1003AF	Alt 1: rotateFourFiveDegLeftFill
+Safe Name: rotateRight	Short Name:  rotate.right,	PUA: 1003B0	Alt 1: rotateFourFiveDegRight
+Safe Name: rotateRightFill	Short Name:  rotate.right.fill,	PUA: 1003B1	Alt 1: rotateFourFiveDegRightFill
+Safe Name: flipHorizontal	Short Name:  flip.horizontal,	PUA: 100792
+Safe Name: flipHorizontalFill	Short Name:  flip.horizontal.fill,	PUA: 100793
+Safe Name: table	Short Name:  table,	PUA: 1003000.0	Alt 1: table
+Safe Name: tableFill	Short Name:  table.fill,	PUA: 10030000.0	Alt 1: tableFill
+Safe Name: tableBadgeMore	Short Name:  table.badge.more,	PUA: 100300000.0	Alt 1: editTable
+Safe Name: tableBadgeMoreFill	Short Name:  table.badge.more.fill,	PUA: 1003000000.0	Alt 1: editTableFill
+Safe Name: airplayvideo	Short Name:  airplayvideo,	PUA: 100461	Alt 1: airplayVideo
+Safe Name: airplayaudio	Short Name:  airplayaudio,	PUA: 100462	Alt 1: airplayAudio
+Safe Name: squareStack	Short Name:  square.stack,	PUA: 10040B
+Safe Name: squareStackFill	Short Name:  square.stack.fill,	PUA: 10040C
+Safe Name: personTwoSquareStack	Short Name:  person.2.square.stack,	PUA: 100400000.0
+Safe Name: personTwoSquareStackFill	Short Name:  person.2.square.stack.fill,	PUA: 1004000000.0
+Safe Name: musicNote	Short Name:  music.note,	PUA: 10046A	Alt 1: song
+Safe Name: musicMic	Short Name:  music.mic,	PUA: 10046B	Alt 1: artist
+Safe Name: musicNoteList	Short Name:  music.note.list,	PUA: 10046C	Alt 1: playlist
+Safe Name: guitars	Short Name:  guitars,	PUA: 10046D	Alt 1: genres
+Safe Name: hifispeaker	Short Name:  hifispeaker,	PUA: 10074E
+Safe Name: hifispeakerFill	Short Name:  hifispeaker.fill,	PUA: 10074F
+Safe Name: tv	Short Name:  tv,	PUA: 1003B2	Alt 1: tv
+Safe Name: tvFill	Short Name:  tv.fill,	PUA: 1004B6	Alt 1: tvFill
+Safe Name: tvCircle	Short Name:  tv.circle,	PUA: 1003B3	Alt 1: tvCircle
+Safe Name: tvCircleFill	Short Name:  tv.circle.fill,	PUA: 1003B4	Alt 1: tvCircleFill
+Safe Name: tvMusicNote	Short Name:  tv.music.note,	PUA: 1003B5	Alt 1: musicVideo
+Safe Name: tvMusicNoteFill	Short Name:  tv.music.note.fill,	PUA: 1004B7	Alt 1: musicVideoFill
+Safe Name: film	Short Name:  film,	PUA: 1003B6	Alt 1: movie
+Safe Name: filmFill	Short Name:  film.fill,	PUA: 1003B7	Alt 1: movieFill
+Safe Name: sportscourt	Short Name:  sportscourt,	PUA: 100750
+Safe Name: sportscourtFill	Short Name:  sportscourt.fill,	PUA: 100751
+Safe Name: smiley	Short Name:  smiley,	PUA: 1003B8
+Safe Name: smileyFill	Short Name:  smiley.fill,	PUA: 10064C
+Safe Name: memories	Short Name:  memories,	PUA: 100456	Alt 1: memories
+Safe Name: memoriesBadgePlus	Short Name:  memories.badge.plus,	PUA: 100457	Alt 1: addMemory
+Safe Name: memoriesBadgeMinus	Short Name:  memories.badge.minus,	PUA: 100458	Alt 1: removeMemory
+Safe Name: airplane	Short Name:  airplane,	PUA: 100453	Alt 1: airplaneMode
+Safe Name: staroflife	Short Name:  staroflife,	PUA: 100446	Alt 1: medicalId
+Safe Name: staroflifeFill	Short Name:  staroflife.fill,	PUA: 100447	Alt 1: medicalIdFill
+Safe Name: rectangle	Short Name:  rectangle,	PUA: 1003C3
+Safe Name: rectangleFill	Short Name:  rectangle.fill,	PUA: 1003C4
+Safe Name: plusRectangle	Short Name:  plus.rectangle,	PUA: 1003C7
+Safe Name: plusRectangleFill	Short Name:  plus.rectangle.fill,	PUA: 1003C8
+Safe Name: minusRectangle	Short Name:  minus.rectangle,	PUA: 1003C9
+Safe Name: minusRectangleFill	Short Name:  minus.rectangle.fill,	PUA: 1003CA
+Safe Name: checkmarkRectangle	Short Name:  checkmark.rectangle,	PUA: 1003CB
+Safe Name: checkmarkRectangleFill	Short Name:  checkmark.rectangle.fill,	PUA: 1003CC
+Safe Name: xmarkRectangle	Short Name:  xmark.rectangle,	PUA: 1003CD
+Safe Name: xmarkRectangleFill	Short Name:  xmark.rectangle.fill,	PUA: 1003CE
+Safe Name: rectangleBadgeCheckmark	Short Name:  rectangle.badge.checkmark,	PUA: 1003D5
+Safe Name: rectangleFillBadgeCheckmark	Short Name:  rectangle.fill.badge.checkmark,	PUA: 1003D6
+Safe Name: rectangleBadgeXmark	Short Name:  rectangle.badge.xmark,	PUA: 1003D7
+Safe Name: rectangleFillBadgeXmark	Short Name:  rectangle.fill.badge.xmark,	PUA: 1003D8
+Safe Name: photo	Short Name:  photo,	PUA: 1003C5	Alt 1: photo
+Safe Name: photoFill	Short Name:  photo.fill,	PUA: 1003C6	Alt 1: photoFill
+Safe Name: personCropRectangle	Short Name:  person.crop.rectangle,	PUA: 1003CF
+Safe Name: personCropRectangleFill	Short Name:  person.crop.rectangle.fill,	PUA: 1003D0
+Safe Name: rectangleOnRectangle	Short Name:  rectangle.on.rectangle,	PUA: 10030000000.0	Alt 1: screenSharing
+Safe Name: rectangleFillOnRectangleFill	Short Name:  rectangle.fill.on.rectangle.fill,	PUA: 100300000000.0	Alt 1: screenSharingFill
+Safe Name: plusRectangleOnRectangle	Short Name:  plus.rectangle.on.rectangle,	PUA: 1003000000000.0
+Safe Name: plusRectangleFillOnRectangleFill	Short Name:  plus.rectangle.fill.on.rectangle.fill,	PUA: 1003EA
+Safe Name: photoOnRectangle	Short Name:  photo.on.rectangle,	PUA: 1003EB
+Safe Name: photoFillOnRectangleFill	Short Name:  photo.fill.on.rectangle.fill,	PUA: 1003EC
+Safe Name: rectangleStack	Short Name:  rectangle.stack,	PUA: 1003ED
+Safe Name: rectangleStackFill	Short Name:  rectangle.stack.fill,	PUA: 1003EE
+Safe Name: rectangleStackBadgePlus	Short Name:  rectangle.stack.badge.plus,	PUA: 1003F1
+Safe Name: rectangleStackFillBadgePlus	Short Name:  rectangle.stack.fill.badge.plus,	PUA: 1003F2
+Safe Name: rectangleStackBadgeMinus	Short Name:  rectangle.stack.badge.minus,	PUA: 1003F3
+Safe Name: rectangleStackFillBadgeMinus	Short Name:  rectangle.stack.fill.badge.minus,	PUA: 1003F4
+Safe Name: rectangleStackBadgePersonCrop	Short Name:  rectangle.stack.badge.person.crop,	PUA: 1003F9
+Safe Name: rectangleStackFillBadgePersonCrop	Short Name:  rectangle.stack.fill.badge.person.crop,	PUA: 1003FA
+Safe Name: rectangleStackPersonCrop	Short Name:  rectangle.stack.person.crop,	PUA: 1003FB
+Safe Name: rectangleStackPersonCropFill	Short Name:  rectangle.stack.person.crop.fill,	PUA: 1003FC
+Safe Name: rectangleOnRectangleAngled	Short Name:  rectangle.on.rectangle.angled,	PUA: 10046F
+Safe Name: rectangleFillOnRectangleAngledFill	Short Name:  rectangle.fill.on.rectangle.angled.fill,	PUA: 100470
+Safe Name: sidebarLeft	Short Name:  sidebar.left,	PUA: 1003DA	Alt 1: splitViewHoritzontallyLeft
+Safe Name: sidebarRight	Short Name:  sidebar.right,	PUA: 1003DB	Alt 1: splitViewHoritzontallyRight
+Safe Name: squaresBelowRectangle	Short Name:  squares.below.rectangle,	PUA: 10030.0
+Safe Name: squareOnSquare	Short Name:  square.on.square,	PUA: 100405
+Safe Name: squareFillOnSquareFill	Short Name:  square.fill.on.square.fill,	PUA: 100406
+Safe Name: plusSquareOnSquare	Short Name:  plus.square.on.square,	PUA: 100407	Alt 1: duplicate
+Safe Name: plusSquareFillOnSquareFill	Short Name:  plus.square.fill.on.square.fill,	PUA: 100408	Alt 1: duplicateFill
+Safe Name: squareOnCircle	Short Name:  square.on.circle,	PUA: 100409	Alt 1: shape
+Safe Name: squareFillOnCircleFill	Short Name:  square.fill.on.circle.fill,	PUA: 10040A	Alt 1: shapeFill
+Safe Name: squareAndLineVerticalAndSquare	Short Name:  square.and.line.vertical.and.square,	PUA: 100411
+Safe Name: squareFillAndLineVerticalSquareFill	Short Name:  square.fill.and.line.vertical.square.fill,	PUA: 100412
+Safe Name: squareFillAndLineVerticalAndSquare	Short Name:  square.fill.and.line.vertical.and.square,	PUA: 100413
+Safe Name: squareAndLineVerticalAndSquareFill	Short Name:  square.and.line.vertical.and.square.fill,	PUA: 100414
+Safe Name: hexagon	Short Name:  hexagon,	PUA: 10075D
+Safe Name: hexagonFill	Short Name:  hexagon.fill,	PUA: 10075E
+Safe Name: cube	Short Name:  cube,	PUA: 100418
+Safe Name: cubeFill	Short Name:  cube.fill,	PUA: 100419
+Safe Name: cubeBox	Short Name:  cube.box,	PUA: 10041A
+Safe Name: cubeBoxFill	Short Name:  cube.box.fill,	PUA: 10041B
+Safe Name: arkit	Short Name:  arkit,	PUA: 100638	Alt 1: ar
+Safe Name: squareStackThreeDDownRight	Short Name:  square.stack.3d.down.right,	PUA: 10041C	Alt 1: burst
+Safe Name: squareStackThreeDDownRightFill	Short Name:  square.stack.3d.down.right.fill,	PUA: 10041D	Alt 1: burstFill
+Safe Name: squareStackThreeDUp	Short Name:  square.stack.3d.up,	PUA: 10041E	Alt 1: hdr
+Safe Name: squareStackThreeDUpFill	Short Name:  square.stack.3d.up.fill,	PUA: 10041F	Alt 1: hdrFill
+Safe Name: squareStackThreeDUpSlash	Short Name:  square.stack.3d.up.slash,	PUA: 100652
+Safe Name: squareStackThreeDUpSlashFill	Short Name:  square.stack.3d.up.slash.fill,	PUA: 100653
+Safe Name: squareStackThreeDDownDottedline	Short Name:  square.stack.3d.down.dottedline,	PUA: 100420	Alt 1: animate
+Safe Name: livephoto	Short Name:  livephoto,	PUA: 100421	Alt 1: livePhoto
+Safe Name: livephotoSlash	Short Name:  livephoto.slash,	PUA: 100422	Alt 1: livePhotoOff
+Safe Name: livephotoPlay	Short Name:  livephoto.play,	PUA: 100423	Alt 1: playLivePhoto
+Safe Name: pano	Short Name:  pano,	PUA: 10040F	Alt 1: panorama
+Safe Name: panoFill	Short Name:  pano.fill,	PUA: 100410	Alt 1: panoramaFill
+Safe Name: capsule	Short Name:  capsule,	PUA: 100776
+Safe Name: capsuleFill	Short Name:  capsule.fill,	PUA: 100777
+Safe Name: stopwatch	Short Name:  stopwatch,	PUA: 10042F	Alt 1: stopwatch
+Safe Name: stopwatchFill	Short Name:  stopwatch.fill,	PUA: 100430	Alt 1: stopwatchFill
+Safe Name: alarm	Short Name:  alarm,	PUA: 10042D	Alt 1: alarm
+Safe Name: alarmFill	Short Name:  alarm.fill,	PUA: 10042E	Alt 1: alarmFill
+Safe Name: clock	Short Name:  clock,	PUA: 10042B	Alt 1: clock	Alt 2: history	Alt 3: mostRecent
+Safe Name: clockFill	Short Name:  clock.fill,	PUA: 10042C	Alt 1: clockFill	Alt 2: historyFill	Alt 3: mostRecentFill
+Safe Name: timer	Short Name:  timer,	PUA: 100431	Alt 1: timer
+Safe Name: umbrella	Short Name:  umbrella,	PUA: 100655
+Safe Name: umbrellaFill	Short Name:  umbrella.fill,	PUA: 100656
+Safe Name: lightbulb	Short Name:  lightbulb,	PUA: 1006ED
+Safe Name: lightbulbFill	Short Name:  lightbulb.fill,	PUA: 1006EE
+Safe Name: lightbulbSlash	Short Name:  lightbulb.slash,	PUA: 100783
+Safe Name: lightbulbSlashFill	Short Name:  lightbulb.slash.fill,	PUA: 100784
+Safe Name: flame	Short Name:  flame,	PUA: 10066C
+Safe Name: flameFill	Short Name:  flame.fill,	PUA: 10066D
+Safe Name: gamecontroller	Short Name:  gamecontroller,	PUA: 1006F8
+Safe Name: gamecontrollerFill	Short Name:  gamecontroller.fill,	PUA: 1006F9
+Safe Name: flowchart	Short Name:  flowchart,	PUA: 100415
+Safe Name: flowchartFill	Short Name:  flowchart.fill,	PUA: 100416
+Safe Name: shield	Short Name:  shield,	PUA: 100666
+Safe Name: shieldFill	Short Name:  shield.fill,	PUA: 100667
+Safe Name: shieldLefthalfFill	Short Name:  shield.lefthalf.fill,	PUA: 100668
+Safe Name: shieldSlash	Short Name:  shield.slash,	PUA: 1007A1
+Safe Name: shieldSlashFill	Short Name:  shield.slash.fill,	PUA: 1007A2
+Safe Name: lockShield	Short Name:  lock.shield,	PUA: 100799
+Safe Name: lockShieldFill	Short Name:  lock.shield.fill,	PUA: 10079A
+Safe Name: checkmarkShield	Short Name:  checkmark.shield,	PUA: 10079B
+Safe Name: checkmarkShieldFill	Short Name:  checkmark.shield.fill,	PUA: 10079C
+Safe Name: xmarkShield	Short Name:  xmark.shield,	PUA: 10079D
+Safe Name: xmarkShieldFill	Short Name:  xmark.shield.fill,	PUA: 10079E
+Safe Name: exclamationmarkShield	Short Name:  exclamationmark.shield,	PUA: 10079F
+Safe Name: exclamationmarkShieldFill	Short Name:  exclamationmark.shield.fill,	PUA: 1007A0
+Safe Name: desktopcomputer	Short Name:  desktopcomputer,	PUA: 100657
+Safe Name: rectangleDock	Short Name:  rectangle.dock,	PUA: 1003DE	Alt 1: dock
+Safe Name: car	Short Name:  car,	PUA: 100658	Alt 1: car
+Safe Name: carFill	Short Name:  car.fill,	PUA: 100659	Alt 1: carFill
+Safe Name: tramFill	Short Name:  tram.fill,	PUA: 100747	Alt 1: trainFill
+Safe Name: nosign	Short Name:  nosign,	PUA: 10037C	Alt 1: stop
+Safe Name: link	Short Name:  link,	PUA: 100263	Alt 1: link
+Safe Name: linkCircle	Short Name:  link.circle,	PUA: 1004A0	Alt 1: linkCircle
+Safe Name: linkCircleFill	Short Name:  link.circle.fill,	PUA: 1004A1	Alt 1: linkCircleFill
+Safe Name: personalhotspot	Short Name:  personalhotspot,	PUA: 100264	Alt 1: personalHotspot
+Safe Name: studentdesk	Short Name:  studentdesk,	PUA: 100454
+Safe Name: eyeglasses	Short Name:  eyeglasses,	PUA: 100586	Alt 1: readingList
+Safe Name: briefcase	Short Name:  briefcase,	PUA: 10039C
+Safe Name: briefcaseFill	Short Name:  briefcase.fill,	PUA: 10039D
+Safe Name: scope	Short Name:  scope,	PUA: 100429
+Safe Name: helm	Short Name:  helm,	PUA: 10042A
+Safe Name: faceid	Short Name:  faceid,	PUA: 1003BD	Alt 1: faceId
+Safe Name: purchased	Short Name:  purchased,	PUA: 100690	Alt 1: purchased
+Safe Name: purchasedCircle	Short Name:  purchased.circle,	PUA: 100691	Alt 1: purchasedCircle
+Safe Name: purchasedCircleFill	Short Name:  purchased.circle.fill,	PUA: 100692	Alt 1: purchasedCircleFill
+Safe Name: chevronLeftSlashChevronRight	Short Name:  chevron.left.slash.chevron.right,	PUA: 10065A	Alt 1: embedCode
+Safe Name: rectangleCompressVertical	Short Name:  rectangle.compress.vertical,	PUA: 100437	Alt 1: skipSlide
+Safe Name: rectangleExpandVertical	Short Name:  rectangle.expand.vertical,	PUA: 100438	Alt 1: showSlide
+Safe Name: rectangleAndArrowUpRightAndArrowDownLeft	Short Name:  rectangle.and.arrow.up.right.and.arrow.down.left,	PUA: 10066E
+Safe Name: rectangleAndArrowUpRightAndArrowDownLeftSlash	Short Name:  rectangle.and.arrow.up.right.and.arrow.down.left.slash,	PUA: 10066F
+Safe Name: chartBar	Short Name:  chart.bar,	PUA: 10043E	Alt 1: chartColumn
+Safe Name: chartBarFill	Short Name:  chart.bar.fill,	PUA: 10043F	Alt 1: chartColumnFill
+Safe Name: chartPie	Short Name:  chart.pie,	PUA: 100440	Alt 1: chartPie
+Safe Name: chartPieFill	Short Name:  chart.pie.fill,	PUA: 10070B	Alt 1: chartPieFill
+Safe Name: hourglass	Short Name:  hourglass,	PUA: 100587	Alt 1: duration
+Safe Name: hourglassBottomhalfFill	Short Name:  hourglass.bottomhalf.fill,	PUA: 100588	Alt 1: durationStart
+Safe Name: hourglassTophalfFill	Short Name:  hourglass.tophalf.fill,	PUA: 100589	Alt 1: durationEnd
+Safe Name: bedDouble	Short Name:  bed.double,	PUA: 100669	Alt 1: bedtime
+Safe Name: bedDoubleFill	Short Name:  bed.double.fill,	PUA: 10066A	Alt 1: bedtimeFill
+Safe Name: burst	Short Name:  burst,	PUA: 100442
+Safe Name: burstFill	Short Name:  burst.fill,	PUA: 10061E
+Safe Name: waveform	Short Name:  waveform,	PUA: 10066B
+Safe Name: waveformCircle	Short Name:  waveform.circle,	PUA: 100788
+Safe Name: waveformCircleFill	Short Name:  waveform.circle.fill,	PUA: 100789
+Safe Name: waveformPathEcg	Short Name:  waveform.path.ecg,	PUA: 10071F
+Safe Name: waveformPath	Short Name:  waveform.path,	PUA: 100443
+Safe Name: waveformPathBadgePlus	Short Name:  waveform.path.badge.plus,	PUA: 100444
+Safe Name: waveformPathBadgeMinus	Short Name:  waveform.path.badge.minus,	PUA: 100445
+Safe Name: headphones	Short Name:  headphones,	PUA: 100448	Alt 1: audiobook
+Safe Name: gift	Short Name:  gift,	PUA: 100449	Alt 1: gift
+Safe Name: giftFill	Short Name:  gift.fill,	PUA: 10044A	Alt 1: giftFill
+Safe Name: app	Short Name:  app,	PUA: 10044B
+Safe Name: appFill	Short Name:  app.fill,	PUA: 10044C
+Safe Name: plusApp	Short Name:  plus.app,	PUA: 10044D
+Safe Name: plusAppFill	Short Name:  plus.app.fill,	PUA: 10044E
+Safe Name: appBadge	Short Name:  app.badge,	PUA: 10044F	Alt 1: notifications
+Safe Name: appBadgeFill	Short Name:  app.badge.fill,	PUA: 100450	Alt 1: notificationsFill
+Safe Name: appGift	Short Name:  app.gift,	PUA: 100451	Alt 1: gift
+Safe Name: appGiftFill	Short Name:  app.gift.fill,	PUA: 100452	Alt 1: giftFill
+Safe Name: arrowtriangleUp	Short Name:  arrowtriangle.up,	PUA: 1004C2
+Safe Name: arrowtriangleUpFill	Short Name:  arrowtriangle.up.fill,	PUA: 100124
+Safe Name: arrowtriangleDown	Short Name:  arrowtriangle.down,	PUA: 1004C3
+Safe Name: arrowtriangleDownFill	Short Name:  arrowtriangle.down.fill,	PUA: 100125
+Safe Name: arrowtriangleLeft	Short Name:  arrowtriangle.left,	PUA: 1004C4
+Safe Name: arrowtriangleLeftFill	Short Name:  arrowtriangle.left.fill,	PUA: 100126
+Safe Name: arrowtriangleRight	Short Name:  arrowtriangle.right,	PUA: 1004C5
+Safe Name: arrowtriangleRightFill	Short Name:  arrowtriangle.right.fill,	PUA: 100127
+Safe Name: arrowtriangleUpCircle	Short Name:  arrowtriangle.up.circle,	PUA: 100066
+Safe Name: arrowtriangleUpCircleFill	Short Name:  arrowtriangle.up.circle.fill,	PUA: 100067
+Safe Name: arrowtriangleDownCircle	Short Name:  arrowtriangle.down.circle,	PUA: 100068
+Safe Name: arrowtriangleDownCircleFill	Short Name:  arrowtriangle.down.circle.fill,	PUA: 100069
+Safe Name: arrowtriangleLeftCircle	Short Name:  arrowtriangle.left.circle,	PUA: 10006A
+Safe Name: arrowtriangleLeftCircleFill	Short Name:  arrowtriangle.left.circle.fill,	PUA: 10006B
+Safe Name: arrowtriangleRightCircle	Short Name:  arrowtriangle.right.circle,	PUA: 10006C
+Safe Name: arrowtriangleRightCircleFill	Short Name:  arrowtriangle.right.circle.fill,	PUA: 10006D
+Safe Name: arrowtriangleUpSquare	Short Name:  arrowtriangle.up.square,	PUA: 1000F6
+Safe Name: arrowtriangleUpSquareFill	Short Name:  arrowtriangle.up.square.fill,	PUA: 1000F7
+Safe Name: arrowtriangleDownSquare	Short Name:  arrowtriangle.down.square,	PUA: 1000F8
+Safe Name: arrowtriangleDownSquareFill	Short Name:  arrowtriangle.down.square.fill,	PUA: 1000F9
+Safe Name: arrowtriangleLeftSquare	Short Name:  arrowtriangle.left.square,	PUA: 1000FA
+Safe Name: arrowtriangleLeftSquareFill	Short Name:  arrowtriangle.left.square.fill,	PUA: 1000FB
+Safe Name: arrowtriangleRightSquare	Short Name:  arrowtriangle.right.square,	PUA: 1000FC
+Safe Name: arrowtriangleRightSquareFill	Short Name:  arrowtriangle.right.square.fill,	PUA: 1000FD
+Safe Name: deleteLeft	Short Name:  delete.left,	PUA: 10019B	Alt 1: backspace
+Safe Name: deleteLeftFill	Short Name:  delete.left.fill,	PUA: 10019C	Alt 1: backspaceFill
+Safe Name: deleteRight	Short Name:  delete.right,	PUA: 100197	Alt 1: backspace
+Safe Name: deleteRightFill	Short Name:  delete.right.fill,	PUA: 100198	Alt 1: backspaceFill
+Safe Name: clear	Short Name:  clear,	PUA: 100199
+Safe Name: clearFill	Short Name:  clear.fill,	PUA: 10019A
+Safe Name: shift	Short Name:  shift,	PUA: 10019D	Alt 1: shift
+Safe Name: shiftFill	Short Name:  shift.fill,	PUA: 10019E	Alt 1: shiftFill
+Safe Name: capslock	Short Name:  capslock,	PUA: 1001A1	Alt 1: capsLock
+Safe Name: capslockFill	Short Name:  capslock.fill,	PUA: 1001A2	Alt 1: capsLockFill
+Safe Name: eject	Short Name:  eject,	PUA: 1001A5	Alt 1: eject
+Safe Name: ejectFill	Short Name:  eject.fill,	PUA: 1001A6	Alt 1: ejectFill
+Safe Name: command	Short Name:  command,	PUA: 100194	Alt 1: command
+Safe Name: option	Short Name:  option,	PUA: 100195	Alt 1: option
+Safe Name: alt	Short Name:  alt,	PUA: 100196
+Safe Name: control	Short Name:  control,	PUA: 10018D	Alt 1: control
+Safe Name: projective	Short Name:  projective,	PUA: 10018E	Alt 1: projectiveEnter
+Safe Name: escape	Short Name:  escape,	PUA: 1001A7	Alt 1: espace
+Safe Name: power	Short Name:  power,	PUA: 1001A8	Alt 1: power
+Safe Name: globe	Short Name:  globe,	PUA: 1001AA	Alt 1: changeKeyboard
+Safe Name: arrowUp	Short Name:  arrow.up,	PUA: 100128
+Safe Name: arrowUpCircle	Short Name:  arrow.up.circle,	PUA: 100076
+Safe Name: arrowUpCircleFill	Short Name:  arrow.up.circle.fill,	PUA: 100077
+Safe Name: arrowUpSquare	Short Name:  arrow.up.square,	PUA: 100106
+Safe Name: arrowUpSquareFill	Short Name:  arrow.up.square.fill,	PUA: 100107
+Safe Name: arrowDown	Short Name:  arrow.down,	PUA: 100129
+Safe Name: arrowDownCircle	Short Name:  arrow.down.circle,	PUA: 100078
+Safe Name: arrowDownCircleFill	Short Name:  arrow.down.circle.fill,	PUA: 100079
+Safe Name: arrowDownSquare	Short Name:  arrow.down.square,	PUA: 100108
+Safe Name: arrowDownSquareFill	Short Name:  arrow.down.square.fill,	PUA: 100109
+Safe Name: arrowLeft	Short Name:  arrow.left,	PUA: 10012A
+Safe Name: arrowLeftCircle	Short Name:  arrow.left.circle,	PUA: 10007A
+Safe Name: arrowLeftCircleFill	Short Name:  arrow.left.circle.fill,	PUA: 10007B
+Safe Name: arrowLeftSquare	Short Name:  arrow.left.square,	PUA: 10010A
+Safe Name: arrowLeftSquareFill	Short Name:  arrow.left.square.fill,	PUA: 10010B
+Safe Name: arrowRight	Short Name:  arrow.right,	PUA: 10012B
+Safe Name: arrowRightCircle	Short Name:  arrow.right.circle,	PUA: 10007C
+Safe Name: arrowRightCircleFill	Short Name:  arrow.right.circle.fill,	PUA: 10007D
+Safe Name: arrowRightSquare	Short Name:  arrow.right.square,	PUA: 10010C
+Safe Name: arrowRightSquareFill	Short Name:  arrow.right.square.fill,	PUA: 10010D
+Safe Name: arrowUpLeft	Short Name:  arrow.up.left,	PUA: 10012E
+Safe Name: arrowUpLeftCircle	Short Name:  arrow.up.left.circle,	PUA: 100082
+Safe Name: arrowUpLeftCircleFill	Short Name:  arrow.up.left.circle.fill,	PUA: 100083
+Safe Name: arrowUpLeftSquare	Short Name:  arrow.up.left.square,	PUA: 100112
+Safe Name: arrowUpLeftSquareFill	Short Name:  arrow.up.left.square.fill,	PUA: 100113
+Safe Name: arrowUpRight	Short Name:  arrow.up.right,	PUA: 10012F
+Safe Name: arrowUpRightCircle	Short Name:  arrow.up.right.circle,	PUA: 100084
+Safe Name: arrowUpRightCircleFill	Short Name:  arrow.up.right.circle.fill,	PUA: 100085
+Safe Name: arrowUpRightSquare	Short Name:  arrow.up.right.square,	PUA: 100114
+Safe Name: arrowUpRightSquareFill	Short Name:  arrow.up.right.square.fill,	PUA: 100115
+Safe Name: arrowDownLeft	Short Name:  arrow.down.left,	PUA: 100130
+Safe Name: arrowDownLeftCircle	Short Name:  arrow.down.left.circle,	PUA: 100086
+Safe Name: arrowDownLeftCircleFill	Short Name:  arrow.down.left.circle.fill,	PUA: 100087
+Safe Name: arrowDownLeftSquare	Short Name:  arrow.down.left.square,	PUA: 100116
+Safe Name: arrowDownLeftSquareFill	Short Name:  arrow.down.left.square.fill,	PUA: 100117
+Safe Name: arrowDownRight	Short Name:  arrow.down.right,	PUA: 100131
+Safe Name: arrowDownRightCircle	Short Name:  arrow.down.right.circle,	PUA: 100088
+Safe Name: arrowDownRightCircleFill	Short Name:  arrow.down.right.circle.fill,	PUA: 100089
+Safe Name: arrowDownRightSquare	Short Name:  arrow.down.right.square,	PUA: 100118
+Safe Name: arrowDownRightSquareFill	Short Name:  arrow.down.right.square.fill,	PUA: 100119
+Safe Name: arrowUpToLine	Short Name:  arrow.up.to.line,	PUA: 10013F	Alt 1: home
+Safe Name: arrowDownToLine	Short Name:  arrow.down.to.line,	PUA: 100140	Alt 1: end
+Safe Name: arrowLeftToLine	Short Name:  arrow.left.to.line,	PUA: 100141
+Safe Name: arrowRightToLine	Short Name:  arrow.right.to.line,	PUA: 100142	Alt 1: tab
+Safe Name: arrowUpToLineAlt	Short Name:  arrow.up.to.line.alt,	PUA: 100143	Alt 1: home
+Safe Name: arrowDownToLineAlt	Short Name:  arrow.down.to.line.alt,	PUA: 100144	Alt 1: end
+Safe Name: arrowLeftToLineAlt	Short Name:  arrow.left.to.line.alt,	PUA: 100145
+Safe Name: arrowRightToLineAlt	Short Name:  arrow.right.to.line.alt,	PUA: 100146	Alt 1: tab
+Safe Name: returnArrow	Short Name:  return,	PUA: 100147
+Safe Name: arrowTurnRightUp	Short Name:  arrow.turn.right.up,	PUA: 100132
+Safe Name: arrowTurnRightDown	Short Name:  arrow.turn.right.down,	PUA: 100133
+Safe Name: arrowTurnDownLeft	Short Name:  arrow.turn.down.left,	PUA: 100134
+Safe Name: arrowTurnDownRight	Short Name:  arrow.turn.down.right,	PUA: 100135
+Safe Name: arrowTurnLeftUp	Short Name:  arrow.turn.left.up,	PUA: 100136
+Safe Name: arrowTurnLeftDown	Short Name:  arrow.turn.left.down,	PUA: 100137
+Safe Name: arrowTurnUpLeft	Short Name:  arrow.turn.up.left,	PUA: 100138
+Safe Name: arrowTurnUpRight	Short Name:  arrow.turn.up.right,	PUA: 100139
+Safe Name: arrowUturnUp	Short Name:  arrow.uturn.up,	PUA: 10013A
+Safe Name: arrowUturnUpCircle	Short Name:  arrow.uturn.up.circle,	PUA: 10008A
+Safe Name: arrowUturnUpCircleFill	Short Name:  arrow.uturn.up.circle.fill,	PUA: 10008B
+Safe Name: arrowUturnUpSquare	Short Name:  arrow.uturn.up.square,	PUA: 10011A
+Safe Name: arrowUturnUpSquareFill	Short Name:  arrow.uturn.up.square.fill,	PUA: 10011B
+Safe Name: arrowUturnDown	Short Name:  arrow.uturn.down,	PUA: 10013B
+Safe Name: arrowUturnDownCircle	Short Name:  arrow.uturn.down.circle,	PUA: 10008C
+Safe Name: arrowUturnDownCircleFill	Short Name:  arrow.uturn.down.circle.fill,	PUA: 10008D
+Safe Name: arrowUturnDownSquare	Short Name:  arrow.uturn.down.square,	PUA: 10011C
+Safe Name: arrowUturnDownSquareFill	Short Name:  arrow.uturn.down.square.fill,	PUA: 10011D
+Safe Name: arrowUturnLeft	Short Name:  arrow.uturn.left,	PUA: 10013C	Alt 1: undo
+Safe Name: arrowUturnLeftCircle	Short Name:  arrow.uturn.left.circle,	PUA: 10008E	Alt 1: undoCircle
+Safe Name: arrowUturnLeftCircleFill	Short Name:  arrow.uturn.left.circle.fill,	PUA: 10008F	Alt 1: undoCircleFill
+Safe Name: arrowUturnLeftCircleBadgeEllipsis	Short Name:  arrow.uturn.left.circle.badge.ellipsis,	PUA: 1007B8
+Safe Name: arrowUturnLeftSquare	Short Name:  arrow.uturn.left.square,	PUA: 10011E	Alt 1: undoSquare
+Safe Name: arrowUturnLeftSquareFill	Short Name:  arrow.uturn.left.square.fill,	PUA: 10011F	Alt 1: undoSquareFill
+Safe Name: arrowUturnRight	Short Name:  arrow.uturn.right,	PUA: 10013D	Alt 1: redo
+Safe Name: arrowUturnRightCircle	Short Name:  arrow.uturn.right.circle,	PUA: 100090	Alt 1: redoCircle
+Safe Name: arrowUturnRightCircleFill	Short Name:  arrow.uturn.right.circle.fill,	PUA: 100091	Alt 1: redoCircleFill
+Safe Name: arrowUturnRightSquare	Short Name:  arrow.uturn.right.square,	PUA: 100120	Alt 1: redoSquare
+Safe Name: arrowUturnRightSquareFill	Short Name:  arrow.uturn.right.square.fill,	PUA: 100121	Alt 1: redoSquareFill
+Safe Name: arrowUpAndDown	Short Name:  arrow.up.and.down,	PUA: 100479
+Safe Name: arrowUpAndDownCircle	Short Name:  arrow.up.and.down.circle,	PUA: 10047A
+Safe Name: arrowUpAndDownCircleFill	Short Name:  arrow.up.and.down.circle.fill,	PUA: 10047B
+Safe Name: arrowUpAndDownSquare	Short Name:  arrow.up.and.down.square,	PUA: 10047C
+Safe Name: arrowUpAndDownSquareFill	Short Name:  arrow.up.and.down.square.fill,	PUA: 10047D
+Safe Name: arrowLeftAndRight	Short Name:  arrow.left.and.right,	PUA: 10013E
+Safe Name: arrowLeftAndRightCircle	Short Name:  arrow.left.and.right.circle,	PUA: 10047E
+Safe Name: arrowLeftAndRightCircleFill	Short Name:  arrow.left.and.right.circle.fill,	PUA: 10047F
+Safe Name: arrowLeftAndRightSquare	Short Name:  arrow.left.and.right.square,	PUA: 100480
+Safe Name: arrowLeftAndRightSquareFill	Short Name:  arrow.left.and.right.square.fill,	PUA: 100481
+Safe Name: arrowUpArrowDown	Short Name:  arrow.up.arrow.down,	PUA: 10012C	Alt 1: sort
+Safe Name: arrowUpArrowDownCircle	Short Name:  arrow.up.arrow.down.circle,	PUA: 10007E	Alt 1: sortCircle
+Safe Name: arrowUpArrowDownCircleFill	Short Name:  arrow.up.arrow.down.circle.fill,	PUA: 10007F	Alt 1: sortCircleFill
+Safe Name: arrowUpArrowDownSquare	Short Name:  arrow.up.arrow.down.square,	PUA: 10010E	Alt 1: sortSquare
+Safe Name: arrowUpArrowDownSquareFill	Short Name:  arrow.up.arrow.down.square.fill,	PUA: 10010F	Alt 1: sortSquareFill
+Safe Name: arrowRightArrowLeft	Short Name:  arrow.right.arrow.left,	PUA: 10012D
+Safe Name: arrowRightArrowLeftCircle	Short Name:  arrow.right.arrow.left.circle,	PUA: 100080
+Safe Name: arrowRightArrowLeftCircleFill	Short Name:  arrow.right.arrow.left.circle.fill,	PUA: 100081
+Safe Name: arrowRightArrowLeftSquare	Short Name:  arrow.right.arrow.left.square,	PUA: 100110
+Safe Name: arrowRightArrowLeftSquareFill	Short Name:  arrow.right.arrow.left.square.fill,	PUA: 100111
+Safe Name: arrowClockwise	Short Name:  arrow.clockwise,	PUA: 100148	Alt 1: refresh
+Safe Name: arrowClockwiseCircle	Short Name:  arrow.clockwise.circle,	PUA: 100681	Alt 1: refreshCircle
+Safe Name: arrowClockwiseCircleFill	Short Name:  arrow.clockwise.circle.fill,	PUA: 100682	Alt 1: refreshCircleFill
+Safe Name: arrowCounterclockwise	Short Name:  arrow.counterclockwise,	PUA: 100149
+Safe Name: arrowCounterclockwiseCircle	Short Name:  arrow.counterclockwise.circle,	PUA: 100683
+Safe Name: arrowCounterclockwiseCircleFill	Short Name:  arrow.counterclockwise.circle.fill,	PUA: 100684
+Safe Name: arrowTwoSquarepath	Short Name:  arrow.2.squarepath,	PUA: 10014C
+Safe Name: arrowTwoCirclepath	Short Name:  arrow.2.circlepath,	PUA: 1002AF	Alt 1: syncing
+Safe Name: arrowTwoCirclepathCircle	Short Name:  arrow.2.circlepath.circle,	PUA: 10058A	Alt 1: syncingCircle
+Safe Name: arrowTwoCirclepathCircleFill	Short Name:  arrow.2.circlepath.circle.fill,	PUA: 10058B	Alt 1: syncingCircleFill
+Safe Name: arrowThreeTrianglepath	Short Name:  arrow.3.trianglepath,	PUA: 10065B
+Safe Name: leafArrowCirclepath	Short Name:  leaf.arrow.circlepath,	PUA: 10065C
+Safe Name: arrowUpRightDiamond	Short Name:  arrow.up.right.diamond,	PUA: 10065E	Alt 1: directionsDiamond
+Safe Name: arrowUpRightDiamondFill	Short Name:  arrow.up.right.diamond.fill,	PUA: 10065F	Alt 1: directionsDiamondFill
+Safe Name: arrowMerge	Short Name:  arrow.merge,	PUA: 100584	Alt 1: merge
+Safe Name: arrowSwap	Short Name:  arrow.swap,	PUA: 100585	Alt 1: swap
+Safe Name: arrowBranch	Short Name:  arrow.branch,	PUA: 100660	Alt 1: divide
+Safe Name: rays	Short Name:  rays,	PUA: 1001EF	Alt 1: click
+Safe Name: cursorRays	Short Name:  cursor.rays,	PUA: 1001F0	Alt 1: clickCursor
+Safe Name: slowmo	Short Name:  slowmo,	PUA: 1001F1	Alt 1: slowMo
+Safe Name: timelapse	Short Name:  timelapse,	PUA: 1001F2	Alt 1: timelapse
+Safe Name: keyboard	Short Name:  keyboard,	PUA: 1001F3	Alt 1: keyboard
+Safe Name: keyboardChevronCompactDown	Short Name:  keyboard.chevron.compact.down,	PUA: 1004D6	Alt 1: hideKeyboard
+Safe Name: grid	Short Name:  grid,	PUA: 1004D7	Alt 1: grid
+Safe Name: gridCircle	Short Name:  grid.circle,	PUA: 1004D8	Alt 1: gridCircle
+Safe Name: gridCircleFill	Short Name:  grid.circle.fill,	PUA: 10061F	Alt 1: gridCircleFill
+Safe Name: rectangleThreeOffgrid	Short Name:  rectangle.3.offgrid,	PUA: 1001F4
+Safe Name: rectangleThreeOffgridFill	Short Name:  rectangle.3.offgrid.fill,	PUA: 100685
+Safe Name: rectangleGridThreeXTwo	Short Name:  rectangle.grid.3x2,	PUA: 1001F6	Alt 1: missionControl
+Safe Name: rectangleGridThreeXTwoFill	Short Name:  rectangle.grid.3x2.fill,	PUA: 100686
+Safe Name: squareGridThreeXTwo	Short Name:  square.grid.3x2,	PUA: 1001F5	Alt 1: launchpad
+Safe Name: squareGridThreeXTwoFill	Short Name:  square.grid.3x2.fill,	PUA: 100687
+Safe Name: squareGridTwoXTwo	Short Name:  square.grid.2x2,	PUA: 1001F7	Alt 1: gridTwoXTwo
+Safe Name: squareGridTwoXTwoFill	Short Name:  square.grid.2x2.fill,	PUA: 100688	Alt 1: gridTwoXTwoFill
+Safe Name: rectangleGridTwoXTwo	Short Name:  rectangle.grid.2x2,	PUA: 1006000000.0
+Safe Name: rectangleGridTwoXTwoFill	Short Name:  rectangle.grid.2x2.fill,	PUA: 10060000000.0
+Safe Name: squareGridFourXThreeFill	Short Name:  square.grid.4x3.fill,	PUA: 1004DA
+Safe Name: circleGridTwoXTwo	Short Name:  circle.grid.2x2,	PUA: 1007BE
+Safe Name: circleGridTwoXTwoFill	Short Name:  circle.grid.2x2.fill,	PUA: 1007BF
+Safe Name: circleGridThreeXThree	Short Name:  circle.grid.3x3,	PUA: 1001F8
+Safe Name: circleGridThreeXThreeFill	Short Name:  circle.grid.3x3.fill,	PUA: 1001F9
+Safe Name: circleGridHex	Short Name:  circle.grid.hex,	PUA: 100662
+Safe Name: circleGridHexFill	Short Name:  circle.grid.hex.fill,	PUA: 100663
+Safe Name: rectangleGridOneXTwo	Short Name:  rectangle.grid.1x2,	PUA: 1004DB
+Safe Name: rectangleGridOneXTwoFill	Short Name:  rectangle.grid.1x2.fill,	PUA: 100689
+Safe Name: signature	Short Name:  signature,	PUA: 100664	Alt 1: signature
+Safe Name: burn	Short Name:  burn,	PUA: 1004DC	Alt 1: burn
+Safe Name: square	Short Name:  square,	PUA: 100092
+Safe Name: squareFill	Short Name:  square.fill,	PUA: 100093
+Safe Name: squareLefthalfFill	Short Name:  square.lefthalf.fill,	PUA: 100693
+Safe Name: squareRighthalfFill	Short Name:  square.righthalf.fill,	PUA: 100694
+Safe Name: circle	Short Name:  circle,	PUA: 100000
+Safe Name: circleFill	Short Name:  circle.fill,	PUA: 100001
+Safe Name: circleLefthalfFill	Short Name:  circle.lefthalf.fill,	PUA: 100002
+Safe Name: circleRighthalfFill	Short Name:  circle.righthalf.fill,	PUA: 100003
+Safe Name: triangle	Short Name:  triangle,	PUA: 1006000.0
+Safe Name: triangleFill	Short Name:  triangle.fill,	PUA: 10060000.0
+Safe Name: triangleLefthalfFill	Short Name:  triangle.lefthalf.fill,	PUA: 100695
+Safe Name: triangleRighthalfFill	Short Name:  triangle.righthalf.fill,	PUA: 100696
+Safe Name: aCircle	Short Name:  a.circle,	PUA: 100004
+Safe Name: aCircleFill	Short Name:  a.circle.fill,	PUA: 100005
+Safe Name: bCircle	Short Name:  b.circle,	PUA: 100006
+Safe Name: bCircleFill	Short Name:  b.circle.fill,	PUA: 100007
+Safe Name: cCircle	Short Name:  c.circle,	PUA: 100008
+Safe Name: cCircleFill	Short Name:  c.circle.fill,	PUA: 100009
+Safe Name: dCircle	Short Name:  d.circle,	PUA: 10000A
+Safe Name: dCircleFill	Short Name:  d.circle.fill,	PUA: 10000B
+Safe Name: eCircle	Short Name:  e.circle,	PUA: 10000C
+Safe Name: eCircleFill	Short Name:  e.circle.fill,	PUA: 10000D
+Safe Name: fCircle	Short Name:  f.circle,	PUA: 10000E
+Safe Name: fCircleFill	Short Name:  f.circle.fill,	PUA: 10000F
+Safe Name: gCircle	Short Name:  g.circle,	PUA: 100010
+Safe Name: gCircleFill	Short Name:  g.circle.fill,	PUA: 100011
+Safe Name: hCircle	Short Name:  h.circle,	PUA: 100012
+Safe Name: hCircleFill	Short Name:  h.circle.fill,	PUA: 100013
+Safe Name: iCircle	Short Name:  i.circle,	PUA: 100014
+Safe Name: iCircleFill	Short Name:  i.circle.fill,	PUA: 100015
+Safe Name: jCircle	Short Name:  j.circle,	PUA: 100016
+Safe Name: jCircleFill	Short Name:  j.circle.fill,	PUA: 100017
+Safe Name: kCircle	Short Name:  k.circle,	PUA: 100018
+Safe Name: kCircleFill	Short Name:  k.circle.fill,	PUA: 100019
+Safe Name: lCircle	Short Name:  l.circle,	PUA: 10001A
+Safe Name: lCircleFill	Short Name:  l.circle.fill,	PUA: 10001B
+Safe Name: mCircle	Short Name:  m.circle,	PUA: 10001C
+Safe Name: mCircleFill	Short Name:  m.circle.fill,	PUA: 10001D
+Safe Name: nCircle	Short Name:  n.circle,	PUA: 10001E
+Safe Name: nCircleFill	Short Name:  n.circle.fill,	PUA: 10001F
+Safe Name: oCircle	Short Name:  o.circle,	PUA: 100020
+Safe Name: oCircleFill	Short Name:  o.circle.fill,	PUA: 100021
+Safe Name: pCircle	Short Name:  p.circle,	PUA: 100022
+Safe Name: pCircleFill	Short Name:  p.circle.fill,	PUA: 100023
+Safe Name: qCircle	Short Name:  q.circle,	PUA: 100024
+Safe Name: qCircleFill	Short Name:  q.circle.fill,	PUA: 100025
+Safe Name: rCircle	Short Name:  r.circle,	PUA: 100026
+Safe Name: rCircleFill	Short Name:  r.circle.fill,	PUA: 100027
+Safe Name: sCircle	Short Name:  s.circle,	PUA: 100028
+Safe Name: sCircleFill	Short Name:  s.circle.fill,	PUA: 100029
+Safe Name: tCircle	Short Name:  t.circle,	PUA: 10002A
+Safe Name: tCircleFill	Short Name:  t.circle.fill,	PUA: 10002B
+Safe Name: uCircle	Short Name:  u.circle,	PUA: 10002C
+Safe Name: uCircleFill	Short Name:  u.circle.fill,	PUA: 10002D
+Safe Name: vCircle	Short Name:  v.circle,	PUA: 10002E
+Safe Name: vCircleFill	Short Name:  v.circle.fill,	PUA: 10002F
+Safe Name: wCircle	Short Name:  w.circle,	PUA: 100030
+Safe Name: wCircleFill	Short Name:  w.circle.fill,	PUA: 100031
+Safe Name: xCircle	Short Name:  x.circle,	PUA: 100032
+Safe Name: xCircleFill	Short Name:  x.circle.fill,	PUA: 100033
+Safe Name: yCircle	Short Name:  y.circle,	PUA: 100034
+Safe Name: yCircleFill	Short Name:  y.circle.fill,	PUA: 100035
+Safe Name: zCircle	Short Name:  z.circle,	PUA: 100036
+Safe Name: zCircleFill	Short Name:  z.circle.fill,	PUA: 100037
+Safe Name: zeroCircle	Short Name:  0.circle,	PUA: 100038
+Safe Name: zeroCircleFill	Short Name:  0.circle.fill,	PUA: 100039
+Safe Name: oneCircle	Short Name:  1.circle,	PUA: 10003A
+Safe Name: oneCircleFill	Short Name:  1.circle.fill,	PUA: 10003B
+Safe Name: twoCircle	Short Name:  2.circle,	PUA: 10003C
+Safe Name: twoCircleFill	Short Name:  2.circle.fill,	PUA: 10003D
+Safe Name: threeCircle	Short Name:  3.circle,	PUA: 10003E
+Safe Name: threeCircleFill	Short Name:  3.circle.fill,	PUA: 10003F
+Safe Name: fourCircle	Short Name:  4.circle,	PUA: 100040
+Safe Name: fourCircleFill	Short Name:  4.circle.fill,	PUA: 100041
+Safe Name: fourAltCircle	Short Name:  4.alt.circle,	PUA: 100617
+Safe Name: fourAltCircleFill	Short Name:  4.alt.circle.fill,	PUA: 100618
+Safe Name: fiveCircle	Short Name:  5.circle,	PUA: 100042
+Safe Name: fiveCircleFill	Short Name:  5.circle.fill,	PUA: 100043
+Safe Name: sixCircle	Short Name:  6.circle,	PUA: 100044
+Safe Name: sixCircleFill	Short Name:  6.circle.fill,	PUA: 100045
+Safe Name: sixAltCircle	Short Name:  6.alt.circle,	PUA: 100471
+Safe Name: sixAltCircleFill	Short Name:  6.alt.circle.fill,	PUA: 100472
+Safe Name: sevenCircle	Short Name:  7.circle,	PUA: 100046
+Safe Name: sevenCircleFill	Short Name:  7.circle.fill,	PUA: 100047
+Safe Name: eightCircle	Short Name:  8.circle,	PUA: 100048
+Safe Name: eightCircleFill	Short Name:  8.circle.fill,	PUA: 100049
+Safe Name: nineCircle	Short Name:  9.circle,	PUA: 10004A
+Safe Name: nineCircleFill	Short Name:  9.circle.fill,	PUA: 10004B
+Safe Name: nineAltCircle	Short Name:  9.alt.circle,	PUA: 100473
+Safe Name: nineAltCircleFill	Short Name:  9.alt.circle.fill,	PUA: 100474
+Safe Name: questionmarkCircle	Short Name:  questionmark.circle,	PUA: 10005C
+Safe Name: questionmarkCircleFill	Short Name:  questionmark.circle.fill,	PUA: 10005D
+Safe Name: exclamationmarkCircle	Short Name:  exclamationmark.circle,	PUA: 10005E
+Safe Name: exclamationmarkCircleFill	Short Name:  exclamationmark.circle.fill,	PUA: 10005F
+Safe Name: aSquare	Short Name:  a.square,	PUA: 100094
+Safe Name: aSquareFill	Short Name:  a.square.fill,	PUA: 100095
+Safe Name: bSquare	Short Name:  b.square,	PUA: 100096
+Safe Name: bSquareFill	Short Name:  b.square.fill,	PUA: 100097
+Safe Name: cSquare	Short Name:  c.square,	PUA: 100098
+Safe Name: cSquareFill	Short Name:  c.square.fill,	PUA: 100099
+Safe Name: dSquare	Short Name:  d.square,	PUA: 10009A
+Safe Name: dSquareFill	Short Name:  d.square.fill,	PUA: 10009B
+Safe Name: eSquare	Short Name:  e.square,	PUA: 10009C
+Safe Name: eSquareFill	Short Name:  e.square.fill,	PUA: 10009D
+Safe Name: fSquare	Short Name:  f.square,	PUA: 10009E
+Safe Name: fSquareFill	Short Name:  f.square.fill,	PUA: 10009F
+Safe Name: gSquare	Short Name:  g.square,	PUA: 1000A0
+Safe Name: gSquareFill	Short Name:  g.square.fill,	PUA: 1000A1
+Safe Name: hSquare	Short Name:  h.square,	PUA: 1000A2
+Safe Name: hSquareFill	Short Name:  h.square.fill,	PUA: 1000A3
+Safe Name: iSquare	Short Name:  i.square,	PUA: 1000A4
+Safe Name: iSquareFill	Short Name:  i.square.fill,	PUA: 1000A5
+Safe Name: jSquare	Short Name:  j.square,	PUA: 1000A6
+Safe Name: jSquareFill	Short Name:  j.square.fill,	PUA: 1000A7
+Safe Name: kSquare	Short Name:  k.square,	PUA: 1000A8
+Safe Name: kSquareFill	Short Name:  k.square.fill,	PUA: 1000A9
+Safe Name: lSquare	Short Name:  l.square,	PUA: 1000AA
+Safe Name: lSquareFill	Short Name:  l.square.fill,	PUA: 1000AB
+Safe Name: mSquare	Short Name:  m.square,	PUA: 1000AC
+Safe Name: mSquareFill	Short Name:  m.square.fill,	PUA: 1000AD
+Safe Name: nSquare	Short Name:  n.square,	PUA: 1000AE
+Safe Name: nSquareFill	Short Name:  n.square.fill,	PUA: 1000AF
+Safe Name: oSquare	Short Name:  o.square,	PUA: 1000B0
+Safe Name: oSquareFill	Short Name:  o.square.fill,	PUA: 1000B1
+Safe Name: pSquare	Short Name:  p.square,	PUA: 1000B2
+Safe Name: pSquareFill	Short Name:  p.square.fill,	PUA: 1000B3
+Safe Name: qSquare	Short Name:  q.square,	PUA: 1000B4
+Safe Name: qSquareFill	Short Name:  q.square.fill,	PUA: 1000B5
+Safe Name: rSquare	Short Name:  r.square,	PUA: 1000B6
+Safe Name: rSquareFill	Short Name:  r.square.fill,	PUA: 1000B7
+Safe Name: sSquare	Short Name:  s.square,	PUA: 1000B8
+Safe Name: sSquareFill	Short Name:  s.square.fill,	PUA: 1000B9
+Safe Name: tSquare	Short Name:  t.square,	PUA: 1000BA
+Safe Name: tSquareFill	Short Name:  t.square.fill,	PUA: 1000BB
+Safe Name: uSquare	Short Name:  u.square,	PUA: 1000BC
+Safe Name: uSquareFill	Short Name:  u.square.fill,	PUA: 1000BD
+Safe Name: vSquare	Short Name:  v.square,	PUA: 1000BE
+Safe Name: vSquareFill	Short Name:  v.square.fill,	PUA: 1000BF
+Safe Name: wSquare	Short Name:  w.square,	PUA: 1000C0
+Safe Name: wSquareFill	Short Name:  w.square.fill,	PUA: 1000C1
+Safe Name: xSquare	Short Name:  x.square,	PUA: 1000C2
+Safe Name: xSquareFill	Short Name:  x.square.fill,	PUA: 1000C3
+Safe Name: ySquare	Short Name:  y.square,	PUA: 1000C4
+Safe Name: ySquareFill	Short Name:  y.square.fill,	PUA: 1000C5
+Safe Name: zSquare	Short Name:  z.square,	PUA: 1000C6
+Safe Name: zSquareFill	Short Name:  z.square.fill,	PUA: 1000C7
+Safe Name: zeroSquare	Short Name:  0.square,	PUA: 1000C8
+Safe Name: zeroSquareFill	Short Name:  0.square.fill,	PUA: 1000C9
+Safe Name: oneSquare	Short Name:  1.square,	PUA: 1000CA
+Safe Name: oneSquareFill	Short Name:  1.square.fill,	PUA: 1000CB
+Safe Name: twoSquare	Short Name:  2.square,	PUA: 1000CC
+Safe Name: twoSquareFill	Short Name:  2.square.fill,	PUA: 1000CD
+Safe Name: threeSquare	Short Name:  3.square,	PUA: 1000CE
+Safe Name: threeSquareFill	Short Name:  3.square.fill,	PUA: 1000CF
+Safe Name: fourSquare	Short Name:  4.square,	PUA: 1000D0
+Safe Name: fourSquareFill	Short Name:  4.square.fill,	PUA: 1000D1
+Safe Name: fourAltSquare	Short Name:  4.alt.square,	PUA: 100619
+Safe Name: fourAltSquareFill	Short Name:  4.alt.square.fill,	PUA: 10061A
+Safe Name: fiveSquare	Short Name:  5.square,	PUA: 1000D2
+Safe Name: fiveSquareFill	Short Name:  5.square.fill,	PUA: 1000D3
+Safe Name: sixSquare	Short Name:  6.square,	PUA: 1000D4
+Safe Name: sixSquareFill	Short Name:  6.square.fill,	PUA: 1000D5
+Safe Name: sixAltSquare	Short Name:  6.alt.square,	PUA: 100475
+Safe Name: sixAltSquareFill	Short Name:  6.alt.square.fill,	PUA: 100476
+Safe Name: sevenSquare	Short Name:  7.square,	PUA: 1000D6
+Safe Name: sevenSquareFill	Short Name:  7.square.fill,	PUA: 1000D7
+Safe Name: eightSquare	Short Name:  8.square,	PUA: 1000D8
+Safe Name: eightSquareFill	Short Name:  8.square.fill,	PUA: 1000D9
+Safe Name: nineSquare	Short Name:  9.square,	PUA: 1000DA
+Safe Name: nineSquareFill	Short Name:  9.square.fill,	PUA: 1000DB
+Safe Name: nineAltSquare	Short Name:  9.alt.square,	PUA: 100477
+Safe Name: nineAltSquareFill	Short Name:  9.alt.square.fill,	PUA: 100478
+Safe Name: questionmarkSquare	Short Name:  questionmark.square,	PUA: 1000EC
+Safe Name: questionmarkSquareFill	Short Name:  questionmark.square.fill,	PUA: 1000ED
+Safe Name: exclamationmarkSquare	Short Name:  exclamationmark.square,	PUA: 1000EE
+Safe Name: exclamationmarkSquareFill	Short Name:  exclamationmark.square.fill,	PUA: 1000EF
+Safe Name: dollarsignCircle	Short Name:  dollarsign.circle,	PUA: 100597
+Safe Name: dollarsignCircleFill	Short Name:  dollarsign.circle.fill,	PUA: 100598
+Safe Name: centsignCircle	Short Name:  centsign.circle,	PUA: 100599
+Safe Name: centsignCircleFill	Short Name:  centsign.circle.fill,	PUA: 10059A
+Safe Name: yensignCircle	Short Name:  yensign.circle,	PUA: 10059B
+Safe Name: yensignCircleFill	Short Name:  yensign.circle.fill,	PUA: 10059C
+Safe Name: sterlingsignCircle	Short Name:  sterlingsign.circle,	PUA: 10059D
+Safe Name: sterlingsignCircleFill	Short Name:  sterlingsign.circle.fill,	PUA: 10059E
+Safe Name: francsignCircle	Short Name:  francsign.circle,	PUA: 10059F
+Safe Name: francsignCircleFill	Short Name:  francsign.circle.fill,	PUA: 1005A0
+Safe Name: florinsignCircle	Short Name:  florinsign.circle,	PUA: 1005A1
+Safe Name: florinsignCircleFill	Short Name:  florinsign.circle.fill,	PUA: 1005A2
+Safe Name: turkishlirasignCircle	Short Name:  turkishlirasign.circle,	PUA: 1005A3
+Safe Name: turkishlirasignCircleFill	Short Name:  turkishlirasign.circle.fill,	PUA: 1005A4
+Safe Name: rublesignCircle	Short Name:  rublesign.circle,	PUA: 1005A5
+Safe Name: rublesignCircleFill	Short Name:  rublesign.circle.fill,	PUA: 1005A6
+Safe Name: eurosignCircle	Short Name:  eurosign.circle,	PUA: 1005A7
+Safe Name: eurosignCircleFill	Short Name:  eurosign.circle.fill,	PUA: 1005A8
+Safe Name: dongsignCircle	Short Name:  dongsign.circle,	PUA: 1005A9
+Safe Name: dongsignCircleFill	Short Name:  dongsign.circle.fill,	PUA: 1005AA
+Safe Name: indianrupeesignCircle	Short Name:  indianrupeesign.circle,	PUA: 1005AB
+Safe Name: indianrupeesignCircleFill	Short Name:  indianrupeesign.circle.fill,	PUA: 1005AC
+Safe Name: tengesignCircle	Short Name:  tengesign.circle,	PUA: 1005AD
+Safe Name: tengesignCircleFill	Short Name:  tengesign.circle.fill,	PUA: 1005AE
+Safe Name: pesetasignCircle	Short Name:  pesetasign.circle,	PUA: 1005AF
+Safe Name: pesetasignCircleFill	Short Name:  pesetasign.circle.fill,	PUA: 1005B0
+Safe Name: pesosignCircle	Short Name:  pesosign.circle,	PUA: 1005B1
+Safe Name: pesosignCircleFill	Short Name:  pesosign.circle.fill,	PUA: 1005B2
+Safe Name: kipsignCircle	Short Name:  kipsign.circle,	PUA: 1005B3
+Safe Name: kipsignCircleFill	Short Name:  kipsign.circle.fill,	PUA: 1005B4
+Safe Name: wonsignCircle	Short Name:  wonsign.circle,	PUA: 1005B5
+Safe Name: wonsignCircleFill	Short Name:  wonsign.circle.fill,	PUA: 1005B6
+Safe Name: lirasignCircle	Short Name:  lirasign.circle,	PUA: 1005B7
+Safe Name: lirasignCircleFill	Short Name:  lirasign.circle.fill,	PUA: 1005B8
+Safe Name: australsignCircle	Short Name:  australsign.circle,	PUA: 1005B9
+Safe Name: australsignCircleFill	Short Name:  australsign.circle.fill,	PUA: 1005BA
+Safe Name: hryvniasignCircle	Short Name:  hryvniasign.circle,	PUA: 1005BB
+Safe Name: hryvniasignCircleFill	Short Name:  hryvniasign.circle.fill,	PUA: 1005BC
+Safe Name: nairasignCircle	Short Name:  nairasign.circle,	PUA: 1005BD
+Safe Name: nairasignCircleFill	Short Name:  nairasign.circle.fill,	PUA: 1005BE
+Safe Name: guaranisignCircle	Short Name:  guaranisign.circle,	PUA: 1005BF
+Safe Name: guaranisignCircleFill	Short Name:  guaranisign.circle.fill,	PUA: 1005C0
+Safe Name: coloncurrencysignCircle	Short Name:  coloncurrencysign.circle,	PUA: 1005C1
+Safe Name: coloncurrencysignCircleFill	Short Name:  coloncurrencysign.circle.fill,	PUA: 1005C2
+Safe Name: cedisignCircle	Short Name:  cedisign.circle,	PUA: 1005C3
+Safe Name: cedisignCircleFill	Short Name:  cedisign.circle.fill,	PUA: 1005C4
+Safe Name: cruzeirosignCircle	Short Name:  cruzeirosign.circle,	PUA: 1005C5
+Safe Name: cruzeirosignCircleFill	Short Name:  cruzeirosign.circle.fill,	PUA: 1005C6
+Safe Name: tugriksignCircle	Short Name:  tugriksign.circle,	PUA: 1005C7
+Safe Name: tugriksignCircleFill	Short Name:  tugriksign.circle.fill,	PUA: 1005C8
+Safe Name: millsignCircle	Short Name:  millsign.circle,	PUA: 1005C9
+Safe Name: millsignCircleFill	Short Name:  millsign.circle.fill,	PUA: 1005CA
+Safe Name: sheqelsignCircle	Short Name:  sheqelsign.circle,	PUA: 1005CB
+Safe Name: sheqelsignCircleFill	Short Name:  sheqelsign.circle.fill,	PUA: 1005CC
+Safe Name: manatsignCircle	Short Name:  manatsign.circle,	PUA: 1005CD
+Safe Name: manatsignCircleFill	Short Name:  manatsign.circle.fill,	PUA: 1005CE
+Safe Name: rupeesignCircle	Short Name:  rupeesign.circle,	PUA: 1005CF
+Safe Name: rupeesignCircleFill	Short Name:  rupeesign.circle.fill,	PUA: 1005D0
+Safe Name: bahtsignCircle	Short Name:  bahtsign.circle,	PUA: 1005D1
+Safe Name: bahtsignCircleFill	Short Name:  bahtsign.circle.fill,	PUA: 1005D2
+Safe Name: larisignCircle	Short Name:  larisign.circle,	PUA: 1005D3
+Safe Name: larisignCircleFill	Short Name:  larisign.circle.fill,	PUA: 1005D4
+Safe Name: bitcoinsignCircle	Short Name:  bitcoinsign.circle,	PUA: 1005D5
+Safe Name: bitcoinsignCircleFill	Short Name:  bitcoinsign.circle.fill,	PUA: 1005D6
+Safe Name: dollarsignSquare	Short Name:  dollarsign.square,	PUA: 1005D7
+Safe Name: dollarsignSquareFill	Short Name:  dollarsign.square.fill,	PUA: 1005D8
+Safe Name: centsignSquare	Short Name:  centsign.square,	PUA: 1005D9
+Safe Name: centsignSquareFill	Short Name:  centsign.square.fill,	PUA: 1005DA
+Safe Name: yensignSquare	Short Name:  yensign.square,	PUA: 1005DB
+Safe Name: yensignSquareFill	Short Name:  yensign.square.fill,	PUA: 1005DC
+Safe Name: sterlingsignSquare	Short Name:  sterlingsign.square,	PUA: 1005DD
+Safe Name: sterlingsignSquareFill	Short Name:  sterlingsign.square.fill,	PUA: 1005DE
+Safe Name: francsignSquare	Short Name:  francsign.square,	PUA: 1005DF
+Safe Name: francsignSquareFill	Short Name:  francsign.square.fill,	PUA: 1005.0
+Safe Name: florinsignSquare	Short Name:  florinsign.square,	PUA: 10050.0
+Safe Name: florinsignSquareFill	Short Name:  florinsign.square.fill,	PUA: 100500.0
+Safe Name: turkishlirasignSquare	Short Name:  turkishlirasign.square,	PUA: 1005000.0
+Safe Name: turkishlirasignSquareFill	Short Name:  turkishlirasign.square.fill,	PUA: 10050000.0
+Safe Name: rublesignSquare	Short Name:  rublesign.square,	PUA: 100500000.0
+Safe Name: rublesignSquareFill	Short Name:  rublesign.square.fill,	PUA: 1005000000.0
+Safe Name: eurosignSquare	Short Name:  eurosign.square,	PUA: 10050000000.0
+Safe Name: eurosignSquareFill	Short Name:  eurosign.square.fill,	PUA: 100500000000.0
+Safe Name: dongsignSquare	Short Name:  dongsign.square,	PUA: 1005000000000.0
+Safe Name: dongsignSquareFill	Short Name:  dongsign.square.fill,	PUA: 1005EA
+Safe Name: indianrupeesignSquare	Short Name:  indianrupeesign.square,	PUA: 1005EB
+Safe Name: indianrupeesignSquareFill	Short Name:  indianrupeesign.square.fill,	PUA: 1005EC
+Safe Name: tengesignSquare	Short Name:  tengesign.square,	PUA: 1005ED
+Safe Name: tengesignSquareFill	Short Name:  tengesign.square.fill,	PUA: 1005EE
+Safe Name: pesetasignSquare	Short Name:  pesetasign.square,	PUA: 1005EF
+Safe Name: pesetasignSquareFill	Short Name:  pesetasign.square.fill,	PUA: 1005F0
+Safe Name: pesosignSquare	Short Name:  pesosign.square,	PUA: 1005F1
+Safe Name: pesosignSquareFill	Short Name:  pesosign.square.fill,	PUA: 1005F2
+Safe Name: kipsignSquare	Short Name:  kipsign.square,	PUA: 1005F3
+Safe Name: kipsignSquareFill	Short Name:  kipsign.square.fill,	PUA: 1005F4
+Safe Name: wonsignSquare	Short Name:  wonsign.square,	PUA: 1005F5
+Safe Name: wonsignSquareFill	Short Name:  wonsign.square.fill,	PUA: 1005F6
+Safe Name: lirasignSquare	Short Name:  lirasign.square,	PUA: 1005F7
+Safe Name: lirasignSquareFill	Short Name:  lirasign.square.fill,	PUA: 1005F8
+Safe Name: australsignSquare	Short Name:  australsign.square,	PUA: 1005F9
+Safe Name: australsignSquareFill	Short Name:  australsign.square.fill,	PUA: 1005FA
+Safe Name: hryvniasignSquare	Short Name:  hryvniasign.square,	PUA: 1005FB
+Safe Name: hryvniasignSquareFill	Short Name:  hryvniasign.square.fill,	PUA: 1005FC
+Safe Name: nairasignSquare	Short Name:  nairasign.square,	PUA: 1005FD
+Safe Name: nairasignSquareFill	Short Name:  nairasign.square.fill,	PUA: 1005FE
+Safe Name: guaranisignSquare	Short Name:  guaranisign.square,	PUA: 1005FF
+Safe Name: guaranisignSquareFill	Short Name:  guaranisign.square.fill,	PUA: 100600
+Safe Name: coloncurrencysignSquare	Short Name:  coloncurrencysign.square,	PUA: 100601
+Safe Name: coloncurrencysignSquareFill	Short Name:  coloncurrencysign.square.fill,	PUA: 100602
+Safe Name: cedisignSquare	Short Name:  cedisign.square,	PUA: 100603
+Safe Name: cedisignSquareFill	Short Name:  cedisign.square.fill,	PUA: 100604
+Safe Name: cruzeirosignSquare	Short Name:  cruzeirosign.square,	PUA: 100605
+Safe Name: cruzeirosignSquareFill	Short Name:  cruzeirosign.square.fill,	PUA: 100606
+Safe Name: tugriksignSquare	Short Name:  tugriksign.square,	PUA: 100607
+Safe Name: tugriksignSquareFill	Short Name:  tugriksign.square.fill,	PUA: 100608
+Safe Name: millsignSquare	Short Name:  millsign.square,	PUA: 100609
+Safe Name: millsignSquareFill	Short Name:  millsign.square.fill,	PUA: 10060A
+Safe Name: sheqelsignSquare	Short Name:  sheqelsign.square,	PUA: 10060B
+Safe Name: sheqelsignSquareFill	Short Name:  sheqelsign.square.fill,	PUA: 10060C
+Safe Name: manatsignSquare	Short Name:  manatsign.square,	PUA: 10060D
+Safe Name: manatsignSquareFill	Short Name:  manatsign.square.fill,	PUA: 10060E
+Safe Name: rupeesignSquare	Short Name:  rupeesign.square,	PUA: 10060F
+Safe Name: rupeesignSquareFill	Short Name:  rupeesign.square.fill,	PUA: 100610
+Safe Name: bahtsignSquare	Short Name:  bahtsign.square,	PUA: 100611
+Safe Name: bahtsignSquareFill	Short Name:  bahtsign.square.fill,	PUA: 100612
+Safe Name: larisignSquare	Short Name:  larisign.square,	PUA: 100613
+Safe Name: larisignSquareFill	Short Name:  larisign.square.fill,	PUA: 100614
+Safe Name: bitcoinsignSquare	Short Name:  bitcoinsign.square,	PUA: 100615
+Safe Name: bitcoinsignSquareFill	Short Name:  bitcoinsign.square.fill,	PUA: 100616
+Safe Name: zeroZeroCircle	Short Name:  00.circle,	PUA: 1004EB
+Safe Name: zeroZeroCircleFill	Short Name:  00.circle.fill,	PUA: 10050A
+Safe Name: zeroOneCircle	Short Name:  01.circle,	PUA: 1004EC
+Safe Name: zeroOneCircleFill	Short Name:  01.circle.fill,	PUA: 10050B
+Safe Name: zeroTwoCircle	Short Name:  02.circle,	PUA: 1004ED
+Safe Name: zeroTwoCircleFill	Short Name:  02.circle.fill,	PUA: 10050C
+Safe Name: zeroThreeCircle	Short Name:  03.circle,	PUA: 1004EE
+Safe Name: zeroThreeCircleFill	Short Name:  03.circle.fill,	PUA: 10050D
+Safe Name: zeroFourCircle	Short Name:  04.circle,	PUA: 1004EF
+Safe Name: zeroFourCircleFill	Short Name:  04.circle.fill,	PUA: 10050E
+Safe Name: zeroFiveCircle	Short Name:  05.circle,	PUA: 1004F0
+Safe Name: zeroFiveCircleFill	Short Name:  05.circle.fill,	PUA: 10050F
+Safe Name: zeroSixCircle	Short Name:  06.circle,	PUA: 1004F1
+Safe Name: zeroSixCircleFill	Short Name:  06.circle.fill,	PUA: 100510
+Safe Name: zeroSevenCircle	Short Name:  07.circle,	PUA: 1004F2
+Safe Name: zeroSevenCircleFill	Short Name:  07.circle.fill,	PUA: 100511
+Safe Name: zeroEightCircle	Short Name:  08.circle,	PUA: 1004F3
+Safe Name: zeroEightCircleFill	Short Name:  08.circle.fill,	PUA: 100512
+Safe Name: zeroNineCircle	Short Name:  09.circle,	PUA: 1004F4
+Safe Name: zeroNineCircleFill	Short Name:  09.circle.fill,	PUA: 100513
+Safe Name: oneZeroCircle	Short Name:  10.circle,	PUA: 1004F5
+Safe Name: oneZeroCircleFill	Short Name:  10.circle.fill,	PUA: 100514
+Safe Name: oneOneCircle	Short Name:  11.circle,	PUA: 1004F6
+Safe Name: oneOneCircleFill	Short Name:  11.circle.fill,	PUA: 100515
+Safe Name: oneTwoCircle	Short Name:  12.circle,	PUA: 1004F7
+Safe Name: oneTwoCircleFill	Short Name:  12.circle.fill,	PUA: 100516
+Safe Name: oneThreeCircle	Short Name:  13.circle,	PUA: 1004F8
+Safe Name: oneThreeCircleFill	Short Name:  13.circle.fill,	PUA: 100517
+Safe Name: oneFourCircle	Short Name:  14.circle,	PUA: 1004F9
+Safe Name: oneFourCircleFill	Short Name:  14.circle.fill,	PUA: 100518
+Safe Name: oneFiveCircle	Short Name:  15.circle,	PUA: 1004FA
+Safe Name: oneFiveCircleFill	Short Name:  15.circle.fill,	PUA: 100519
+Safe Name: oneSixCircle	Short Name:  16.circle,	PUA: 1004FB
+Safe Name: oneSixCircleFill	Short Name:  16.circle.fill,	PUA: 10051A
+Safe Name: oneSevenCircle	Short Name:  17.circle,	PUA: 1004FC
+Safe Name: oneSevenCircleFill	Short Name:  17.circle.fill,	PUA: 10051B
+Safe Name: oneEightCircle	Short Name:  18.circle,	PUA: 1004FD
+Safe Name: oneEightCircleFill	Short Name:  18.circle.fill,	PUA: 10051C
+Safe Name: oneNineCircle	Short Name:  19.circle,	PUA: 1004FE
+Safe Name: oneNineCircleFill	Short Name:  19.circle.fill,	PUA: 10051D
+Safe Name: twoZeroCircle	Short Name:  20.circle,	PUA: 1004FF
+Safe Name: twoZeroCircleFill	Short Name:  20.circle.fill,	PUA: 10051E
+Safe Name: twoOneCircle	Short Name:  21.circle,	PUA: 100500
+Safe Name: twoOneCircleFill	Short Name:  21.circle.fill,	PUA: 10051F
+Safe Name: twoTwoCircle	Short Name:  22.circle,	PUA: 100501
+Safe Name: twoTwoCircleFill	Short Name:  22.circle.fill,	PUA: 100520
+Safe Name: twoThreeCircle	Short Name:  23.circle,	PUA: 100502
+Safe Name: twoThreeCircleFill	Short Name:  23.circle.fill,	PUA: 100521
+Safe Name: twoFourCircle	Short Name:  24.circle,	PUA: 100503
+Safe Name: twoFourCircleFill	Short Name:  24.circle.fill,	PUA: 100522
+Safe Name: twoFiveCircle	Short Name:  25.circle,	PUA: 100504
+Safe Name: twoFiveCircleFill	Short Name:  25.circle.fill,	PUA: 100523
+Safe Name: twoSixCircle	Short Name:  26.circle,	PUA: 100505
+Safe Name: twoSixCircleFill	Short Name:  26.circle.fill,	PUA: 100524
+Safe Name: twoSevenCircle	Short Name:  27.circle,	PUA: 100506
+Safe Name: twoSevenCircleFill	Short Name:  27.circle.fill,	PUA: 100525
+Safe Name: twoEightCircle	Short Name:  28.circle,	PUA: 100507
+Safe Name: twoEightCircleFill	Short Name:  28.circle.fill,	PUA: 100526
+Safe Name: twoNineCircle	Short Name:  29.circle,	PUA: 100508
+Safe Name: twoNineCircleFill	Short Name:  29.circle.fill,	PUA: 100527
+Safe Name: threeZeroCircle	Short Name:  30.circle,	PUA: 100509
+Safe Name: threeZeroCircleFill	Short Name:  30.circle.fill,	PUA: 100528
+Safe Name: threeOneCircle	Short Name:  31.circle,	PUA: 100620
+Safe Name: threeOneCircleFill	Short Name:  31.circle.fill,	PUA: 100621
+Safe Name: threeTwoCircle	Short Name:  32.circle,	PUA: 100697
+Safe Name: threeTwoCircleFill	Short Name:  32.circle.fill,	PUA: 100698
+Safe Name: threeThreeCircle	Short Name:  33.circle,	PUA: 100699
+Safe Name: threeThreeCircleFill	Short Name:  33.circle.fill,	PUA: 10069A
+Safe Name: threeFourCircle	Short Name:  34.circle,	PUA: 10069B
+Safe Name: threeFourCircleFill	Short Name:  34.circle.fill,	PUA: 10069C
+Safe Name: threeFiveCircle	Short Name:  35.circle,	PUA: 10069D
+Safe Name: threeFiveCircleFill	Short Name:  35.circle.fill,	PUA: 10069E
+Safe Name: threeSixCircle	Short Name:  36.circle,	PUA: 10069F
+Safe Name: threeSixCircleFill	Short Name:  36.circle.fill,	PUA: 1006A0
+Safe Name: threeSevenCircle	Short Name:  37.circle,	PUA: 1006A1
+Safe Name: threeSevenCircleFill	Short Name:  37.circle.fill,	PUA: 1006A2
+Safe Name: threeEightCircle	Short Name:  38.circle,	PUA: 1006A3
+Safe Name: threeEightCircleFill	Short Name:  38.circle.fill,	PUA: 1006A4
+Safe Name: threeNineCircle	Short Name:  39.circle,	PUA: 1006A5
+Safe Name: threeNineCircleFill	Short Name:  39.circle.fill,	PUA: 1006A6
+Safe Name: fourZeroCircle	Short Name:  40.circle,	PUA: 1006A7
+Safe Name: fourZeroCircleFill	Short Name:  40.circle.fill,	PUA: 1006A8
+Safe Name: fourOneCircle	Short Name:  41.circle,	PUA: 1006A9
+Safe Name: fourOneCircleFill	Short Name:  41.circle.fill,	PUA: 1006AA
+Safe Name: fourTwoCircle	Short Name:  42.circle,	PUA: 1006AB
+Safe Name: fourTwoCircleFill	Short Name:  42.circle.fill,	PUA: 1006AC
+Safe Name: fourThreeCircle	Short Name:  43.circle,	PUA: 1006AD
+Safe Name: fourThreeCircleFill	Short Name:  43.circle.fill,	PUA: 1006AE
+Safe Name: fourFourCircle	Short Name:  44.circle,	PUA: 1006AF
+Safe Name: fourFourCircleFill	Short Name:  44.circle.fill,	PUA: 1006B0
+Safe Name: fourFiveCircle	Short Name:  45.circle,	PUA: 1006B1
+Safe Name: fourFiveCircleFill	Short Name:  45.circle.fill,	PUA: 1006B2
+Safe Name: fourSixCircle	Short Name:  46.circle,	PUA: 1006B3
+Safe Name: fourSixCircleFill	Short Name:  46.circle.fill,	PUA: 1006B4
+Safe Name: fourSevenCircle	Short Name:  47.circle,	PUA: 1006B5
+Safe Name: fourSevenCircleFill	Short Name:  47.circle.fill,	PUA: 1006B6
+Safe Name: fourEightCircle	Short Name:  48.circle,	PUA: 1006B7
+Safe Name: fourEightCircleFill	Short Name:  48.circle.fill,	PUA: 1006B8
+Safe Name: fourNineCircle	Short Name:  49.circle,	PUA: 1006B9
+Safe Name: fourNineCircleFill	Short Name:  49.circle.fill,	PUA: 1006BA
+Safe Name: fiveZeroCircle	Short Name:  50.circle,	PUA: 1006BB
+Safe Name: fiveZeroCircleFill	Short Name:  50.circle.fill,	PUA: 1006BC
+Safe Name: zeroZeroSquare	Short Name:  00.square,	PUA: 100529
+Safe Name: zeroZeroSquareFill	Short Name:  00.square.fill,	PUA: 100548
+Safe Name: zeroOneSquare	Short Name:  01.square,	PUA: 10052A
+Safe Name: zeroOneSquareFill	Short Name:  01.square.fill,	PUA: 100549
+Safe Name: zeroTwoSquare	Short Name:  02.square,	PUA: 10052B
+Safe Name: zeroTwoSquareFill	Short Name:  02.square.fill,	PUA: 10054A
+Safe Name: zeroThreeSquare	Short Name:  03.square,	PUA: 10052C
+Safe Name: zeroThreeSquareFill	Short Name:  03.square.fill,	PUA: 10054B
+Safe Name: zeroFourSquare	Short Name:  04.square,	PUA: 10052D
+Safe Name: zeroFourSquareFill	Short Name:  04.square.fill,	PUA: 10054C
+Safe Name: zeroFiveSquare	Short Name:  05.square,	PUA: 10052E
+Safe Name: zeroFiveSquareFill	Short Name:  05.square.fill,	PUA: 10054D
+Safe Name: zeroSixSquare	Short Name:  06.square,	PUA: 10052F
+Safe Name: zeroSixSquareFill	Short Name:  06.square.fill,	PUA: 10054E
+Safe Name: zeroSevenSquare	Short Name:  07.square,	PUA: 100530
+Safe Name: zeroSevenSquareFill	Short Name:  07.square.fill,	PUA: 10054F
+Safe Name: zeroEightSquare	Short Name:  08.square,	PUA: 100531
+Safe Name: zeroEightSquareFill	Short Name:  08.square.fill,	PUA: 100550
+Safe Name: zeroNineSquare	Short Name:  09.square,	PUA: 100532
+Safe Name: zeroNineSquareFill	Short Name:  09.square.fill,	PUA: 100551
+Safe Name: oneZeroSquare	Short Name:  10.square,	PUA: 100533
+Safe Name: oneZeroSquareFill	Short Name:  10.square.fill,	PUA: 100552
+Safe Name: oneOneSquare	Short Name:  11.square,	PUA: 100534
+Safe Name: oneOneSquareFill	Short Name:  11.square.fill,	PUA: 100553
+Safe Name: oneTwoSquare	Short Name:  12.square,	PUA: 100535
+Safe Name: oneTwoSquareFill	Short Name:  12.square.fill,	PUA: 100554
+Safe Name: oneThreeSquare	Short Name:  13.square,	PUA: 100536
+Safe Name: oneThreeSquareFill	Short Name:  13.square.fill,	PUA: 100555
+Safe Name: oneFourSquare	Short Name:  14.square,	PUA: 100537
+Safe Name: oneFourSquareFill	Short Name:  14.square.fill,	PUA: 100556
+Safe Name: oneFiveSquare	Short Name:  15.square,	PUA: 100538
+Safe Name: oneFiveSquareFill	Short Name:  15.square.fill,	PUA: 100557
+Safe Name: oneSixSquare	Short Name:  16.square,	PUA: 100539
+Safe Name: oneSixSquareFill	Short Name:  16.square.fill,	PUA: 100558
+Safe Name: oneSevenSquare	Short Name:  17.square,	PUA: 10053A
+Safe Name: oneSevenSquareFill	Short Name:  17.square.fill,	PUA: 100559
+Safe Name: oneEightSquare	Short Name:  18.square,	PUA: 10053B
+Safe Name: oneEightSquareFill	Short Name:  18.square.fill,	PUA: 10055A
+Safe Name: oneNineSquare	Short Name:  19.square,	PUA: 10053C
+Safe Name: oneNineSquareFill	Short Name:  19.square.fill,	PUA: 10055B
+Safe Name: twoZeroSquare	Short Name:  20.square,	PUA: 10053D
+Safe Name: twoZeroSquareFill	Short Name:  20.square.fill,	PUA: 10055C
+Safe Name: twoOneSquare	Short Name:  21.square,	PUA: 10053E
+Safe Name: twoOneSquareFill	Short Name:  21.square.fill,	PUA: 10055D
+Safe Name: twoTwoSquare	Short Name:  22.square,	PUA: 10053F
+Safe Name: twoTwoSquareFill	Short Name:  22.square.fill,	PUA: 10055E
+Safe Name: twoThreeSquare	Short Name:  23.square,	PUA: 100540
+Safe Name: twoThreeSquareFill	Short Name:  23.square.fill,	PUA: 10055F
+Safe Name: twoFourSquare	Short Name:  24.square,	PUA: 100541
+Safe Name: twoFourSquareFill	Short Name:  24.square.fill,	PUA: 100560
+Safe Name: twoFiveSquare	Short Name:  25.square,	PUA: 100542
+Safe Name: twoFiveSquareFill	Short Name:  25.square.fill,	PUA: 100561
+Safe Name: twoSixSquare	Short Name:  26.square,	PUA: 100543
+Safe Name: twoSixSquareFill	Short Name:  26.square.fill,	PUA: 100562
+Safe Name: twoSevenSquare	Short Name:  27.square,	PUA: 100544
+Safe Name: twoSevenSquareFill	Short Name:  27.square.fill,	PUA: 100563
+Safe Name: twoEightSquare	Short Name:  28.square,	PUA: 100545
+Safe Name: twoEightSquareFill	Short Name:  28.square.fill,	PUA: 100564
+Safe Name: twoNineSquare	Short Name:  29.square,	PUA: 100546
+Safe Name: twoNineSquareFill	Short Name:  29.square.fill,	PUA: 100565
+Safe Name: threeZeroSquare	Short Name:  30.square,	PUA: 100547
+Safe Name: threeZeroSquareFill	Short Name:  30.square.fill,	PUA: 100566
+Safe Name: threeOneSquare	Short Name:  31.square,	PUA: 100622
+Safe Name: threeOneSquareFill	Short Name:  31.square.fill,	PUA: 100623
+Safe Name: threeTwoSquare	Short Name:  32.square,	PUA: 1006BD
+Safe Name: threeTwoSquareFill	Short Name:  32.square.fill,	PUA: 1006BE
+Safe Name: threeThreeSquare	Short Name:  33.square,	PUA: 1006BF
+Safe Name: threeThreeSquareFill	Short Name:  33.square.fill,	PUA: 1006C0
+Safe Name: threeFourSquare	Short Name:  34.square,	PUA: 1006C1
+Safe Name: threeFourSquareFill	Short Name:  34.square.fill,	PUA: 1006C2
+Safe Name: threeFiveSquare	Short Name:  35.square,	PUA: 1006C3
+Safe Name: threeFiveSquareFill	Short Name:  35.square.fill,	PUA: 1006C4
+Safe Name: threeSixSquare	Short Name:  36.square,	PUA: 1006C5
+Safe Name: threeSixSquareFill	Short Name:  36.square.fill,	PUA: 1006C6
+Safe Name: threeSevenSquare	Short Name:  37.square,	PUA: 1006C7
+Safe Name: threeSevenSquareFill	Short Name:  37.square.fill,	PUA: 1006C8
+Safe Name: threeEightSquare	Short Name:  38.square,	PUA: 1006C9
+Safe Name: threeEightSquareFill	Short Name:  38.square.fill,	PUA: 1006CA
+Safe Name: threeNineSquare	Short Name:  39.square,	PUA: 1006CB
+Safe Name: threeNineSquareFill	Short Name:  39.square.fill,	PUA: 1006CC
+Safe Name: fourZeroSquare	Short Name:  40.square,	PUA: 1006CD
+Safe Name: fourZeroSquareFill	Short Name:  40.square.fill,	PUA: 1006CE
+Safe Name: fourOneSquare	Short Name:  41.square,	PUA: 1006CF
+Safe Name: fourOneSquareFill	Short Name:  41.square.fill,	PUA: 1006D0
+Safe Name: fourTwoSquare	Short Name:  42.square,	PUA: 1006D1
+Safe Name: fourTwoSquareFill	Short Name:  42.square.fill,	PUA: 1006D2
+Safe Name: fourThreeSquare	Short Name:  43.square,	PUA: 1006D3
+Safe Name: fourThreeSquareFill	Short Name:  43.square.fill,	PUA: 1006D4
+Safe Name: fourFourSquare	Short Name:  44.square,	PUA: 1006D5
+Safe Name: fourFourSquareFill	Short Name:  44.square.fill,	PUA: 1006D6
+Safe Name: fourFiveSquare	Short Name:  45.square,	PUA: 1006D7
+Safe Name: fourFiveSquareFill	Short Name:  45.square.fill,	PUA: 1006D8
+Safe Name: fourSixSquare	Short Name:  46.square,	PUA: 1006D9
+Safe Name: fourSixSquareFill	Short Name:  46.square.fill,	PUA: 1006DA
+Safe Name: fourSevenSquare	Short Name:  47.square,	PUA: 1006DB
+Safe Name: fourSevenSquareFill	Short Name:  47.square.fill,	PUA: 1006DC
+Safe Name: fourEightSquare	Short Name:  48.square,	PUA: 1006DD
+Safe Name: fourEightSquareFill	Short Name:  48.square.fill,	PUA: 1006DE
+Safe Name: fourNineSquare	Short Name:  49.square,	PUA: 1006DF
+Safe Name: fourNineSquareFill	Short Name:  49.square.fill,	PUA: 1006.0
+Safe Name: fiveZeroSquare	Short Name:  50.square,	PUA: 10060.0
+Safe Name: fiveZeroSquareFill	Short Name:  50.square.fill,	PUA: 100600.0
