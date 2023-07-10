@@ -233,7 +233,7 @@ void main(List<String> args) async {
   IOSink codeFileSink = codeFile.openWrite();
 
   codeFileSink.writeln(
-      "import 'package:flutter/widgets.dart';\nclass SfIcons {\nSfIcons._();\n");
+      "import 'package:flutter/widgets.dart';\n\nclass SfIcons {\nSfIcons._();\n");
 
   List<String> varNames = [];
 
