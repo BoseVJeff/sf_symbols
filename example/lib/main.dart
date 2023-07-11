@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:sf_symbols/sf_icons.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -118,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        child: const Icon(SfIcons.plus),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }

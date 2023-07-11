@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.1"
+  csv:
+    dependency: transitive
+    description:
+      name: csv
+      sha256: "016b31a51a913744a0a1655c74ff13c9379e1200e246a03d96c81c5d9ed297b5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.2"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -123,6 +131,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
+  sf_symbols:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -186,3 +201,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.0 <4.0.0"
+  flutter: ">=1.17.0"
