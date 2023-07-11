@@ -10,21 +10,41 @@ extension StringAppend on String {
   }
 }
 
+enum LangConfig {
+  ltr,
+  rtl,
+  ar,
+  hi;
+
+  factory LangConfig.fromString(String configString) {
+    switch (configString) {
+      case 'rtl':
+        return LangConfig.rtl;
+      case 'ar':
+        return LangConfig.ar;
+      case 'hi':
+        return LangConfig.hi;
+      default:
+        return LangConfig.ltr;
+    }
+  }
+}
+
 class IconInfo {
-  const IconInfo(
+  IconInfo(
     this.additionalSearchMetadata,
     this.categories,
     this.glyphOrder,
     this.newPUA,
     this.nonModifiable,
     this.protectedSymbolNotes,
-    this.rtlExtension,
+    String rtlExtensionString,
     this.semanticName1,
     this.semanticName2,
     this.semanticName3,
     this.shortName,
     this.unicodes,
-  );
+  ) : langConfig = LangConfig.fromString(rtlExtensionString);
 
   final List<String> additionalSearchMetadata;
   final List<String> categories;
@@ -32,12 +52,50 @@ class IconInfo {
   final String newPUA;
   final bool nonModifiable;
   final String protectedSymbolNotes;
-  final String rtlExtension;
+  // Enum-ish
+  // Possible values:
+  // <Empty String> ==> ltr
+  // rtl
+  // ar ==> Arabic
+  // hi ==> Hindi
+  late final LangConfig langConfig;
   final String semanticName1;
   final String semanticName2;
   final String semanticName3;
   final String shortName;
   final String unicodes;
+
+  late String safeName;
+
+  final List<String> semanticNames = [];
+
+  final List<String> safeSemanticNames = [];
+
+  void init([String Function(String name)? onName]) {
+    // eg: home, arrowUpToLine, arrowUpToLineAlt
+    onName ??= (a) => a;
+
+    safeName = onName(makeStringDartSafe(shortName));
+
+    // eg: burn, signature
+    if (semanticName1.isNotEmpty && semanticName1 != shortName) {
+      semanticNames.add(semanticName1);
+
+      safeSemanticNames.add(onName(makeStringDartSafe(semanticName1)));
+    }
+    if (semanticName2.isNotEmpty && semanticName2 != shortName) {
+      semanticNames.add(semanticName2);
+
+      safeSemanticNames.add(onName(makeStringDartSafe(semanticName2)));
+    }
+    if (semanticName3.isNotEmpty && semanticName3 != shortName) {
+      semanticNames.add(semanticName3);
+
+      safeSemanticNames.add(onName(makeStringDartSafe(semanticName3)));
+    }
+
+    return;
+  }
 
   String toStringShort() {
     return 'Safe Name: ${makeStringDartSafe(shortName)}\tShort Name:  $shortName,\tPUA: $newPUA';
@@ -59,39 +117,36 @@ class IconInfo {
   }
 
   // IconData(int codePoint, {String? fontFamily, String? fontPackage, bool matchTextDirection = false})
-  String toDartCode([String Function(String name)? onName]) {
-    // eg: home, arrowUpToLine, arrowUpToLineAlt
-    onName ??= (a) => a;
-
+  String toDartCode() {
     String comment = '/// Original Name: $shortName\n';
 
     String codeOutput = '';
-
-    String originalName = onName(makeStringDartSafe(shortName));
 
     // eg:
     // Safe Name: fourNineSquareFill   Short Name:  49.square.fill,    PUA: 1006.0
     // Safe Name: fiveZeroSquare       Short Name:  50.square,         PUA: 10060.0
     // Safe Name: fiveZeroSquareFill   Short Name:  50.square.fill,    PUA: 100600.0
     codeOutput = codeOutput.append(
-        "static IconData $originalName = const IconData(0x${newPUA.split('.').join()}, fontFamily: 'SF-Pro', fontPackage: 'sf_symbols');\n");
+        "static const IconData $safeName = IconData(0x${newPUA.split('.').join()}, fontFamily: 'SF Pro', fontPackage: 'sf_symbols');\n");
 
     // eg: burn, signature
-    if (semanticName1.isNotEmpty && semanticName1 != shortName) {
+    if (safeSemanticNames.elementAtOrNull(0) != null) {
       codeOutput = codeOutput.append(
-          'static IconData ${onName(makeStringDartSafe(semanticName1))} = $originalName;\n');
-      comment = comment.append('/// Alt Names: $semanticName1\n');
+          'static const IconData ${safeSemanticNames[0]} = $safeName;\n');
+      // comment = comment.append('/// Alt Names: $semanticName1\n');
     }
-    if (semanticName2.isNotEmpty && semanticName2 != shortName) {
+    if (safeSemanticNames.elementAtOrNull(1) != null) {
       codeOutput = codeOutput.append(
-          'static IconData ${onName(makeStringDartSafe(semanticName2))} = $originalName;\n');
-      comment = comment.append('/// Alt Names: $semanticName2\n');
+          'static const IconData ${safeSemanticNames[1]} = $safeName;\n');
+      // comment = comment.append('/// Alt Names: $semanticName2\n');
     }
-    if (semanticName3.isNotEmpty && semanticName3 != shortName) {
+    if (safeSemanticNames.elementAtOrNull(2) != null) {
       codeOutput = codeOutput.append(
-          'static IconData ${onName(makeStringDartSafe(semanticName3))} = $originalName;\n');
-      comment = comment.append('/// Alt Names: $semanticName3\n');
+          'static const IconData ${safeSemanticNames[2]} = $safeName;\n');
+      // comment = comment.append('/// Alt Names: $semanticName3\n');
     }
+
+    comment = comment.append('/// Alt Names: ${semanticNames.join(", ")}\n');
 
     comment = comment.append('/// Categories: ${categories.join(", ")}\n');
     comment = comment
@@ -241,9 +296,8 @@ void main(List<String> args) async {
     if (element.newPUA.isEmpty || element.shortName.isEmpty) {
       errors.add(element);
     }
-    print(element.toStringShort());
-    outputFileSink.writeln(element.toString());
-    codeFileSink.writeln(element.toDartCode(
+    // print(element.toStringShort());
+    element.init(
       (name) {
         String newName = name;
         int i = 1;
@@ -254,7 +308,9 @@ void main(List<String> args) async {
         varNames.add(newName);
         return newName;
       },
-    ));
+    );
+    outputFileSink.writeln(element.toString());
+    codeFileSink.writeln(element.toDartCode());
   }
   print('${errors.length} glyphs have errors.');
 
