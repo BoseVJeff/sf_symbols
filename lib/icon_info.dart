@@ -363,6 +363,19 @@ List<SfIconsWithMetadata> iconList=[
 
 const String iconListFooter = '];';
 
+String? maybeFromCharCode(int? charCode) {
+  if (charCode == null) {
+    return null;
+  }
+  String str;
+  try {
+    str = String.fromCharCode(charCode);
+    return str;
+  } catch (e) {
+    return null;
+  }
+}
+
 Future<void> writeAsRawString(String directoryName) async {
   SFIconsInfo sfIconsInfo = await SFIconsInfo.fromCsv('sf_csv/15.0d7e11.csv');
   List<IconInfo> errors = [];
@@ -373,6 +386,9 @@ Future<void> writeAsRawString(String directoryName) async {
   File listFile = File(p.join(directoryName, 'icon_list.dart'));
   IOSink listFileSink = listFile.openWrite();
 
+  File errorFile = File(p.join(directoryName, 'error_list.csv'));
+  IOSink errorFileSink = errorFile.openWrite();
+
   File codeFile = File(p.join(directoryName, 'sf_icons.dart'));
   IOSink codeFileSink = codeFile.openWrite();
 
@@ -380,11 +396,23 @@ Future<void> writeAsRawString(String directoryName) async {
 
   listFileSink.writeln(iconListHeader);
 
+  errorFileSink.writeln('short_name,new_pua');
+
   List<String> varNames = [];
 
   for (IconInfo element in sfIconsInfo.iconInfo) {
     if (element.newPUA.isEmpty || element.shortName.isEmpty) {
       errors.add(element);
+      print('Error: ${element.shortName} | Missing PUA or short name');
+      continue;
+    }
+    if (maybeFromCharCode(int.tryParse(element.newPUA, radix: 16)) == null) {
+      print(
+        'Error: ${element.shortName} has invalid charCode ${element.newPUA}',
+      );
+      errors.add(element);
+      errorFileSink.writeln('${element.shortName},${element.newPUA}');
+      continue;
     }
     // print(element.toStringShort());
     element.init(
@@ -417,6 +445,9 @@ Future<void> writeAsRawString(String directoryName) async {
 
   await listFileSink.flush();
   await listFileSink.close();
+
+  await errorFileSink.flush();
+  await errorFileSink.close();
 
   return;
 }

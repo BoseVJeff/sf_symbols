@@ -3,6 +3,8 @@ import 'package:flutter/widgets.dart';
 /// Class containing all SF Symbols icons.
 /// Icons can be referred to using their short names or their semantic names.
 ///
+/// To access the compact variant of an icon, add `Compact` to the end of its name.
+///
 /// The semantic names are simply redirections to their short names.
 ///
 /// The icons are renamed to fit with Dart naming conventions.
@@ -237,36 +239,6 @@ class SfIcons {
     fontPackage: 'sf_symbols',
   );
 
-  /// Original Name: multiply.square
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords: multiply,  times
-  static const IconData multiplySquare = IconData(
-    0x10000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData multiplySquareCompact = IconData(
-    0x10000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: multiply.square.fill
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords: multiply,  times
-  static const IconData multiplySquareFill = IconData(
-    0x100000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData multiplySquareFillCompact = IconData(
-    0x100000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
   /// Original Name: divide
   /// Alt Names:
   /// Categories: math
@@ -308,36 +280,6 @@ class SfIcons {
   );
   static const IconData divideCircleFillCompact = IconData(
     0x100053,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: divide.square
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords:
-  static const IconData divideSquare = IconData(
-    0x1000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData divideSquareCompact = IconData(
-    0x1000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: divide.square.fill
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords:
-  static const IconData divideSquareFill = IconData(
-    0x10000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData divideSquareFillCompact = IconData(
-    0x10000000,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );
@@ -387,36 +329,6 @@ class SfIcons {
     fontPackage: 'sf_symbols',
   );
 
-  /// Original Name: equal.square
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords:
-  static const IconData equalSquare = IconData(
-    0x100000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData equalSquareCompact = IconData(
-    0x100000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: equal.square.fill
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords:
-  static const IconData equalSquareFill = IconData(
-    0x1000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData equalSquareFillCompact = IconData(
-    0x1000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
   /// Original Name: lessthan
   /// Alt Names:
   /// Categories: math
@@ -462,36 +374,6 @@ class SfIcons {
     fontPackage: 'sf_symbols',
   );
 
-  /// Original Name: lessthan.square
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords:
-  static const IconData lessthanSquare = IconData(
-    0x10000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData lessthanSquareCompact = IconData(
-    0x10000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: lessthan.square.fill
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords:
-  static const IconData lessthanSquareFill = IconData(
-    0x100000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData lessthanSquareFillCompact = IconData(
-    0x100000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
   /// Original Name: greaterthan
   /// Alt Names:
   /// Categories: math
@@ -533,36 +415,6 @@ class SfIcons {
   );
   static const IconData greaterthanCircleFillCompact = IconData(
     0x100057,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: greaterthan.square
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords:
-  static const IconData greaterthanSquare = IconData(
-    0x1000000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData greaterthanSquareCompact = IconData(
-    0x1000000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: greaterthan.square.fill
-  /// Alt Names:
-  /// Categories: math
-  /// Keywords:
-  static const IconData greaterthanSquareFill = IconData(
-    0x10000000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData greaterthanSquareFillCompact = IconData(
-    0x10000000000000,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );
@@ -1122,23 +974,6 @@ class SfIcons {
   static const IconData columnViewFillCompact =
       rectangleSplitThreeXOneFillCompact;
 
-  /// Original Name: rectangle.split.3x3
-  /// Alt Names: grid.view
-  /// Categories:
-  /// Keywords:
-  static const IconData rectangleSplitThreeXThree = IconData(
-    0x1003000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData rectangleSplitThreeXThreeCompact = IconData(
-    0x1003000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData gridView = rectangleSplitThreeXThree;
-  static const IconData gridViewCompact = rectangleSplitThreeXThreeCompact;
-
   /// Original Name: rectangle.split.3x3.fill
   /// Alt Names: grid.view.fill
   /// Categories:
@@ -1156,21 +991,6 @@ class SfIcons {
   static const IconData gridViewFill = rectangleSplitThreeXThreeFill;
   static const IconData gridViewFillCompact =
       rectangleSplitThreeXThreeFillCompact;
-
-  /// Original Name: square.split.2x1
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData squareSplitTwoXOne = IconData(
-    0x10030,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData squareSplitTwoXOneCompact = IconData(
-    0x10030,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
 
   /// Original Name: square.split.2x1.fill
   /// Alt Names:
@@ -1835,40 +1655,6 @@ class SfIcons {
   static const IconData removeMarkup = pencilTipCropCircleBadgeMinus;
   static const IconData removeMarkupCompact =
       pencilTipCropCircleBadgeMinusCompact;
-
-  /// Original Name: scribble
-  /// Alt Names: draw
-  /// Categories: editing
-  /// Keywords:
-  static const IconData scribble = IconData(
-    0x1004000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData scribbleCompact = IconData(
-    0x1004000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData draw = scribble;
-  static const IconData drawCompact = scribbleCompact;
-
-  /// Original Name: lasso
-  /// Alt Names: lasso.select
-  /// Categories: editing
-  /// Keywords:
-  static const IconData lasso = IconData(
-    0x10040000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData lassoCompact = IconData(
-    0x10040000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData lassoSelect = lasso;
-  static const IconData lassoSelectCompact = lassoCompact;
 
   /// Original Name: trash
   /// Alt Names:
@@ -3977,36 +3763,6 @@ class SfIcons {
     fontPackage: 'sf_symbols',
   );
 
-  /// Original Name: person.circle
-  /// Alt Names:
-  /// Categories: human
-  /// Keywords: user,  people
-  static const IconData personCircle = IconData(
-    0x10040000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData personCircleCompact = IconData(
-    0x10040000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: person.circle.fill
-  /// Alt Names:
-  /// Categories: human
-  /// Keywords: user,  people
-  static const IconData personCircleFill = IconData(
-    0x100400000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData personCircleFillCompact = IconData(
-    0x100400000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
   /// Original Name: person.badge.plus
   /// Alt Names:
   /// Categories: human
@@ -5397,134 +5153,6 @@ class SfIcons {
   static const IconData notificationsOffFill = bellSlashFill;
   static const IconData notificationsOffFillCompact = bellSlashFillCompact;
 
-  /// Original Name: tag
-  /// Alt Names:
-  /// Categories: objects & tools
-  /// Keywords:
-  static const IconData tag = IconData(
-    0x100200,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tagCompact = IconData(
-    0x100200,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: tag.fill
-  /// Alt Names:
-  /// Categories: objects & tools
-  /// Keywords:
-  static const IconData tagFill = IconData(
-    0x1002000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tagFillCompact = IconData(
-    0x1002000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: tag.circle
-  /// Alt Names:
-  /// Categories: objects & tools
-  /// Keywords:
-  static const IconData tagCircle = IconData(
-    0x10020000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tagCircleCompact = IconData(
-    0x10020000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: tag.circle.fill
-  /// Alt Names:
-  /// Categories: objects & tools
-  /// Keywords:
-  static const IconData tagCircleFill = IconData(
-    0x100200000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tagCircleFillCompact = IconData(
-    0x100200000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: bolt
-  /// Alt Names: flash
-  /// Categories: nature
-  /// Keywords:
-  static const IconData bolt = IconData(
-    0x1002000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData boltCompact = IconData(
-    0x1002000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData flash = bolt;
-  static const IconData flashCompact = boltCompact;
-
-  /// Original Name: bolt.fill
-  /// Alt Names: flash.fill
-  /// Categories: nature
-  /// Keywords:
-  static const IconData boltFill = IconData(
-    0x10020000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData boltFillCompact = IconData(
-    0x10020000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData flashFill = boltFill;
-  static const IconData flashFillCompact = boltFillCompact;
-
-  /// Original Name: bolt.circle
-  /// Alt Names: flash.circle
-  /// Categories: nature
-  /// Keywords:
-  static const IconData boltCircle = IconData(
-    0x100200000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData boltCircleCompact = IconData(
-    0x100200000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData flashCircle = boltCircle;
-  static const IconData flashCircleCompact = boltCircleCompact;
-
-  /// Original Name: bolt.circle.fill
-  /// Alt Names: flash.circle.fill
-  /// Categories: nature
-  /// Keywords:
-  static const IconData boltCircleFill = IconData(
-    0x1002000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData boltCircleFillCompact = IconData(
-    0x1002000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData flashCircleFill = boltCircleFill;
-  static const IconData flashCircleFillCompact = boltCircleFillCompact;
-
   /// Original Name: bolt.badge.a
   /// Alt Names: flash.auto
   /// Categories:
@@ -5558,23 +5186,6 @@ class SfIcons {
   );
   static const IconData flashAutoFill = boltBadgeAFill;
   static const IconData flashAutoFillCompact = boltBadgeAFillCompact;
-
-  /// Original Name: bolt.slash
-  /// Alt Names: flash.off
-  /// Categories: nature
-  /// Keywords:
-  static const IconData boltSlash = IconData(
-    0x10020000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData boltSlashCompact = IconData(
-    0x10020000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData flashOff = boltSlash;
-  static const IconData flashOffCompact = boltSlashCompact;
 
   /// Original Name: bolt.slash.fill
   /// Alt Names: flash.off.fill
@@ -6003,40 +5614,6 @@ class SfIcons {
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );
-
-  /// Original Name: textformat.superscript
-  /// Alt Names: superscript
-  /// Categories: text formatting
-  /// Keywords: a
-  static const IconData textformatSuperscript = IconData(
-    0x1004000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData textformatSuperscriptCompact = IconData(
-    0x1004000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData superscript = textformatSuperscript;
-  static const IconData superscriptCompact = textformatSuperscriptCompact;
-
-  /// Original Name: textformat.subscript
-  /// Alt Names: subscript
-  /// Categories: text formatting
-  /// Keywords: a
-  static const IconData textformatSubscript = IconData(
-    0x100400,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData textformatSubscriptCompact = IconData(
-    0x100400,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData subscript = textformatSubscript;
-  static const IconData subscriptCompact = textformatSubscriptCompact;
 
   /// Original Name: textformat
   /// Alt Names: text.formatting
@@ -8002,170 +7579,6 @@ class SfIcons {
   );
   static const IconData mixRainfallFill = cloudBoltRainFill;
   static const IconData mixRainfallFillCompact = cloudBoltRainFillCompact;
-
-  /// Original Name: cloud.moon.bolt
-  /// Alt Names: scattered.thunderstorm.night
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData cloudMoonBolt = IconData(
-    0x10010,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData cloudMoonBoltCompact = IconData(
-    0x10010,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData scatteredThunderstormNight = cloudMoonBolt;
-  static const IconData scatteredThunderstormNightCompact =
-      cloudMoonBoltCompact;
-
-  /// Original Name: cloud.moon.bolt.fill
-  /// Alt Names: scattered.thunderstorm.night.fill
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData cloudMoonBoltFill = IconData(
-    0x100100,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData cloudMoonBoltFillCompact = IconData(
-    0x100100,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData scatteredThunderstormNightFill = cloudMoonBoltFill;
-  static const IconData scatteredThunderstormNightFillCompact =
-      cloudMoonBoltFillCompact;
-
-  /// Original Name: smoke
-  /// Alt Names:
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData smoke = IconData(
-    0x1001000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData smokeCompact = IconData(
-    0x1001000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: smoke.fill
-  /// Alt Names:
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData smokeFill = IconData(
-    0x10010000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData smokeFillCompact = IconData(
-    0x10010000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: wind
-  /// Alt Names: breezy
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData wind = IconData(
-    0x100100000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData windCompact = IconData(
-    0x100100000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData breezy = wind;
-  static const IconData breezyCompact = windCompact;
-
-  /// Original Name: snow
-  /// Alt Names: snow.flurry
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData snow = IconData(
-    0x1001000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData snowCompact = IconData(
-    0x1001000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData snowFlurry = snow;
-  static const IconData snowFlurryCompact = snowCompact;
-
-  /// Original Name: wind.snow
-  /// Alt Names: blowing.snow
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData windSnow = IconData(
-    0x10010000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData windSnowCompact = IconData(
-    0x10010000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData blowingSnow = windSnow;
-  static const IconData blowingSnowCompact = windSnowCompact;
-
-  /// Original Name: tornado
-  /// Alt Names:
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData tornado = IconData(
-    0x100100000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tornadoCompact = IconData(
-    0x100100000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: tropicalstorm
-  /// Alt Names: tropical.storm
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData tropicalstorm = IconData(
-    0x1001000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tropicalstormCompact = IconData(
-    0x1001000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tropicalStorm = tropicalstorm;
-  static const IconData tropicalStormCompact = tropicalstormCompact;
-
-  /// Original Name: hurricane
-  /// Alt Names:
-  /// Categories: weather
-  /// Keywords: weather
-  static const IconData hurricane = IconData(
-    0x10010000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData hurricaneCompact = IconData(
-    0x10010000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
 
   /// Original Name: thermometer.sun
   /// Alt Names: hot
@@ -10861,23 +10274,6 @@ class SfIcons {
   static const IconData addToDashboard = gaugeBadgePlus;
   static const IconData addToDashboardCompact = gaugeBadgePlusCompact;
 
-  /// Original Name: gauge.badge.minus
-  /// Alt Names: remove.from.dashboard
-  /// Categories: objects & tools
-  /// Keywords:
-  static const IconData gaugeBadgeMinus = IconData(
-    0x100400000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData gaugeBadgeMinusCompact = IconData(
-    0x100400000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData removeFromDashboard = gaugeBadgeMinus;
-  static const IconData removeFromDashboardCompact = gaugeBadgeMinusCompact;
-
   /// Original Name: speedometer
   /// Alt Names: speed
   /// Categories: objects & tools
@@ -12615,36 +12011,6 @@ class SfIcons {
   static const IconData wifiError = wifiExclamationmark;
   static const IconData wifiErrorCompact = wifiExclamationmarkCompact;
 
-  /// Original Name: battery.100
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData batteryOneZeroZero = IconData(
-    0x1006000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData batteryOneZeroZeroCompact = IconData(
-    0x1006000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: battery.25
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData batteryTwoFive = IconData(
-    0x10060000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData batteryTwoFiveCompact = IconData(
-    0x10060000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
   /// Original Name: battery.0
   /// Alt Names:
   /// Categories:
@@ -13003,70 +12369,6 @@ class SfIcons {
     fontPackage: 'sf_symbols',
   );
 
-  /// Original Name: table
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData table = IconData(
-    0x10030000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tableCompact = IconData(
-    0x10030000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: table.fill
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData tableFill = IconData(
-    0x100300000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tableFillCompact = IconData(
-    0x100300000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: table.badge.more
-  /// Alt Names: edit.table
-  /// Categories:
-  /// Keywords:
-  static const IconData tableBadgeMore = IconData(
-    0x1003000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tableBadgeMoreCompact = IconData(
-    0x1003000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData editTable = tableBadgeMore;
-  static const IconData editTableCompact = tableBadgeMoreCompact;
-
-  /// Original Name: table.badge.more.fill
-  /// Alt Names: edit.table.fill
-  /// Categories:
-  /// Keywords:
-  static const IconData tableBadgeMoreFill = IconData(
-    0x10030000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData tableBadgeMoreFillCompact = IconData(
-    0x10030000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData editTableFill = tableBadgeMoreFill;
-  static const IconData editTableFillCompact = tableBadgeMoreFillCompact;
-
   /// Original Name: airplayvideo
   /// Alt Names: airplay.video
   /// Categories: apple
@@ -13127,36 +12429,6 @@ class SfIcons {
   );
   static const IconData squareStackFillCompact = IconData(
     0x10040C,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: person.2.square.stack
-  /// Alt Names:
-  /// Categories: people
-  /// Keywords: album
-  static const IconData personTwoSquareStack = IconData(
-    0x1004000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData personTwoSquareStackCompact = IconData(
-    0x1004000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: person.2.square.stack.fill
-  /// Alt Names:
-  /// Categories: people
-  /// Keywords: album
-  static const IconData personTwoSquareStackFill = IconData(
-    0x10040000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData personTwoSquareStackFillCompact = IconData(
-    0x10040000000,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );
@@ -13817,56 +13089,6 @@ class SfIcons {
     fontPackage: 'sf_symbols',
   );
 
-  /// Original Name: rectangle.on.rectangle
-  /// Alt Names: screen.sharing
-  /// Categories:
-  /// Keywords:
-  static const IconData rectangleOnRectangle = IconData(
-    0x100300000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData rectangleOnRectangleCompact = IconData(
-    0x100300000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData screenSharing = rectangleOnRectangle;
-  static const IconData screenSharingCompact = rectangleOnRectangleCompact;
-
-  /// Original Name: rectangle.fill.on.rectangle.fill
-  /// Alt Names: screen.sharing.fill
-  /// Categories:
-  /// Keywords:
-  static const IconData rectangleFillOnRectangleFill = IconData(
-    0x1003000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData rectangleFillOnRectangleFillCompact = IconData(
-    0x1003000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData screenSharingFill = rectangleFillOnRectangleFill;
-  static const IconData screenSharingFillCompact =
-      rectangleFillOnRectangleFillCompact;
-
-  /// Original Name: plus.rectangle.on.rectangle
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData plusRectangleOnRectangle = IconData(
-    0x10030000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData plusRectangleOnRectangleCompact = IconData(
-    0x10030000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
   /// Original Name: plus.rectangle.fill.on.rectangle.fill
   /// Alt Names:
   /// Categories:
@@ -14126,21 +13348,6 @@ class SfIcons {
   static const IconData splitViewHoritzontallyRight = sidebarRight;
   static const IconData splitViewHoritzontallyRightCompact =
       sidebarRightCompact;
-
-  /// Original Name: squares.below.rectangle
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData squaresBelowRectangle = IconData(
-    0x100300,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData squaresBelowRectangleCompact = IconData(
-    0x100300,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
 
   /// Original Name: square.on.square
   /// Alt Names:
@@ -18727,36 +17934,6 @@ class SfIcons {
   static const IconData gridTwoXTwoFill = squareGridTwoXTwoFill;
   static const IconData gridTwoXTwoFillCompact = squareGridTwoXTwoFillCompact;
 
-  /// Original Name: rectangle.grid.2x2
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData rectangleGridTwoXTwo = IconData(
-    0x10060000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData rectangleGridTwoXTwoCompact = IconData(
-    0x10060000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: rectangle.grid.2x2.fill
-  /// Alt Names:
-  /// Categories:
-  /// Keywords:
-  static const IconData rectangleGridTwoXTwoFill = IconData(
-    0x100600000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData rectangleGridTwoXTwoFillCompact = IconData(
-    0x100600000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
   /// Original Name: square.grid.4x3.fill
   /// Alt Names:
   /// Categories:
@@ -19038,36 +18215,6 @@ class SfIcons {
   );
   static const IconData circleRighthalfFillCompact = IconData(
     0x100003,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: triangle
-  /// Alt Names:
-  /// Categories: shapes
-  /// Keywords:
-  static const IconData triangle = IconData(
-    0x10060000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData triangleCompact = IconData(
-    0x10060000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: triangle.fill
-  /// Alt Names:
-  /// Categories: shapes
-  /// Keywords:
-  static const IconData triangleFill = IconData(
-    0x100600000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData triangleFillCompact = IconData(
-    0x100600000,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );
@@ -22653,156 +21800,6 @@ class SfIcons {
   );
   static const IconData francsignSquareCompact = IconData(
     0x1005DF,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: francsign.square.fill
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData francsignSquareFill = IconData(
-    0x10050,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData francsignSquareFillCompact = IconData(
-    0x10050,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: florinsign.square
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData florinsignSquare = IconData(
-    0x100500,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData florinsignSquareCompact = IconData(
-    0x100500,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: florinsign.square.fill
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData florinsignSquareFill = IconData(
-    0x1005000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData florinsignSquareFillCompact = IconData(
-    0x1005000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: turkishlirasign.square
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData turkishlirasignSquare = IconData(
-    0x10050000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData turkishlirasignSquareCompact = IconData(
-    0x10050000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: turkishlirasign.square.fill
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData turkishlirasignSquareFill = IconData(
-    0x100500000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData turkishlirasignSquareFillCompact = IconData(
-    0x100500000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: rublesign.square
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData rublesignSquare = IconData(
-    0x1005000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData rublesignSquareCompact = IconData(
-    0x1005000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: rublesign.square.fill
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData rublesignSquareFill = IconData(
-    0x10050000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData rublesignSquareFillCompact = IconData(
-    0x10050000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: eurosign.square
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData eurosignSquare = IconData(
-    0x100500000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData eurosignSquareCompact = IconData(
-    0x100500000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: eurosign.square.fill
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData eurosignSquareFill = IconData(
-    0x1005000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData eurosignSquareFillCompact = IconData(
-    0x1005000000000,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: dongsign.square
-  /// Alt Names:
-  /// Categories: indicies,  commerce
-  /// Keywords:
-  static const IconData dongsignSquare = IconData(
-    0x10050000000000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData dongsignSquareCompact = IconData(
-    0x10050000000000,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );
@@ -26493,51 +25490,6 @@ class SfIcons {
   );
   static const IconData fourNineSquareCompact = IconData(
     0x1006DF,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: 49.square.fill
-  /// Alt Names:
-  /// Categories: indicies
-  /// Keywords:
-  static const IconData fourNineSquareFill = IconData(
-    0x10060,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData fourNineSquareFillCompact = IconData(
-    0x10060,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: 50.square
-  /// Alt Names:
-  /// Categories: indicies
-  /// Keywords:
-  static const IconData fiveZeroSquare = IconData(
-    0x100600,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData fiveZeroSquareCompact = IconData(
-    0x100600,
-    fontFamily: 'SF Compact',
-    fontPackage: 'sf_symbols',
-  );
-
-  /// Original Name: 50.square.fill
-  /// Alt Names:
-  /// Categories: indicies
-  /// Keywords:
-  static const IconData fiveZeroSquareFill = IconData(
-    0x1006000,
-    fontFamily: 'SF Pro',
-    fontPackage: 'sf_symbols',
-  );
-  static const IconData fiveZeroSquareFillCompact = IconData(
-    0x1006000,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );

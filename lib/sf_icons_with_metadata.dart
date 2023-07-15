@@ -37,4 +37,28 @@ class SfIconsWithMetadata {
 
   final bool nonModifiable;
   final String protectedSymbolNotes;
+
+  bool contains(String string) {
+    bool isResultOfTerm = false;
+
+    isResultOfTerm = isResultOfTerm || shortName.contains(string);
+
+    isResultOfTerm =
+        isResultOfTerm || semanticNames.any((name) => name.contains(string));
+
+    isResultOfTerm = isResultOfTerm || safeShortName.contains(string);
+
+    isResultOfTerm = isResultOfTerm ||
+        safeSemanticNames.any((name) => name.contains(string));
+
+    isResultOfTerm = isResultOfTerm ||
+        additionalSearchMetadata.any((element) => element.contains(string));
+
+    isResultOfTerm =
+        isResultOfTerm || categories.any((element) => element.contains(string));
+
+    isResultOfTerm = isResultOfTerm || protectedSymbolNotes.contains(string);
+
+    return isResultOfTerm;
+  }
 }
