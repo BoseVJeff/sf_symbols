@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 // import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sf_symbols/icon_list.dart';
 import 'package:sf_symbols/sf_icon.dart';
@@ -9,6 +10,40 @@ import 'package:sf_symbols/sf_icons_with_metadata.dart';
 extension RangeExtension on int {
   bool isInRangeInclusive(int start, int end) {
     return (start >= this) && (this <= end);
+  }
+}
+
+class ShowItemsInBoxes extends StatelessWidget {
+  const ShowItemsInBoxes({
+    super.key,
+    required this.items,
+  });
+
+  final List<String> items;
+
+  @override
+  Widget build(BuildContext context) {
+    if (items.isEmpty || (items.length == 1 && items.first.isEmpty)) {
+      return const Text('No Items');
+    }
+    return Wrap(
+      children: List<Widget>.generate(
+        items.length,
+        (index) => Container(
+          decoration: BoxDecoration(
+            border: Border.all(),
+            borderRadius: BorderRadius.circular(8.0),
+          ),
+          margin: const EdgeInsets.symmetric(
+            horizontal: 4.0,
+          ),
+          padding: const EdgeInsets.all(2.0),
+          child: Text(
+            items[index].trim(),
+          ),
+        ),
+      ),
+    );
   }
 }
 
@@ -43,12 +78,13 @@ class _IconGridState extends State<IconGrid> {
       showModifiableIconsInitial && showNonModifiableIconsInitial;
   bool showAllIcons = showAllIconsInitial;
 
-  static TextEditingController controller = TextEditingController();
+  late final Set<String> categoriesAll;
+  late Set<String> selectedCategories;
 
-  Iterable<SfIconsWithMetadata> listofFilteredIcons =
-      listOfUnfilteredIcons.where(
-    (element) => elementFilter(element, '', true, true, true),
-  );
+  late Iterable<SfIconsWithMetadata> listofFilteredIcons;
+
+  static final TextEditingController controller = TextEditingController();
+  static final ScrollController scrollController = ScrollController();
 
   void filterList() => setState(() {
         showAllIcons = showModifiableIcons && showNonModifiableIcons;
@@ -59,6 +95,7 @@ class _IconGridState extends State<IconGrid> {
             showAllIcons,
             showModifiableIcons,
             showNonModifiableIcons,
+            selectedCategories,
           ),
         );
       });
@@ -69,12 +106,51 @@ class _IconGridState extends State<IconGrid> {
     bool showAll,
     bool showMod,
     bool showNonMod,
+    Set<String> showCategories,
   ) {
     if (!(showAll || showMod || showNonMod)) {
       return false;
     }
+    /* bool showElement=element.contains(filterText);
+    showElement=showElement&&(showAll || element.nonModifiable == (showNonMod || !showMod));
+    showElement=showElement&& */
     return element.contains(filterText) &&
-        (showAll || element.nonModifiable == (showNonMod || !showMod));
+        (showAll || element.nonModifiable == (showNonMod || !showMod)) &&
+        element.categories.any(
+          (category) {
+            // print('Checking for any of $showCategories in $category');
+            return showCategories.contains(
+              category.trim(),
+            );
+          },
+        );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+
+    Set<String> tempCats = {};
+    for (var icon in listOfUnfilteredIcons) {
+      for (var category in icon.categories) {
+        if (tempCats.add(category.trim())) {
+          print('${category.trim()} from ${icon.shortName}');
+        }
+      }
+    }
+    categoriesAll = tempCats;
+    selectedCategories = categoriesAll.difference({});
+
+    listofFilteredIcons = listOfUnfilteredIcons.where(
+      (element) => elementFilter(
+        element,
+        searchTermInitial,
+        showAllIconsInitial,
+        showModifiableIconsInitial,
+        showNonModifiableIconsInitial,
+        categoriesAll,
+      ),
+    );
   }
 
   @override
@@ -106,6 +182,7 @@ class _IconGridState extends State<IconGrid> {
                   showAllIcons = showAllIconsInitial;
                   showModifiableIcons = showModifiableIconsInitial;
                   showNonModifiableIcons = showNonModifiableIconsInitial;
+                  selectedCategories = categoriesAll.difference({});
                   filterList();
                 });
               },
@@ -143,7 +220,8 @@ class _IconGridState extends State<IconGrid> {
         ),
       ),
       body: CustomScrollView(
-        primary: true,
+        // primary: true,
+        controller: scrollController,
         slivers: [
           SliverToBoxAdapter(
             child: Wrap(
@@ -172,6 +250,32 @@ class _IconGridState extends State<IconGrid> {
                   selected: showModifiableIcons,
                 ),
               ],
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Wrap(
+              direction: Axis.horizontal,
+              children: List.generate(
+                categoriesAll.length,
+                (index) => FilterChip(
+                  selected: selectedCategories
+                      .contains(categoriesAll.elementAt(index)),
+                  label: (categoriesAll.elementAt(index).isNotEmpty)
+                      ? Text(categoriesAll.elementAt(index))
+                      : const Text('No Categories'),
+                  onSelected: (bool? value) {
+                    if (value != null) {
+                      if (value) {
+                        selectedCategories.add(categoriesAll.elementAt(index));
+                      } else {
+                        selectedCategories
+                            .remove(categoriesAll.elementAt(index));
+                      }
+                      filterList();
+                    }
+                  },
+                ),
+              ),
             ),
           ),
           SliverPrototypeExtentList.builder(
@@ -205,9 +309,109 @@ class _IconGridState extends State<IconGrid> {
                   ),
                 );
               }
+              GlobalKey _key = GlobalKey();
+              Size? iconSize;
               return Card(
                 child: ListTile(
-                  leading: SfIcon(icon.iconData),
+                  onTap: () {
+                    iconSize = _key.currentContext?.size;
+                    showDialog(
+                      context: context,
+                      builder: (context) {
+                        return AlertDialog(
+                          icon: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              SfIcon(icon.iconData),
+                              SfIcon(icon.compactIconData),
+                            ],
+                          ),
+                          title: Text(icon.shortName),
+                          scrollable: true,
+                          content: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              ListTile(
+                                title: const Text('Semantic Names'),
+                                subtitle:
+                                    ShowItemsInBoxes(items: icon.semanticNames),
+                                isThreeLine: true,
+                              ),
+                              ListTile(
+                                title: const Text('Categories'),
+                                subtitle:
+                                    ShowItemsInBoxes(items: icon.categories),
+                                isThreeLine: true,
+                              ),
+                              ListTile(
+                                title: const Text('Dart Icon Names'),
+                                subtitle: ShowItemsInBoxes(items: [
+                                  icon.safeShortName,
+                                  ...icon.safeSemanticNames,
+                                ]),
+                                isThreeLine: true,
+                              ),
+                              ListTile(
+                                title: const Text('Additional Search Metadata'),
+                                subtitle: ShowItemsInBoxes(
+                                    items: icon.additionalSearchMetadata),
+                                isThreeLine: true,
+                              ),
+                              ListTile(
+                                title: const Text('Additional Notes'),
+                                subtitle: (icon.protectedSymbolNotes.isNotEmpty)
+                                    ? Text(icon.protectedSymbolNotes)
+                                    : const Text('None'),
+                                isThreeLine: true,
+                              ),
+                              ListTile(
+                                title: const Text('Icon Size'),
+                                subtitle: Text(
+                                  'Aspect ratio: ${iconSize?.aspectRatio}',
+                                ),
+                                isThreeLine: true,
+                              ),
+                            ],
+                          ),
+                          actions: [
+                            StatefulBuilder(
+                              builder: (context, setState) {
+                                bool isCopying = false;
+                                return ElevatedButton.icon(
+                                  onPressed: () async {
+                                    setState(
+                                      () {
+                                        isCopying = true;
+                                      },
+                                    );
+                                    await Clipboard.setData(
+                                      ClipboardData(
+                                        text: 'SfIcons.${icon.safeShortName}',
+                                      ),
+                                    );
+                                    setState(
+                                      () {
+                                        isCopying = false;
+                                      },
+                                    );
+                                  },
+                                  icon: const SfIcon(SfIcons.copy),
+                                  label: const Text(
+                                    'Copy Icon Name to Clipboard',
+                                  ),
+                                );
+                              },
+                            ),
+                          ],
+                        );
+                      },
+                    );
+                  },
+                  leading: SfIcon(
+                    icon.iconData,
+                    key: _key,
+                  ),
                   title: Text(icon.shortName),
                   subtitle: Text(icon.semanticNames.join(', ')),
                   trailing: (icon.protectedSymbolNotes.isEmpty)
@@ -223,7 +427,11 @@ class _IconGridState extends State<IconGrid> {
           ),
         ],
       ),
-      floatingActionButton: widget.fab,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => scrollController.jumpTo(0),
+        tooltip: 'Jump to Top',
+        child: widget.fab,
+      ),
     );
   }
 }
