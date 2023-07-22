@@ -13,6 +13,8 @@ extension RangeExtension on int {
   }
 }
 
+class IconParamNotifier extends ChangeNotifier {}
+
 class ShowItemsInBoxes extends StatelessWidget {
   const ShowItemsInBoxes({
     super.key,
@@ -68,26 +70,51 @@ class _IconGridState extends State<IconGrid> {
   static const String searchTermInitial = '';
   String searchTerm = searchTermInitial;
 
-  static const showNonModifiableIconsInitial = true;
+  static const showNonModifiableIconsInitial = false;
   bool showNonModifiableIcons = showNonModifiableIconsInitial;
 
-  static const showModifiableIconsInitial = true;
+  static const showModifiableIconsInitial = false;
   bool showModifiableIcons = showModifiableIconsInitial;
 
   static const showAllIconsInitial =
-      showModifiableIconsInitial && showNonModifiableIconsInitial;
+      !(showModifiableIconsInitial ^ showNonModifiableIconsInitial);
   bool showAllIcons = showAllIconsInitial;
 
-  late final Set<String> categoriesAll;
-  late Set<String> selectedCategories;
+  static const Set<String> selectedCategoriesInitial = {};
+  Set<String> selectedCategories = selectedCategoriesInitial.difference({});
 
+  static const double iconFillInitial = 0;
+  double iconFill = iconFillInitial;
+
+  static const double iconWeightInitial = 400;
+  double iconWeight = iconWeightInitial;
+
+  static const double iconOpticalSizeInitial = 48;
+  double iconOpticalSize = iconOpticalSizeInitial;
+
+  static const double iconGradeInitial = 0;
+  double iconGrade = iconGradeInitial;
+
+  // TODO: Implement Icon Color Picker
+  // Color? iconColor;
+
+  static const double sizeInitial = 24;
+  double size = sizeInitial;
+
+  static const bool comapctIconsInitial = false;
+  bool comapctIcons = comapctIconsInitial;
+
+  static const bool italicIconsInitial = false;
+  bool italicIcons = italicIconsInitial;
+
+  late final Set<String> categoriesAll;
   late Iterable<SfIconsWithMetadata> listofFilteredIcons;
 
   static final TextEditingController controller = TextEditingController();
   static final ScrollController scrollController = ScrollController();
 
   void filterList() => setState(() {
-        showAllIcons = showModifiableIcons && showNonModifiableIcons;
+        showAllIcons = !(showModifiableIcons ^ showNonModifiableIcons);
         listofFilteredIcons = listOfUnfilteredIcons.where(
           (element) => elementFilter(
             element,
@@ -98,6 +125,25 @@ class _IconGridState extends State<IconGrid> {
             selectedCategories,
           ),
         );
+      });
+
+  void setIconParams({
+    double? iconFillNew,
+    double? iconWeightNew,
+    double? iconOpticalSizeNew,
+    double? iconGradeNew,
+    double? sizeNew,
+    bool? comapctIconsNew,
+    bool? italicIconsNew,
+  }) =>
+      setState(() {
+        iconFill = iconFillNew ?? iconFill;
+        iconWeight = iconWeightNew ?? iconWeight;
+        iconOpticalSize = iconOpticalSizeNew ?? iconOpticalSize;
+        iconGrade = iconGradeNew ?? iconGrade;
+        size = sizeNew ?? size;
+        comapctIcons = comapctIconsNew ?? comapctIcons;
+        italicIcons = italicIconsNew ?? italicIcons;
       });
 
   static bool elementFilter(
@@ -116,14 +162,15 @@ class _IconGridState extends State<IconGrid> {
     showElement=showElement&& */
     return element.contains(filterText) &&
         (showAll || element.nonModifiable == (showNonMod || !showMod)) &&
-        element.categories.any(
-          (category) {
-            // print('Checking for any of $showCategories in $category');
-            return showCategories.contains(
-              category.trim(),
-            );
-          },
-        );
+        (showCategories.isEmpty ||
+            element.categories.any(
+              (category) {
+                // print('Checking for any of $showCategories in $category');
+                return showCategories.contains(
+                  category.trim(),
+                );
+              },
+            ));
   }
 
   @override
@@ -139,7 +186,6 @@ class _IconGridState extends State<IconGrid> {
       }
     }
     categoriesAll = tempCats;
-    selectedCategories = categoriesAll.difference({});
 
     listofFilteredIcons = listOfUnfilteredIcons.where(
       (element) => elementFilter(
@@ -182,7 +228,17 @@ class _IconGridState extends State<IconGrid> {
                   showAllIcons = showAllIconsInitial;
                   showModifiableIcons = showModifiableIconsInitial;
                   showNonModifiableIcons = showNonModifiableIconsInitial;
-                  selectedCategories = categoriesAll.difference({});
+                  // selectedCategories = categoriesAll.difference({});
+                  selectedCategories = selectedCategoriesInitial.difference({});
+
+                  iconFill = iconFillInitial;
+                  iconWeight = iconWeightInitial;
+                  iconOpticalSize = iconOpticalSizeInitial;
+                  iconGrade = iconGradeInitial;
+                  size = sizeInitial;
+                  comapctIcons = comapctIconsInitial;
+                  italicIcons = italicIconsInitial;
+
                   filterList();
                 });
               },
@@ -278,18 +334,123 @@ class _IconGridState extends State<IconGrid> {
               ),
             ),
           ),
+          SliverToBoxAdapter(
+            child: Wrap(
+              direction: Axis.horizontal,
+              children: [
+                FilterChip(
+                  label: const Text('Italic'),
+                  selected: italicIcons,
+                  onSelected: (value) {
+                    setIconParams(italicIconsNew: value);
+                  },
+                ),
+                FilterChip(
+                  label: const Text('Compact'),
+                  selected: comapctIcons,
+                  onSelected: (value) {
+                    setIconParams(comapctIconsNew: value);
+                  },
+                ),
+              ],
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Row(
+              children: [
+                const SfIcon(SfIcons.textformatSize),
+                Expanded(
+                  child: Slider(
+                    value: size,
+                    label: size.toString(),
+                    onChanged: (value) => setIconParams(sizeNew: value),
+                    min: 0,
+                    max: 50,
+                  ),
+                ),
+                IconButton(
+                  onPressed: () => setIconParams(sizeNew: sizeInitial),
+                  icon: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      SfIcon(
+                        SfIcons.refresh,
+                        // size: 14,
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+          // Potentially no-op
+          /* SliverToBoxAdapter(
+            child: Row(
+              children: [
+                const SfIcon(SfIcons.squareAndPencil),
+                Expanded(
+                  child: Slider(
+                    value: iconOpticalSize,
+                    label: iconOpticalSize.toString(),
+                    onChanged: (value) =>
+                        setIconParams(iconOpticalSizeNew: value),
+                    min: 0,
+                    max: 50,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Row(
+              children: [
+                const SfIcon(SfIcons.pencil),
+                Expanded(
+                  child: Slider(
+                    value: iconFill,
+                    label: iconFill.toString(),
+                    onChanged: (value) => setIconParams(iconFillNew: value),
+                    min: 0,
+                    max: 50,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Row(
+              children: [
+                const SfIcon(SfIcons.flame),
+                Expanded(
+                  child: Slider(
+                    value: iconGrade,
+                    label: iconGrade.toString(),
+                    onChanged: (value) => setIconParams(iconGradeNew: value),
+                    min: 0,
+                    max: 50,
+                  ),
+                ),
+              ],
+            ),
+          ), */
           SliverPrototypeExtentList.builder(
-            prototypeItem: const Card(
+            prototypeItem: Card(
               child: ListTile(
-                leading: Text('?????'),
+                leading: Text(
+                  '?????',
+                  style: TextStyle(
+                    fontSize: size,
+                  ),
+                ),
                 // rectangle.and.arrow.up.right.and.arrow.down.left.slash
-                title: Text(
+                title: const Text(
                   'rectangle.and.arrow.up.right.and.arrow.down.left.slash',
                 ),
-                subtitle: Text(
+                subtitle: const Text(
                   'icon.semanticNames, semantic.version, major.minor.patch',
                 ),
-                trailing: Tooltip(
+                trailing: const Tooltip(
                   message:
                       'This symbol is protected by Apple and thus must be protected at all costs. Don\'t dare cross this line else beware of dragons.',
                   child: Icon(SfIcons.infoCircleFill),
@@ -325,6 +486,14 @@ class _IconGridState extends State<IconGrid> {
                             children: [
                               SfIcon(icon.iconData),
                               SfIcon(icon.compactIconData),
+                              SfIcon(
+                                icon.iconData,
+                                fontStyle: FontStyle.italic,
+                              ),
+                              SfIcon(
+                                icon.compactIconData,
+                                fontStyle: FontStyle.italic,
+                              ),
                             ],
                           ),
                           title: Text(icon.shortName),
@@ -375,42 +544,54 @@ class _IconGridState extends State<IconGrid> {
                             ],
                           ),
                           actions: [
-                            StatefulBuilder(
-                              builder: (context, setState) {
-                                bool isCopying = false;
-                                return ElevatedButton.icon(
-                                  onPressed: () async {
-                                    setState(
-                                      () {
-                                        isCopying = true;
-                                      },
-                                    );
-                                    await Clipboard.setData(
-                                      ClipboardData(
-                                        text: 'SfIcons.${icon.safeShortName}',
-                                      ),
-                                    );
-                                    setState(
-                                      () {
-                                        isCopying = false;
-                                      },
-                                    );
-                                  },
-                                  icon: const SfIcon(SfIcons.copy),
-                                  label: const Text(
-                                    'Copy Icon Name to Clipboard',
-                                  ),
-                                );
-                              },
-                            ),
+                            Builder(builder: (context) {
+                              bool isCopying = false;
+                              return StatefulBuilder(
+                                builder: (context, setState) {
+                                  return ElevatedButton.icon(
+                                    onPressed: (isCopying)
+                                        ? null
+                                        : () async {
+                                            setState(
+                                              () {
+                                                isCopying = true;
+                                              },
+                                            );
+                                            await Clipboard.setData(
+                                              ClipboardData(
+                                                text:
+                                                    'SfIcons.${icon.safeShortName}',
+                                              ),
+                                            );
+                                            setState(
+                                              () {
+                                                isCopying = false;
+                                              },
+                                            );
+                                          },
+                                    icon: const SfIcon(SfIcons.copy),
+                                    label: const Text(
+                                      'Copy Icon Name to Clipboard',
+                                    ),
+                                  );
+                                },
+                              );
+                            }),
                           ],
                         );
                       },
                     );
                   },
                   leading: SfIcon(
-                    icon.iconData,
+                    (comapctIcons) ? icon.compactIconData : icon.iconData,
                     key: _key,
+                    fontStyle:
+                        (italicIcons) ? FontStyle.italic : FontStyle.normal,
+                    size: size,
+                    iconFill: iconFill,
+                    iconGrade: iconGrade,
+                    iconWeight: iconWeight,
+                    iconOpticalSize: iconOpticalSize,
                   ),
                   title: Text(icon.shortName),
                   subtitle: Text(icon.semanticNames.join(', ')),
