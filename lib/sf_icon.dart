@@ -95,8 +95,8 @@ class SfIcon extends StatelessWidget {
   }
 }
 
-class SfIcon1 extends StatelessWidget {
-  const SfIcon1(
+class SfIconOld extends StatelessWidget {
+  const SfIconOld(
     this.iconData, {
     super.key,
     this.iconColor,
@@ -106,6 +106,11 @@ class SfIcon1 extends StatelessWidget {
     this.iconOpticalSize,
     this.iconGrade,
     this.fontStyle,
+    this.leadingDistribution,
+    this.baseline,
+    this.letterSpacing,
+    this.height,
+    required this.isTest,
   });
 
   final double? iconFill;
@@ -124,6 +129,21 @@ class SfIcon1 extends StatelessWidget {
 
   final FontStyle? fontStyle;
 
+  /// Only exposed for use in golden tests, DO NOT use otherwise unless necessary
+  final TextLeadingDistribution? leadingDistribution;
+
+  /// Only exposed for use in golden tests, DO NOT use otherwise unless necessary
+  final TextBaseline? baseline;
+
+  /// Only exposed for use in golden tests, DO NOT use otherwise unless necessary
+  final double? letterSpacing;
+
+  /// Only exposed for use in golden tests, DO NOT use otherwise unless necessary
+  final double? height;
+
+  /// Only exposed for use in golden tests, DO NOT use otherwise unless necessary
+  final bool isTest;
+
   @override
   Widget build(BuildContext context) {
     IconThemeData iconThemeData = IconTheme.of(context);
@@ -134,6 +154,12 @@ class SfIcon1 extends StatelessWidget {
       text: TextSpan(
         text: String.fromCharCode(iconData.codePoint),
         style: TextStyle(
+          //
+          height: height,
+          leadingDistribution: leadingDistribution,
+          textBaseline: baseline,
+          letterSpacing: letterSpacing,
+          //
           fontStyle: fontStyle,
           fontVariations: <FontVariation>[
             if (iconFill != null)
@@ -161,7 +187,7 @@ class SfIcon1 extends StatelessWidget {
           color: iconColor ?? iconThemeData.color,
           fontSize: size ?? iconThemeData.size,
           fontFamily: iconData.fontFamily,
-          package: iconData.fontPackage,
+          package: isTest ? null : iconData.fontPackage,
         ),
       ),
     );
