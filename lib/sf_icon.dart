@@ -18,6 +18,7 @@ class SfIcon extends StatelessWidget {
     this.letterSpacing,
     this.height,
     this.isTest = false,
+    this.fontWeight,
   });
 
   final double? iconFill;
@@ -35,6 +36,8 @@ class SfIcon extends StatelessWidget {
   final double? size;
 
   final FontStyle? fontStyle;
+
+  final FontWeight? fontWeight;
 
   /// Only exposed for use in golden tests, DO NOT use otherwise unless necessary
   final TextLeadingDistribution? leadingDistribution;
@@ -64,6 +67,7 @@ class SfIcon extends StatelessWidget {
         color: iconColor ?? iconThemeData.color,
         fontSize: size ?? iconThemeData.size,
         fontStyle: fontStyle,
+        fontWeight: fontWeight,
         fontVariations: <FontVariation>[
           if (iconFill != null)
             FontVariation(
