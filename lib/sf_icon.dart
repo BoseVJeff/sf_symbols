@@ -115,6 +115,7 @@ class SfIconOld extends StatelessWidget {
     this.letterSpacing,
     this.height,
     required this.isTest,
+    this.fontWeight,
   });
 
   final double? iconFill;
@@ -132,6 +133,8 @@ class SfIconOld extends StatelessWidget {
   final double? size;
 
   final FontStyle? fontStyle;
+
+  final FontWeight? fontWeight;
 
   /// Only exposed for use in golden tests, DO NOT use otherwise unless necessary
   final TextLeadingDistribution? leadingDistribution;
@@ -164,6 +167,7 @@ class SfIconOld extends StatelessWidget {
           textBaseline: baseline,
           letterSpacing: letterSpacing,
           //
+          fontWeight: fontWeight,
           fontStyle: fontStyle,
           fontVariations: <FontVariation>[
             if (iconFill != null)
