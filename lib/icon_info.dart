@@ -2,7 +2,7 @@
 // All fields are either [String] or [List<String>] to ensure consistency and reduce unexpected behaviours.
 // They are then handed appropiately on a case-by-case basis.
 import 'dart:io';
-import 'dart:ui' show TextStyle;
+// import 'dart:ui' show TextStyle;
 
 import 'package:args/args.dart';
 import 'package:cli_util/cli_logging.dart';
@@ -89,7 +89,7 @@ class IconInfo {
   ///
   /// This value may be used with [String.fromCharCode] to display the icon itself.
   /// Note that appropriate [TextStyle] must be set for this to work.
-  final String newPUA;
+  String newPUA;
 
   /// Whether the icon is allowed to be modified or not.
   ///
@@ -365,6 +365,62 @@ const Map<String, String> stringReplacements = {
   'return': 'returnArrow',
 };
 
+const Map<String, String> characterMap = {
+  'multiply.square': '1000E0',
+  'multiply.square.fill': '1000E1',
+  'divide.square': '1000E2',
+  'divide.square.fill': '1000E3',
+  'equal.square': '1000E4',
+  'equal.square.fill': '1000E5',
+  'lessthan.square': '1000E6',
+  'lessthan.square.fill': '1000E7',
+  'greaterthan.square': '1000E6',
+  'greaterthan.square.fill': '1000E7',
+  'rectangle.split.3x3': '1003E2',
+  'square.split.2x1': '1003E0',
+  'scribble': '1004E8',
+  'lasso': '1004E9',
+  'person.circle': '1004E3',
+  'person.circle.fill': '1004E4',
+  'tag': '1002E1',
+  'tag.fill': '1002E2',
+  'tag.circle': '1002E3',
+  'tag.circle.fill': '1002E4',
+  'bolt': '1002E5',
+  'bolt.fill': '1002E6',
+  'bolt.circle': '1002E7',
+  'bolt.circle.fill': '1002E8',
+  'bolt.slash': '1002E9',
+  'textformat.superscript': '1004E2',
+  'textformat.subscript': '1004E1',
+  'cloud.moon.bolt': '1001E0',
+  'cloud.moon.bolt.fill': '1001E1',
+  'smoke': '1001E2',
+  'smoke.fill': '1001E3',
+  'wind': '1001E4',
+  'snow': '1001E5',
+  'wind.snow': '1001E6',
+  'tornado': '1001E7',
+  'tropicalstorm': '1001E8',
+  'hurricane': '1001E9',
+  'gauge.badge.minus': '1004E7',
+  'battery.100': '1006E8',
+  'battery.25': '1006E9',
+  'table': '1003E3',
+  'table.fill': '1003E4',
+  // The ellipsis seems to be on the wrong side
+  // Ref: https://github.com/andrewtavis/sf-symbols-online
+  'table.badge.more': '1003E5',
+  // The ellipsis seems to be on the wrong side
+  // Ref: https://github.com/andrewtavis/sf-symbols-online
+  'table.badge.more.fill': '1003E6',
+  'person.2.square.stack': '1004E5',
+  'person.2.square.stack.fill': '1004E6',
+  'rectangle.on.rectangle': '1003E7',
+  'rectangle.fill.on.rectangle.fill': '1003E8',
+  'plus.rectangle.on.rectangle': '1003E9',
+};
+
 String makeStringDartSafe(String input) {
   if (input.isEmpty) {
     return input;
@@ -501,12 +557,16 @@ Future<void> writeAsRawString(String directoryName) async {
       continue;
     }
     if (maybeFromCharCode(int.tryParse(element.newPUA, radix: 16)) == null) {
-      print(
-        'Error: ${element.shortName} has invalid charCode ${element.newPUA}',
-      );
-      errors.add(element);
-      errorFileSink.writeln('${element.shortName},${element.newPUA}');
-      continue;
+      if (!characterMap.containsKey(element.shortName)) {
+        print(
+          'Error: ${element.shortName} has invalid charCode ${element.newPUA}',
+        );
+        errors.add(element);
+        errorFileSink.writeln('${element.shortName},${element.newPUA}');
+        continue;
+      } else {
+        element.newPUA = characterMap[element.shortName]!;
+      }
     }
     // print(element.toStringShort());
     element.init(
