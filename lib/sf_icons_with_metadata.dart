@@ -32,7 +32,7 @@ class SfIconsWithMetadata {
 
   final String glyphOrder;
 
-  late final LangConfig langConfig;
+  final LangConfig langConfig;
   final String unicodes;
 
   final bool nonModifiable;
