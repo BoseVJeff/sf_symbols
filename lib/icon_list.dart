@@ -2,7 +2,7 @@ import 'package:sf_symbols/icon_info.dart';
 import 'package:sf_symbols/sf_icons_with_metadata.dart';
 import 'package:sf_symbols/sf_icons.dart';
 
-List<SfIconsWithMetadata> iconList = [
+const List<SfIconsWithMetadata> iconList = [
   SfIconsWithMetadata(
     SfIcons.plus,
     SfIcons.plusCompact,
