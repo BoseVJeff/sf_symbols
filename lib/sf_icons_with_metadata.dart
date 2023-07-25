@@ -2,7 +2,7 @@ import 'package:flutter/widgets.dart';
 import 'package:sf_symbols/icon_info.dart';
 
 class SfIconsWithMetadata {
-  SfIconsWithMetadata(
+  const SfIconsWithMetadata(
     this.iconData,
     this.compactIconData,
     this.shortName,
