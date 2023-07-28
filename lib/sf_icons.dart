@@ -14129,6 +14129,21 @@ class SfIcons {
   static const IconData splitViewHoritzontallyRightCompact =
       sidebarRightCompact;
 
+  /// Original Name: squares.below.rectangle
+  /// Alt Names:
+  /// Categories:
+  /// Keywords:
+  static const IconData squaresBelowRectangle = IconData(
+    0x1003E1,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData squaresBelowRectangleCompact = IconData(
+    0x1003E1,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
   /// Original Name: square.on.square
   /// Alt Names:
   /// Categories:
@@ -18714,6 +18729,36 @@ class SfIcons {
   static const IconData gridTwoXTwoFill = squareGridTwoXTwoFill;
   static const IconData gridTwoXTwoFillCompact = squareGridTwoXTwoFillCompact;
 
+  /// Original Name: rectangle.grid.2x2
+  /// Alt Names:
+  /// Categories:
+  /// Keywords:
+  static const IconData rectangleGridTwoXTwo = IconData(
+    0x1001F7,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData rectangleGridTwoXTwoCompact = IconData(
+    0x1001F7,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: rectangle.grid.2x2.fill
+  /// Alt Names:
+  /// Categories:
+  /// Keywords:
+  static const IconData rectangleGridTwoXTwoFill = IconData(
+    0x100688,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData rectangleGridTwoXTwoFillCompact = IconData(
+    0x100688,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
   /// Original Name: square.grid.4x3.fill
   /// Alt Names:
   /// Categories:
@@ -18995,6 +19040,36 @@ class SfIcons {
   );
   static const IconData circleRighthalfFillCompact = IconData(
     0x100003,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: triangle
+  /// Alt Names:
+  /// Categories: shapes
+  /// Keywords:
+  static const IconData triangle = IconData(
+    0x1006E3,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData triangleCompact = IconData(
+    0x1006E3,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: triangle.fill
+  /// Alt Names:
+  /// Categories: shapes
+  /// Keywords:
+  static const IconData triangleFill = IconData(
+    0x1006E4,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData triangleFillCompact = IconData(
+    0x1006E4,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );
@@ -22580,6 +22655,156 @@ class SfIcons {
   );
   static const IconData francsignSquareCompact = IconData(
     0x1005DF,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: francsign.square.fill
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData francsignSquareFill = IconData(
+    0x1005E0,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData francsignSquareFillCompact = IconData(
+    0x1005E0,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: florinsign.square
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData florinsignSquare = IconData(
+    0x1005E1,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData florinsignSquareCompact = IconData(
+    0x1005E1,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: florinsign.square.fill
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData florinsignSquareFill = IconData(
+    0x1005E2,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData florinsignSquareFillCompact = IconData(
+    0x1005E2,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: turkishlirasign.square
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData turkishlirasignSquare = IconData(
+    0x1005E3,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData turkishlirasignSquareCompact = IconData(
+    0x1005E3,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: turkishlirasign.square.fill
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData turkishlirasignSquareFill = IconData(
+    0x1005E4,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData turkishlirasignSquareFillCompact = IconData(
+    0x1005E4,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: rublesign.square
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData rublesignSquare = IconData(
+    0x1005E5,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData rublesignSquareCompact = IconData(
+    0x1005E5,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: rublesign.square.fill
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData rublesignSquareFill = IconData(
+    0x1005E6,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData rublesignSquareFillCompact = IconData(
+    0x1005E6,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: eurosign.square
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData eurosignSquare = IconData(
+    0x1005E7,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData eurosignSquareCompact = IconData(
+    0x1005E7,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: eurosign.square.fill
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData eurosignSquareFill = IconData(
+    0x1005E8,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData eurosignSquareFillCompact = IconData(
+    0x1005E8,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: dongsign.square
+  /// Alt Names:
+  /// Categories: indicies,  commerce
+  /// Keywords:
+  static const IconData dongsignSquare = IconData(
+    0x1005E9,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData dongsignSquareCompact = IconData(
+    0x1005E9,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );
@@ -26270,6 +26495,51 @@ class SfIcons {
   );
   static const IconData fourNineSquareCompact = IconData(
     0x1006DF,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: 49.square.fill
+  /// Alt Names:
+  /// Categories: indicies
+  /// Keywords:
+  static const IconData fourNineSquareFill = IconData(
+    0x1006E0,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData fourNineSquareFillCompact = IconData(
+    0x1006E0,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: 50.square
+  /// Alt Names:
+  /// Categories: indicies
+  /// Keywords:
+  static const IconData fiveZeroSquare = IconData(
+    0x1006E1,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData fiveZeroSquareCompact = IconData(
+    0x1006E1,
+    fontFamily: 'SF Compact',
+    fontPackage: 'sf_symbols',
+  );
+
+  /// Original Name: 50.square.fill
+  /// Alt Names:
+  /// Categories: indicies
+  /// Keywords:
+  static const IconData fiveZeroSquareFill = IconData(
+    0x1006E2,
+    fontFamily: 'SF Pro',
+    fontPackage: 'sf_symbols',
+  );
+  static const IconData fiveZeroSquareFillCompact = IconData(
+    0x1006E2,
     fontFamily: 'SF Compact',
     fontPackage: 'sf_symbols',
   );

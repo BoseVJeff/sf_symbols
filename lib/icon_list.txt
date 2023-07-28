@@ -862,6 +862,7 @@ Safe Name: rectangleOnRectangleAngled	Short Name:  rectangle.on.rectangle.angled
 Safe Name: rectangleFillOnRectangleAngledFill	Short Name:  rectangle.fill.on.rectangle.angled.fill,	PUA: 100470
 Safe Name: sidebarLeft	Short Name:  sidebar.left,	PUA: 1003DA	Alt 1: splitViewHoritzontallyLeft
 Safe Name: sidebarRight	Short Name:  sidebar.right,	PUA: 1003DB	Alt 1: splitViewHoritzontallyRight
+Safe Name: squaresBelowRectangle	Short Name:  squares.below.rectangle,	PUA: 1003E1
 Safe Name: squareOnSquare	Short Name:  square.on.square,	PUA: 100405
 Safe Name: squareFillOnSquareFill	Short Name:  square.fill.on.square.fill,	PUA: 100406
 Safe Name: plusSquareOnSquare	Short Name:  plus.square.on.square,	PUA: 100407	Alt 1: duplicate
@@ -1155,6 +1156,8 @@ Safe Name: squareGridThreeXTwo	Short Name:  square.grid.3x2,	PUA: 1001F5	Alt 1: 
 Safe Name: squareGridThreeXTwoFill	Short Name:  square.grid.3x2.fill,	PUA: 100687
 Safe Name: squareGridTwoXTwo	Short Name:  square.grid.2x2,	PUA: 1001F7	Alt 1: gridTwoXTwo
 Safe Name: squareGridTwoXTwoFill	Short Name:  square.grid.2x2.fill,	PUA: 100688	Alt 1: gridTwoXTwoFill
+Safe Name: rectangleGridTwoXTwo	Short Name:  rectangle.grid.2x2,	PUA: 1001F7
+Safe Name: rectangleGridTwoXTwoFill	Short Name:  rectangle.grid.2x2.fill,	PUA: 100688
 Safe Name: squareGridFourXThreeFill	Short Name:  square.grid.4x3.fill,	PUA: 1004DA
 Safe Name: circleGridTwoXTwo	Short Name:  circle.grid.2x2,	PUA: 1007BE
 Safe Name: circleGridTwoXTwoFill	Short Name:  circle.grid.2x2.fill,	PUA: 1007BF
@@ -1174,6 +1177,8 @@ Safe Name: circle	Short Name:  circle,	PUA: 100000
 Safe Name: circleFill	Short Name:  circle.fill,	PUA: 100001
 Safe Name: circleLefthalfFill	Short Name:  circle.lefthalf.fill,	PUA: 100002
 Safe Name: circleRighthalfFill	Short Name:  circle.righthalf.fill,	PUA: 100003
+Safe Name: triangle	Short Name:  triangle,	PUA: 1006E3
+Safe Name: triangleFill	Short Name:  triangle.fill,	PUA: 1006E4
 Safe Name: triangleLefthalfFill	Short Name:  triangle.lefthalf.fill,	PUA: 100695
 Safe Name: triangleRighthalfFill	Short Name:  triangle.righthalf.fill,	PUA: 100696
 Safe Name: aCircle	Short Name:  a.circle,	PUA: 100004
@@ -1413,6 +1418,16 @@ Safe Name: yensignSquareFill	Short Name:  yensign.square.fill,	PUA: 1005DC
 Safe Name: sterlingsignSquare	Short Name:  sterlingsign.square,	PUA: 1005DD
 Safe Name: sterlingsignSquareFill	Short Name:  sterlingsign.square.fill,	PUA: 1005DE
 Safe Name: francsignSquare	Short Name:  francsign.square,	PUA: 1005DF
+Safe Name: francsignSquareFill	Short Name:  francsign.square.fill,	PUA: 1005E0
+Safe Name: florinsignSquare	Short Name:  florinsign.square,	PUA: 1005E1
+Safe Name: florinsignSquareFill	Short Name:  florinsign.square.fill,	PUA: 1005E2
+Safe Name: turkishlirasignSquare	Short Name:  turkishlirasign.square,	PUA: 1005E3
+Safe Name: turkishlirasignSquareFill	Short Name:  turkishlirasign.square.fill,	PUA: 1005E4
+Safe Name: rublesignSquare	Short Name:  rublesign.square,	PUA: 1005E5
+Safe Name: rublesignSquareFill	Short Name:  rublesign.square.fill,	PUA: 1005E6
+Safe Name: eurosignSquare	Short Name:  eurosign.square,	PUA: 1005E7
+Safe Name: eurosignSquareFill	Short Name:  eurosign.square.fill,	PUA: 1005E8
+Safe Name: dongsignSquare	Short Name:  dongsign.square,	PUA: 1005E9
 Safe Name: dongsignSquareFill	Short Name:  dongsign.square.fill,	PUA: 1005EA
 Safe Name: indianrupeesignSquare	Short Name:  indianrupeesign.square,	PUA: 1005EB
 Safe Name: indianrupeesignSquareFill	Short Name:  indianrupeesign.square.fill,	PUA: 1005EC
@@ -1659,3 +1674,6 @@ Safe Name: fourSevenSquareFill	Short Name:  47.square.fill,	PUA: 1006DC
 Safe Name: fourEightSquare	Short Name:  48.square,	PUA: 1006DD
 Safe Name: fourEightSquareFill	Short Name:  48.square.fill,	PUA: 1006DE
 Safe Name: fourNineSquare	Short Name:  49.square,	PUA: 1006DF
+Safe Name: fourNineSquareFill	Short Name:  49.square.fill,	PUA: 1006E0
+Safe Name: fiveZeroSquare	Short Name:  50.square,	PUA: 1006E1
+Safe Name: fiveZeroSquareFill	Short Name:  50.square.fill,	PUA: 1006E2
