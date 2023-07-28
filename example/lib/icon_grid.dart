@@ -599,7 +599,7 @@ class _IconGridState extends State<IconGrid> {
                       ? null
                       : Tooltip(
                           message: icon.protectedSymbolNotes,
-                          child: const Icon(SfIcons.infoCircleFill),
+                          child: const SfIcon(SfIcons.infoCircleFill),
                         ),
                 ),
               );

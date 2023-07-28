@@ -186,10 +186,10 @@ class IconInfo {
     }
 
     iconDataString =
-        "IconData(0x${newPUA.split('.').join()}, fontFamily: 'SF Pro', fontPackage: 'sf_symbols',)";
+        "IconData(0x${newPUA.split('.').join()}, fontFamily: 'SF Pro', fontPackage: null,)";
 
     compactIconDataString =
-        "IconData(0x${newPUA.split('.').join()}, fontFamily: 'SF Compact', fontPackage: 'sf_symbols',)";
+        "IconData(0x${newPUA.split('.').join()}, fontFamily: 'SF Compact', fontPackage: null,)";
 
     return;
   }

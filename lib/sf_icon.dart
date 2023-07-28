@@ -63,7 +63,8 @@ class SfIcon extends StatelessWidget {
       style: TextStyle(
         inherit: false,
         fontFamily: iconData.fontFamily,
-        package: isTest ? null : iconData.fontPackage,
+        package: null,
+        // package: isTest ? null : iconData.fontPackage,
         color: iconColor ?? iconThemeData.color,
         fontSize: size ?? iconThemeData.size,
         fontStyle: fontStyle,
@@ -195,7 +196,8 @@ class SfIconOld extends StatelessWidget {
           color: iconColor ?? iconThemeData.color,
           fontSize: size ?? iconThemeData.size,
           fontFamily: iconData.fontFamily,
-          package: isTest ? null : iconData.fontPackage,
+          package: null,
+          // package: isTest ? null : iconData.fontPackage,
         ),
       ),
     );

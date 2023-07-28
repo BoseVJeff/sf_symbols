@@ -1,5 +1,6 @@
 import 'package:example/icon_grid.dart';
 import 'package:flutter/material.dart';
+import 'package:sf_symbols/sf_icon.dart';
 
 import 'package:sf_symbols/sf_icons.dart';
 
@@ -105,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return const IconGrid(
       // Sample useage as described here
-      fab: Icon(SfIcons.arrowUp),
+      fab: SfIcon(SfIcons.arrowUp),
       // This trailing comma makes auto-formatting nicer for build methods.
       /* appBar: AppBar(
         // TRY THIS: Try changing the color here to a specific color (to
