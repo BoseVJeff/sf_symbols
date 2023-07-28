@@ -13,7 +13,17 @@ extension RangeExtension on int {
   }
 }
 
-class IconParamNotifier extends ChangeNotifier {}
+const Map<int, FontWeight> weightMap = {
+  100: FontWeight.w100,
+  200: FontWeight.w200,
+  300: FontWeight.w300,
+  400: FontWeight.w400,
+  500: FontWeight.w500,
+  600: FontWeight.w600,
+  700: FontWeight.w700,
+  800: FontWeight.w800,
+  900: FontWeight.w900,
+};
 
 class ShowItemsInBoxes extends StatelessWidget {
   const ShowItemsInBoxes({
@@ -107,6 +117,9 @@ class _IconGridState extends State<IconGrid> {
   static const bool italicIconsInitial = false;
   bool italicIcons = italicIconsInitial;
 
+  static const FontWeight fontWeightInitial = FontWeight.w400;
+  FontWeight fontWeight = fontWeightInitial;
+
   late final Set<String> categoriesAll;
   late Iterable<SfIconsWithMetadata> listofFilteredIcons;
 
@@ -135,6 +148,7 @@ class _IconGridState extends State<IconGrid> {
     double? sizeNew,
     bool? comapctIconsNew,
     bool? italicIconsNew,
+    FontWeight? fontWeightNew,
   }) =>
       setState(() {
         iconFill = iconFillNew ?? iconFill;
@@ -144,6 +158,7 @@ class _IconGridState extends State<IconGrid> {
         size = sizeNew ?? size;
         comapctIcons = comapctIconsNew ?? comapctIcons;
         italicIcons = italicIconsNew ?? italicIcons;
+        fontWeight = fontWeightNew ?? fontWeight;
       });
 
   static bool elementFilter(
@@ -384,6 +399,44 @@ class _IconGridState extends State<IconGrid> {
               ],
             ),
           ),
+          SliverToBoxAdapter(
+            child: Row(
+              children: [
+                const SfIcon(SfIcons.bold),
+                Expanded(
+                  child: Slider(
+                    value: fontWeight.value.toDouble(),
+                    label: fontWeight.toString(),
+                    divisions: 8,
+                    onChanged: (value) {
+                      print(
+                        'Font Weight Value ${weightMap[value - value.remainder(100)]}',
+                      );
+                      setIconParams(
+                        fontWeightNew: weightMap[value - value.remainder(100)],
+                      );
+                    },
+                    min: 100,
+                    max: 900,
+                  ),
+                ),
+                IconButton(
+                  onPressed: () =>
+                      setIconParams(fontWeightNew: fontWeightInitial),
+                  icon: const Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      SfIcon(
+                        SfIcons.refresh,
+                        // size: 14,
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
           // Potentially no-op
           /* SliverToBoxAdapter(
             child: Row(
@@ -587,11 +640,13 @@ class _IconGridState extends State<IconGrid> {
                     key: _key,
                     fontStyle:
                         (italicIcons) ? FontStyle.italic : FontStyle.normal,
+                    fontWeight: fontWeight,
                     size: size,
                     iconFill: iconFill,
                     iconGrade: iconGrade,
                     iconWeight: iconWeight,
                     iconOpticalSize: iconOpticalSize,
+                    // isTest: true,
                   ),
                   title: Text(icon.shortName),
                   subtitle: Text(icon.semanticNames.join(', ')),
