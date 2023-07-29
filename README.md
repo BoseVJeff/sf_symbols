@@ -68,3 +68,13 @@ Adding the fonts is already covered in the [Flutter docs](https://docs.flutter.d
 4. End
 
     The icons should now be available in your project. Have fun!
+
+### Testing
+
+#### Golden Testing
+
+```shell
+mv pubspec.yaml pubspec.tmp.yaml && mv pubspec.test.yaml pubspec.yaml && flutter pub get --offline && flutter test .\test\golden_icons_test.dart && mv pubspec.yaml pubspec.test.yaml && mv pubspec.tmp.yaml pubspec.yaml && flutter pub get --offline
+```
+
+**NOTE**: When running this from the integrated terminal inside VS Code, if `pubspec.yaml` is open in the editor, then the file may appear to have not been correctly restored. This is purely a visual bug. Try closing and reopening the file to verify that pubspec.yaml has not yet changed. Other extensions may also have misleading signals in a similar manner.
