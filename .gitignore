@@ -32,3 +32,7 @@ build/
 # The font files
 fonts/SF-Compact
 fonts/SF-Pro
+fonts1
+
+# The generated files
+tmp

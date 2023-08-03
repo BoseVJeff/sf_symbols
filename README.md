@@ -65,13 +65,19 @@ Adding the fonts is already covered in the [Flutter docs](https://docs.flutter.d
 
     Try running `flutter pub get` first before doing anything else. This should tell you if the imports are correct.
 
-4. End
+4. Extra
 
-    The icons should now be available in your project. Have fun!
+    #### Getting the fonts
+
+    To get the font for testing (reproducting/generating goldens, etc), run `font_downloader.dart`.
+    
+    **NOTE**: This assumes that the command `7z` ([7Zip](https://www.7-zip.org/)) is available on the system path or otherwise available to the environment the script will run in.
 
 ### Testing
 
 #### Golden Testing
+
+Get the font files and extract them into a folder, preferably somewhere close to the project root. Then edit `flutter.test.yaml` and replace the paths in the `fonts` section accordingly. The defaults are good if the included script is used to get the fonts.
 
 ```shell
 mv pubspec.yaml pubspec.tmp.yaml && mv pubspec.test.yaml pubspec.yaml && flutter pub get --offline && flutter test .\test\golden_icons_test.dart && mv pubspec.yaml pubspec.test.yaml && mv pubspec.tmp.yaml pubspec.yaml && flutter pub get --offline

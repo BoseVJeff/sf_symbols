@@ -1,39 +1,14 @@
 import 'dart:async';
-// import 'dart:io';
+import 'dart:io';
+import 'package:archive/archive.dart';
+import 'package:archive/archive_io.dart';
+import 'package:http/http.dart';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 Future<void> testExecutable(FutureOr<void> Function() testMain) async {
   TestWidgetsFlutterBinding.ensureInitialized();
-
-  /* File originalPubspec = File('pubspec.yaml');
-  File testPubspec = File('pubspec.test.yaml');
-  File tmpPubspec = File('pubspec.tmp.yaml');
-
-  // Move original contents to tmp for safekeeping
-  print('Backing up original pubspec.yaml');
-  await tmpPubspec.writeAsString(
-    await originalPubspec.readAsString(),
-    flush: true,
-  );
-
-  // Move test pubspec to pubspec.yaml for testing
-  print('Writing test pubspec.yaml');
-  await originalPubspec.writeAsString(
-    await testPubspec.readAsString(),
-    flush: true,
-  );
-
-  print('Running flutter pub get');
-  await Process.run(
-    'flutter',
-    ['pub', 'get', '--offline'],
-    runInShell: true,
-  );
-
-  print('Sleeping for 30s');
-  await Future.delayed(const Duration(seconds: 30)); */
 
   // Continue with setup...
 

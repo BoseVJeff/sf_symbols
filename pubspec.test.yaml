@@ -64,15 +64,15 @@ flutter:
   fonts:  
     - family: SF Pro
       fonts:
-        - asset: fonts/SF-Pro/SF-Pro.ttf
+        - asset: fonts1/SF-Pro.ttf
           style: normal
-        - asset: fonts/SF-Pro/SF-Pro-Italic.ttf
+        - asset: fonts1/SF-Pro-Italic.ttf
           style: italic
     - family: SF Compact
       fonts:
-        - asset: fonts/SF-Compact/SF-Compact.ttf
+        - asset: fonts1/SF-Compact.ttf
           style: normal
-        - asset: fonts/SF-Compact/SF-Compact-Italic.ttf
+        - asset: fonts1/SF-Compact-Italic.ttf
           style: italic
     # - family: SF Mono
     #   fonts:
