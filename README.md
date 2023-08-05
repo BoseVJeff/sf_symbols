@@ -73,6 +73,26 @@ Adding the fonts is already covered in the [Flutter docs](https://docs.flutter.d
     
     **NOTE**: This assumes that the command `7z` ([7Zip](https://www.7-zip.org/)) is available on the system path or otherwise available to the environment the script will run in.
 
+    #### Making the Web Demo
+
+    The web demo consists of three parts:
+
+    1. `index.html`
+
+        This is currently handmade and simply contains two `a` links. One points to the Web Demo and the other points to the API Docs.
+
+    2. Web Demo
+
+        This is contained entirely within `docs/demo`. To populate this file, first build the `example` app in the demo using `flutter build web --base-href=/docs/demo`. Then copy the `build/web` folder from the `example` app in its entirety into `docs/demo`.
+
+        This process could e automated but is manual for now.
+
+    3. API Docs
+
+        This is contained entirely within `docs/doc`. To populate this file, first build the docs using `dart doc .`. Then copy the `doc` folder in its entirety into `docs`.
+
+        This process could e automated but is manual for now.
+
 ### Testing
 
 #### Golden Testing
