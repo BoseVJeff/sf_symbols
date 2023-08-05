@@ -48,8 +48,9 @@ jobs:
       - name: Build Web
         working-directory: ./example
         # Setting the output directory to avoid having to copy stuff
+        # Make sure that the `base-href` includes the repo name
         # TODO: Get rid of all third-party requests
-        run: flutter build web --no-tree-shake-icons --base-href=/demo/ --output=../docs/demo
+        run: flutter build web --no-tree-shake-icons --base-href=/sf_symbols/demo/ --output=../docs/demo
 
       - name: Generate Docs
         # Setting output to avoid having to copy stuff
