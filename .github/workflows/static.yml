@@ -7,7 +7,7 @@ on:
   # This also allows for a certain level of seperation of concerns.
   push:
     branches: ["web-demo"]
-
+  
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
