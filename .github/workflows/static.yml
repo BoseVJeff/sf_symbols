@@ -1,0 +1,67 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the `web-demo` branch
+  # This is done so that broken builds in the default branch do not affect the demo.
+  # This also allows for a certain level of seperation of concerns.
+  push:
+    branches: ["web-demo"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+        # Checkout Repository
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+        # Using this action as this seems to be a popular reccomendation.
+        # TODO: Look into replacing this with a custom action. Consider building on to of https://github.com/actions/starter-workflows/blob/main/ci/dart.yml.
+        # Setup Flutter
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+            # The version here is set to match my local Flutter version
+            flutter-version: '3.10.0'
+            channel: 'stable'
+
+      - name: Build Web
+        working-directory: ./example
+        # Setting the output directory to avoid having to copy stuff
+        # TODO: Get rid of all third-party requests
+        run: flutter build web --no-tree-shake-icons --base-href=/demo/web/ --output=../docs/demo
+
+      - name: Generate Docs
+        # Setting output to avoid having to copy stuff
+        run: dart doc --output=./docs/doc/api .
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          # Upload the relevant folder
+          path: './docs'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
