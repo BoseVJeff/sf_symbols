@@ -523,12 +523,12 @@ class _IconGridState extends State<IconGrid> {
                   ),
                 );
               }
-              GlobalKey _key = GlobalKey();
+              GlobalKey key = GlobalKey();
               Size? iconSize;
               return Card(
                 child: ListTile(
                   onTap: () {
-                    iconSize = _key.currentContext?.size;
+                    iconSize = key.currentContext?.size;
                     showDialog(
                       context: context,
                       builder: (context) {
@@ -637,7 +637,7 @@ class _IconGridState extends State<IconGrid> {
                   },
                   leading: SfIcon(
                     (comapctIcons) ? icon.compactIconData : icon.iconData,
-                    key: _key,
+                    key: key,
                     fontStyle:
                         (italicIcons) ? FontStyle.italic : FontStyle.normal,
                     fontWeight: fontWeight,
