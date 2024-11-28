@@ -83,15 +83,15 @@ Adding the fonts is already covered in the [Flutter docs](https://docs.flutter.d
 
     2. Web Demo
 
-        This is contained entirely within `docs/demo`. To populate this file, first build the `example` app in the demo using `flutter build web --base-href=/docs/demo`. Then copy the `build/web` folder from the `example` app in its entirety into `docs/demo`.
+        This is contained entirely within `docs/demo`. To populate this file, first build the `example` app in the demo using `flutter build web --base-href=/docs/demo/ --no-tree-shake-icons`. Then copy the `build/web` folder from the `example` app in its entirety into `docs/demo`.
 
-        This process could e automated but is manual for now.
+        This process could be automated but is manual for now.
 
     3. API Docs
 
         This is contained entirely within `docs/doc`. To populate this file, first build the docs using `dart doc .`. Then copy the `doc` folder in its entirety into `docs`.
 
-        This process could e automated but is manual for now.
+        This process could be automated but is manual for now.
 
 ### Testing
 
