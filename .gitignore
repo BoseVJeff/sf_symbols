@@ -36,3 +36,5 @@ fonts1
 
 # The generated files
 tmp
+docs/demo
+docs/doc
